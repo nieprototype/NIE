@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="css/results.css">
 <?php include "includes/header.html"; ?>
 
-        <div id="holder" style="background: #f8f8f8;">
+        <div id="holder">
             
             <div id="body" ><br>
             <!-- all other page content-start -->

@@ -5,8 +5,9 @@
         <div id="holder">
             
             <div id="body">
+            <br>
             <!-- all other page content-start -->
-            <div class="container"  >
+            <div class="container" id="con" >
                 <form class="needs-validation" novalidate>
                     <div class="row">
                         <div class="col-md-3"></div>
@@ -163,11 +164,12 @@
                     </div>
 <br><br>
                     <div class="row">
-                <div class="col-md-5" style=" background-color: lightgray;
+                <div class="col-md-5" id="card" style=" background-color: lightgray;
     padding:40px 40px 40px 40px;
     left: 5%;
     margin-top:20px;
-    margin-left:-20px;">
+    margin-left:-20px;
+    border-radius:10px">
                         
                         <div class="row">
                             
@@ -334,7 +336,8 @@
     padding:40px 40px 40px 40px;
     left: 5%;
     margin-top:20px;
-    margin-left:-20px;" >
+    margin-left:-20px;
+    border-radius:10px" >
 
                     <div class="row">
                             
@@ -482,8 +485,10 @@
                                 <br><br>
                                 <button type="submit" class="btn btn-primary btn-lg" style="margin-top: 10px;" > submit</button>&nbsp;&nbsp;&nbsp;
                                     <button type="submit" class="btn btn-danger btn-lg" style="margin-top: 10px;" data-toggle="modal" data-target="#exampleModal"> cancel</button>
+                                   
                             </div>
                         </div>
+                        
                     </div>
                 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -507,7 +512,7 @@
   </div>
 </div>
 
-
+<br>
                     </form>
 
 
