@@ -105,34 +105,34 @@
 
 </script>
 <!--End of Tawk.to Script-->
+
+
+
 <script>
 
-    function UrlExists(url)
-    {
-        var http = new XMLHttpRequest();
-        http.open('HEAD', url, false);
-        http.send();
-        return http.status!=404;
-    }
 
-    document.onreadystatechange = function()
-    {
+    document.onreadystatechange = function () {
         var anchorElements = document.getElementsByTagName('a');
         for (var i in anchorElements)
-            anchorElements[i].onclick = function(th)
-            {
-                th.preventDefault();
-                if (UrlExists(this.href)) { window.location=this.href; }
-                else {
+            anchorElements[i].onclick = function (th) {
+
+                var full_link = this.href;
+
+                var link = (full_link.split("/").pop());
+
+
+                if (link == 'about.html'){
 
                     swal.fire("Dummy link !", "You have clicked a dummy link", "info");
-
+                    return false;
                 }
-                return false;
+
+
             }
     }
 
 </script>
+
 
 <!-- Js Plugins -->
 <script src="js/jquery-3.3.1.min.js"></script>
