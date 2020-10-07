@@ -1,0 +1,14 @@
+#header{
+    height: auto;
+}
+
+.form_border{
+    border: 2px solid orange;
+    border-radius: 5px;
+    padding: 50px 50px 50px 50px;
+}
+
+.form_topic{
+    align-content: center;
+}
+
