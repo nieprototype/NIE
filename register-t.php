@@ -17,7 +17,35 @@
                         </div>
                     </div>
                     <div style="border: 2px solid orange;border-radius: 5px;padding: 50px 50px 50px 50px;">
+                    <div class="row">
+                        <div class="col-md-3 field-label-responsive">
+                            <label for="name">Title</label>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                 <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                                       <div class="input-group">
+                                        <select class="custom-select" id="inputGroupSelect04" required>
+					  <option value="">select your title</option>
+                                          <option value="Rev">Rev.</option>
+                                          <option value="Prof.">Prof.</option>
+                                          <option value="Dr.">Dr.</option>
+                                          <option value="Mr.">Mr.</option>
+                                          <option value="Mrs.">Mrs.</option>
+                                          <option value="Miss.">Miss.</option>
+                                        </select>  
+<div class="invalid-feedback">
+       invalid entry or empty field!
+      </div>
+<div class="valid-feedback">
+        title selected!
+      </div>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
                         
+                    </div>
                     <div class="row">
                         <div class="col-md-3 field-label-responsive">
                             <label for="Surname">Surname</label>
