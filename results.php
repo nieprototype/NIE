@@ -1,23 +1,12 @@
 <script type="text/javascript" src="js/validation.js"></script>
+<link rel="stylesheet" href="css/results.css">
 <?php include "includes/header.html"; ?>
 
         <div id="holder" style="background: #f8f8f8;">
             
             <div id="body" ><br>
             <!-- all other page content-start -->
-            <div class="container" style="    
-           background: #fff; 
-        box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
-        -moz-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
-        -webkit-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
-        -o-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
-        -ms-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
-        border-radius: 20px;
-        -moz-border-radius: 20px;
-        -webkit-border-radius: 20px;
-        -o-border-radius: 20px;
-        -ms-border-radius: 20px;
-        margin-bottom: 50px;">
+            <div class="container" id="con">
                 <form class="needs-validation" novalidate>
                     <div class="row">
                         <div class="col-md-3"></div>
