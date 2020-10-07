@@ -4,11 +4,11 @@
 <section style="margin-top: 3%;">
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div>
                 <div style="text-align: left; margin-left: 0%;" class="hero__text">
 
-                    <h2 style="font-size: 50px; color: #0f0f16;"><span style="font-family: 'fn_nilanthi', Arial, sans-serif; font-size: 70px;">.=ref.or</span> TV CHANNEL PROGRAM GUIDE</h2>
-
+                    <h2 style="font-size: 50px; color: #0f0f16; width: 800px !important;"><span style="font-weight: 500; font-family: 'fn_nilanthi', Arial, sans-serif; font-size: 70px;">.=ref.or</span> TV CHANNEL PROGRAM GUIDE</h2>
+<br>
                     <h5>Home > Gurugedara TV Channel</h5>
 
 
@@ -119,5 +119,50 @@
 </div>
 
 <!-- Content End -->
+
+<section>
+    <div style="margin-top: 1%;" class="container">
+        <div class="row">
+            <div>
+                <div style="text-align: left; margin-left: 0%;" class="hero__text">
+
+                    <h2 style="font-size: 45px; color: #0f0f16; width: 800px !important;">RECENT UPLOADS</h2>
+
+                    <h5>Most Recent Uploaded Gurugedara Videos</h5>
+
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+            <div style="margin-top:-1%; background-color: transparent;" class="g-scrolling-carousel">
+                <div class="items">
+
+                    <iframe src="https://www.youtube-nocookie.com/embed/HyoWNMDY5KI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube-nocookie.com/embed/JiERtsCwZMs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube-nocookie.com/embed/x0AdwYll7i0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube-nocookie.com/embed/V9jYSv1f-Fk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube-nocookie.com/embed/0Vt5bdV4qqg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube-nocookie.com/embed/gf8my2JFlc0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube-nocookie.com/embed/3O19vsPifRw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+                </div>
+            </div>
+
+
+
+
+    </div>
+    </div>
+    </div>
+</section>
 
 <?php include "includes/footer.html"; ?>

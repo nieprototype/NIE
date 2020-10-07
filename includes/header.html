@@ -31,6 +31,8 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- Css Styles -->
+
+
     <link href="css/datatables.bundle.css" rel="stylesheet" type="text/css"/>
     <link href="css/plugins.bundle.css" rel="stylesheet" type="text/css" />
     <link href="css/style.bundle.css" rel="stylesheet" type="text/css"/>
@@ -42,6 +44,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+
 
     <style>
 
@@ -182,6 +185,111 @@
             scroll-behavior: smooth;
         }
 
+        .g-scrolling-carousel {
+            position: relative;
+        }
+        .g-scrolling-carousel .items {
+            overflow-x: scroll;
+            white-space: nowrap;
+            width: 100%;
+            -webkit-overflow-scrolling: touch;
+        }
+        .g-scrolling-carousel .items::-webkit-scrollbar {
+            display: none;
+        }
+        .jc-right,
+        .jc-left {
+            width: 36px;
+            height: 36px;
+            color:#757575;
+            margin-bottom: auto;
+            margin-top:auto;
+            box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 4px 8px 0 rgba(0,0,0,0.20);
+            background: #fff;
+            border-radius: 50%;
+            cursor: pointer;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            z-index:2;
+            opacity: 0.94;
+
+        }
+        .jc-right {
+            right:-18px;
+        }
+        .jc-left {
+            left:-18px;
+        }
+
+        .jc-right:hover,
+        .jc-left:hover{
+            opacity: 0.98;
+        }
+        .jc-right svg,
+        .jc-left svg{
+            position: absolute;
+            left: 0;right: 0;bottom: 0;top: 0;
+            margin: auto;
+            width: 24px;
+            height: 24px;
+            fill: #757575;
+        }
+        .jc-right:hover svg,
+        .jc-left:hover svg{
+            fill: #000;
+        }
+        @media (pointer: coarse) {
+            .jc-right,
+            .jc-left {
+                display: none !important;
+            }
+        }
+        .noselect {
+            -webkit-touch-callout: none; /* iOS Safari */
+            -webkit-user-select: none; /* Safari */
+            -khtml-user-select: none; /* Konqueror HTML */
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+        }
+
+
+        .g-scrolling-carousel .items{
+            padding: 5px 0;
+
+        }
+        .g-scrolling-carousel .items iframe{
+            display: inline-block; /* notice the comments between inline-block items */
+
+            margin-right: 10px;
+
+            height: 215px;
+            width: 350px;
+
+            box-shadow: 0 0 5px #000;
+
+            text-align: center;
+
+        }
+        h1{
+            text-align:center;
+            margin-top: 30px;
+            padding: 20px;
+            color: #515151;
+        }
+        @media only screen and (min-width: 720px){
+            main{
+                background: #f9f9f9;
+                width: 650px;
+                padding: 40px;
+                margin-left:auto;
+                margin-right:auto;
+                box-shadow: 2px 1px 6px #777;
+                padding-bottom: 50px;
+            }
+
+        }
 
     </style>
 
