@@ -1,14 +1,16 @@
 <link rel="stylesheet" href="css/register-t.css">
 <script type="text/javascript" src="js/validation.js"></script>
 <?php include "includes/header.html"; ?>
+<div id="holder">
+<div id="body">
+<br>
             <!-- all other page content-start -->
-            <div class="container"  >
+            <div class="container" id="con" >
                  <form class="needs-validation" novalidate>
                     <div class="row">
                         <div class="col-md-3"></div>
                         <div  class="form_topic">
 <br>
-
                                <p><h2>Online Training Information</h2>
                                 <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Teachers for G.C.E. A/L I.C.T.</h4></p> 
                             
@@ -425,11 +427,11 @@
     </div>
   </div>
 </div>
-
+<br>
                 </form>
-            </div>
-        </div>  
-            <!-- all other page content-end -->
-            </div>
+                </div>
+           
+           <!-- all other page content-end -->
+       </div>
 <br><br>
-        <?php include "includes/footer.html"; ?>
+       <?php include "includes/footer.html"; ?>
