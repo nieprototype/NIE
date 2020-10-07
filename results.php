@@ -123,7 +123,7 @@
                             <center><button type="submit" class="btn btn-primary"> Find Results</button></center>
                         </div>
                         
-                    </div></div><br>
+                    </div></div>
                     <br>
                    
                 </form>

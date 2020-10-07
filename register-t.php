@@ -1,4 +1,4 @@
-
+<link rel="stylesheet" href="css/register-t.css">
 <script type="text/javascript" src="js/validation.js"></script>
 <?php include "includes/header.html"; ?>
             <!-- all other page content-start -->
@@ -6,17 +6,17 @@
                  <form class="needs-validation" novalidate>
                     <div class="row">
                         <div class="col-md-3"></div>
-                        <div >
+                        <div  class="form_topic">
 <br>
-                            <center>
-                               <p><h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Online Training Information</h2>
-                                <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Teachers for G.C.E. A/L I.C.T.</h4></p> 
-                            </center>
+
+                               <p><h2>Online Training Information</h2>
+                                <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Teachers for G.C.E. A/L I.C.T.</h4></p> 
+                            
                             <br>
                             <br>
                         </div>
                     </div>
-                    <div style="border: 2px solid orange;border-radius: 5px;padding: 50px 50px 50px 50px;">
+                    <div class="form_border">
                         <div class="row">
                         <div class="col-md-3 field-label-responsive">
                             <label for="name">Title</label>
@@ -93,7 +93,8 @@
                        
 <br><br>
             <div class="row" style="margin-top: -50px;">
-                    <div class="col-md-5" style="background-color: lightgray;padding:40px 40px 40px 40px;left: 5%;margin-top: 50px;margin-left:-20px;">
+                    <div class="col-md-5" 
+                    style="background-color: lightgray;padding:40px 40px 40px 40px;left: 5%;margin-top: 50px;margin-left:-20px;border-radius:10px">
                         
                         
 
@@ -254,7 +255,8 @@
                 </div>
                     </div>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <div class="col-md-5" style="background-color: lightgray;padding:40px 40px 40px 40px;left: 5%;margin-top: 50px;margin-left:-20px;">
+                <div class="col-md-5" 
+                style="background-color: lightgray;padding:40px 40px 40px 40px;left: 5%;margin-top: 50px;margin-left:-20px;border-radius:10px">
                     
                     <div class="row">
                             
