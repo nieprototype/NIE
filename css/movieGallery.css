@@ -7,6 +7,10 @@
     padding: 10px;
 }
 
+.leftCol img {
+    height: 250px;
+}
+
 .topic {
     margin-bottom: 20px;
 }
@@ -26,7 +30,7 @@
     width: 100%;
 }
 
-.videoUploadForm input[type="text"]{
+.videoUploadForm input[type="text"] {
     -webkit-tap-highlight-color: transparent;
     background-color: #fff;
     border-radius: 5px;
@@ -55,7 +59,7 @@
     white-space: nowrap;
 }
 
-.button{
+.button {
     height: 42px;
     width: 45%;
 }

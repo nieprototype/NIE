@@ -5,7 +5,7 @@
 
     <div class="container-fluid">
 
-        <div class="topic center">
+        <div class="topic">
             <h1>NIE Educational Software</h1>
         </div>
         <div class="intro">
@@ -15,7 +15,7 @@
                 grade 6 to 11.
             </p>
         </div>
-        <div class="sorter center">
+        <div class="sorter">
             <h2>DOWNLOAD SOFTWARE PACKAGES</h2>
             <div class="sortSection">
                 <div class="row">
@@ -49,25 +49,25 @@
                 <div class="col-sm">
                     <img src="img/SoftwarePackages/pack.png" alt="Software1"><br/>
                     <div class="overlay">
-                        <div class="text">Education Software Package For Grade 6 Students<br/><br/><a href="">more</a></div>
+                        <div class="text">Education Software Package For Grade 6 Students<br/><a href="">more</a><br/><a href="">Download</a></div>
                     </div>
                 </div>
                 <div class="col-sm">
                     <img src="img/SoftwarePackages/pack.png" alt="Software1"><br/>
                     <div class="overlay">
-                        <div class="text">Education Software Package For Grade 7 Students<br/><br/><a href="">more</a></div>
+                        <div class="text">Education Software Package For Grade 7 Students<br/><a href="">more</a><br/><a href="">Download</a></div>
                     </div>
                 </div>
                 <div class="col-sm">
                     <img src="img/SoftwarePackages/pack.png" alt="Software1"><br/>
                     <div class="overlay">
-                        <div class="text">Education Software Package For Grade 8 Students<br/><br/><a href="">more</a></div>
+                        <div class="text">Education Software Package For Grade 8 Students<br/><a href="">more</a><br/><a href="">Download</a></div>
                     </div>
                 </div>
                 <div class="col-sm">
                     <img src="img/SoftwarePackages/pack.png" alt="Software1"><br/>
                     <div class="overlay">
-                        <div class="text">Education Software Package For Grade 9 Students<br/><br/><a href="">more</a></div>
+                        <div class="text">Education Software Package For Grade 9 Students<br/><a href="">more</a><br/><a href="">Download</a></div>
                     </div>
                 </div>
             </div>
@@ -77,25 +77,25 @@
                 <div class="col-sm">
                     <img src="img/SoftwarePackages/pack.png" alt="Software1"><br/>
                     <div class="overlay">
-                        <div class="text">Education Software Package For Grade 10 Students<br/><br/><a href="">more</a></div>
+                        <div class="text">Education Software Package For Grade 10 Students<br/><a href="">more</a><br/><a href="">Download</a></div>
                     </div>
                 </div>
                 <div class="col-sm">
                     <img src="img/SoftwarePackages/pack.png" alt="Software1"><br/>
                     <div class="overlay">
-                        <div class="text">Education Software Package For Grade 11 Students<br/><br/><a href="">more</a></div>
+                        <div class="text">Education Software Package For Grade 11 Students<br/><a href="">more</a><br/><a href="">Download</a></div>
                     </div>
                 </div>
                 <div class="col-sm">
                     <img src="img/SoftwarePackages/pack.png" alt="Software1"><br/>
                     <div class="overlay">
-                        <div class="text">Education Software Package For Grade 12 Students<br/><br/><a href="">Coming Soon</a></div>
+                        <div class="text">Education Software Package For Grade 12 Students<br/><a href="">Coming Soon</a></div>
                     </div>
                 </div>
                 <div class="col-sm">
                     <img src="img/SoftwarePackages/pack.png" alt="Software1"><br/>
                     <div class="overlay">
-                        <div class="text">Education Software Package For Grade 13 Students<br/><br/><a href="">Coming Soon</a></div>
+                        <div class="text">Education Software Package For Grade 13 Students<br/><a href="">Coming Soon</a></div>
                     </div>
                 </div>
             </div>

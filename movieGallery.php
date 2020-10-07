@@ -8,78 +8,51 @@
         <div class="row">
             <div class="col leftCol" style="margin-left: 1%;margin-right: 0.5%;">
                 <div>
-                    <label>NIE Documentary</label>
+                    <label><h3>NIE Documentary</h3></label><br/><br/>
                     <div class="row" style="text-align: center;">
                         <div class="col-sm">
-                            <img src="img/SoftwarePackages/pack.png" alt="Software1"><br/>
-                            <div class="overlay">
-                                <div class="text">Education Software Package For Grade 6 Students<br/><br/><a href="">more</a></div>
-                            </div>
+                            <img src="img/movieGallery/158826.jpg" alt="Software1"><br/>
                         </div>
                         <div class="col-sm">
-                            <img src="img/SoftwarePackages/pack.png" alt="Software1"><br/>
-                            <div class="overlay">
-                                <div class="text">Education Software Package For Grade 6 Students<br/><br/><a href="">more</a></div>
-                            </div>
+                            <img src="img/movieGallery/minvisit.jpg" alt="Software1"><br/>
                         </div>
                         <div class="col-sm">
-                            <img src="img/SoftwarePackages/pack.png" alt="Software1"><br/>
-                            <div class="overlay">
-                                <div class="text">Education Software Package For Grade 6 Students<br/><br/><a href="">more</a></div>
-                            </div>
+                            <img src="img/movieGallery/sec_pic.jpg" alt="Software1"><br/>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <label>Wesak Bethi Gee</label>
+                    <label><h3>Wesak Bethi Gee</h3></label><br/><br/>
                     <div class="row" style="text-align: center;">
                         <div class="col-sm">
-                            <img src="img/SoftwarePackages/pack.png" alt="Software1"><br/>
-                            <div class="overlay">
-                                <div class="text">Education Software Package For Grade 6 Students<br/><br/><a href="">more</a></div>
-                            </div>
+                            <img src="img/movieGallery/bathigee_2015.jpg" alt="Software1"><br/>
                         </div>
                         <div class="col-sm">
-                            <img src="img/SoftwarePackages/pack.png" alt="Software1"><br/>
-                            <div class="overlay">
-                                <div class="text">Education Software Package For Grade 6 Students<br/><br/><a href="">more</a></div>
-                            </div>
+                            <img src="img/movieGallery/bathigee_2015.jpg" alt="Software1"><br/>
                         </div>
                         <div class="col-sm">
-                            <img src="img/SoftwarePackages/pack.png" alt="Software1"><br/>
-                            <div class="overlay">
-                                <div class="text">Education Software Package For Grade 6 Students<br/><br/><a href="">more</a></div>
-                            </div>
+                            <img src="img/movieGallery/bathigee_2015.jpg" alt="Software1"><br/>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <label>Educational</label>
+                    <label><h3>Educational</h3></label><br/><br/>
                     <div class="row" style="text-align: center;">
                         <div class="col-sm">
-                            <img src="img/SoftwarePackages/pack.png" alt="Software1"><br/>
-                            <div class="overlay">
-                                <div class="text">Education Software Package For Grade 6 Students<br/><br/><a href="">more</a></div>
-                            </div>
+                            <img src="img/movieGallery/kanlec27.jpg" alt="Software1"><br/>
                         </div>
                         <div class="col-sm">
-                            <img src="img/SoftwarePackages/pack.png" alt="Software1"><br/>
-                            <div class="overlay">
-                                <div class="text">Education Software Package For Grade 6 Students<br/><br/><a href="">more</a></div>
-                            </div>
+                            <img src="img/movieGallery/pic_meepe_22_5_2015.jpg" alt="Software1"><br/>
                         </div>
                         <div class="col-sm">
-                            <img src="img/SoftwarePackages/pack.png" alt="Software1"><br/>
-                            <div class="overlay">
-                                <div class="text">Education Software Package For Grade 6 Students<br/><br/><a href="">more</a></div>
-                            </div>
+                            <img src="img/movieGallery/sciancepic1.jpg" alt="Software1"><br/>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-4" style="margin-right: 1%;">
-                <div class="topic">
-                    <h1 class="center">Movie Gallery</h1>
+                <div class="topic" style="text-align: center">
+                    <h1>Movie Gallery</h1>
                 </div>
                 <div class="videoUploadForm">
                     <h4>Upload Videos</h4>
