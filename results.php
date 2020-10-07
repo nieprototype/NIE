@@ -1,11 +1,23 @@
 <script type="text/javascript" src="js/validation.js"></script>
 <?php include "includes/header.html"; ?>
 
-        <div id="holder">
+        <div id="holder" style="background: #f8f8f8;">
             
-            <div id="body">
+            <div id="body" ><br>
             <!-- all other page content-start -->
-            <div class="container"  >
+            <div class="container" style="    
+           background: #fff; 
+        box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+        -moz-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+        -webkit-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+        -o-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+        -ms-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+        border-radius: 20px;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -o-border-radius: 20px;
+        -ms-border-radius: 20px;
+        margin-bottom: 50px;">
                 <form class="needs-validation" novalidate>
                     <div class="row">
                         <div class="col-md-3"></div>
@@ -121,11 +133,14 @@
                             <br>
                             <center><button type="submit" class="btn btn-primary"> Find Results</button></center>
                         </div>
-                    </div></div>
+                        
+                    </div></div><br>
+                    <br>
+                   
                 </form>
 
             </div>
-           
+          
             <!-- all other page content-end -->
         </div>
 <br><br>
