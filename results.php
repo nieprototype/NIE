@@ -1,8 +1,8 @@
 <script type="text/javascript" src="js/validation.js"></script>
-<link rel="stylesheet" href="css/results.css" media="screen">
+<link rel="stylesheet" href="css/results.css">
 <?php include "includes/header.html"; ?>
 
-        <div id="holder">
+        <div id="holder" style="background: #f8f8f8;">
             
             <div id="body" ><br>
             <!-- all other page content-start -->
