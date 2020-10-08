@@ -6,7 +6,7 @@ var KTDatatablesBasicScrollable = function() {
 
 		// begin first table
 		table.DataTable({
-			scrollY: '50vh',
+			scrollY: false,
 			scrollX: true,
 			scrollCollapse: true,
 		});

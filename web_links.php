@@ -1,76 +1,283 @@
 <?php include "includes/header.html"; ?>
 
-<!-- Hero Section Begin -->
-<section class="hero spad set-bg" data-setbg="img/slider/5.png">
+
+<section style="margin-top: 3%;">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="hero__text">
-                    <h5>WELCOME TO</h5>
-                    <h2>NATIONAL INSTITUTE OF EDUCATION</h2>
+        <div class="row col-12">
+
+
+            <div>
+                <div style="text-align: left; margin-left: 0%;" class="hero__text">
+
+                    <h2 style="font-size: 50px; color: #0f0f16; width: 800px !important;">EDUCATIONAL WEB LINKS</h2>
+                    <br>
+                    <h5>Home > Educational Supportive</h5>
+
+
                 </div>
-                <form action="#" class="filter__form">
-                    <div class="filter__form__item filter__form__item--search">
-                        <p>What are you looking for ?</p>
-                        <div class="filter__form__input">
-                            <input type="text" placeholder="Search Downloads">
-                            <span class="icon_search"></span>
+            </div>
+
+
+
+
+
+            <div class="row">
+                <div class="col-12">
+
+                    <div class="row">
+
+
+                        <div class="col-7">
+
+                            <h2 style="color: #E9AD28;">Explore Additional Educational Materials.</h2>
+                            <br>
+                            <h4 style="color: #4D5656; font-weight: 500;">Followings are the courses that are provided by
+                                National
+                                Institute of Education. You can download relevant
+                                application to your preferred course. Click on View Courses to get started.</h4>
+                            <br><br>
+                            <br>
+                            <a href="#course1" style="font-family: 'Poppins',sans-serif; font-size: large;"
+                               class="primary-btn">View Courses</a>
+
+
                         </div>
-                    </div>
-                    <div class="filter__form__item">
-                        <p>Grade</p>
-                        <div class="filter__form__select">
-                            <span class="icon_group"></span>
-                            <select>
-                                <option value="">Select Grade</option>
-                                <option value="">2 Adult</option>
-                                <option value="">1 Adult</option>
-                            </select>
+
+                        <div class="col-5">
+                            <img width="110%" src="img/downloads/edu1.png">
                         </div>
+
                     </div>
 
-                    <div class="filter__form__item">
-                        <p>Subject</p>
-                        <div class="filter__form__select">
-                            <span class="icon_book"></span>
-                            <select>
-                                <option value="">Select Subject</option>
-                                <option value="">2 Adult</option>
-                                <option value="">1 Adult</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="filter__form__item filter__form__item--select">
-                        <p>Language</p>
-                        <div class="filter__form__select">
-                            <span class="icon_globe-2"></span>
-                            <select>
-                                <option value="">Select Language</option>
-                                <option value="">2 Adult</option>
-                                <option value="">1 Adult</option>
-                            </select>
-                        </div>
-                    </div>
-                    <button id="hover_search" type="submit">SEARCH</button>
-                </form>
+                    <br>
+
+                </div>
             </div>
+
+
+
+
         </div>
+
+
+    </div>
+    </div>
     </div>
 </section>
-<!-- Hero Section End -->
 
-<!-- Home About Section Begin -->
-<section class="home-about">
+
+<!-- Content Begin -->
+
+<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
     <div class="container">
-        <div class="row">
 
-            <div class="col-lg-6">
+
+        <div class="row col-12">
+            <div class="col-12">
+
+
+
 
             </div>
 
+
+        </div>
+
+
+    </div>
+</div>
+
+<!-- Content End -->
+
+<section>
+    <div style="margin-top: 1%;" class="container">
+        <div class="row col-12">
+            <div>
+                <div style="text-align: left; margin-left: 0%;" class="hero__text">
+
+                    <h2 style="font-size: 45px; color: #0f0f16; width: 800px !important;">FEATURED WEB LINKS</h2>
+
+                    <h5>Most Popular Educational Web Links</h5>
+
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+        <div style="margin-top:-1%; background-color: transparent;" class="g-scrolling-carousel">
+            <div class="items">
+
+
+
+
+                <div></div>
+                <iframe src="https://www.youtube-nocookie.com/embed/JiERtsCwZMs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/x0AdwYll7i0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/V9jYSv1f-Fk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/0Vt5bdV4qqg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/gf8my2JFlc0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube-nocookie.com/embed/3O19vsPifRw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+            </div>
+        </div>
+
+        <div style="margin-top: 4%;" class="row">
+
+
+
+            <div class="row col-12">
+
+
+
+                <br>
+
+                <div class="row">
+
+                    <div style="text-align: center;" class="col-6">
+                        <img width="80%" src="img/notices/asset1.png">
+                    </div>
+
+                    <div style="text-align: right;" class="col-6">
+
+                        <h2 style="color: #E9AD28;">PROGRAM GUIDE FOR GURUGEDARA</h2>
+
+                        <br>
+
+                        <h4 style="color: #4D5656; font-weight: 500;">Following table displays all the courses that are offered by
+                            National Institute of Education for all teachers and Teacher Educators. You can download relevant
+                            application to your preferred course by clicking <span style="color: #E9AD28;">Download Application </span>button right next to the particular corse.</h4>
+                        <br>
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+
+
+
+                    <br><br><br>
+
+                    <!-- begin:: Content -->
+                    <div style="width: 100%;
+                position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;" class=" kt-container--fluid  kt-grid__item kt-grid__item--fluid">
+
+
+                        <div class="kt-portlet kt-portlet--mobile">
+                            <div class="kt-portlet__head kt-portlet__head--lg">
+                                <div class="kt-portlet__head-label">
+										<span class="kt-portlet__head-icon">
+											              <span style="color: #E9AD28;" class="icon_clipboard"></span>
+										</span>
+                                    <h3 style="font-size: 18px; color: #E9AD28; font-weight: 500;">
+                                        List of courses that are offered for all teachers and Teacher Educators
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="kt-portlet__body">
+
+                                <!--begin: Datatable -->
+                                <table style="text-align:center; font-family: 'DM Sans', sans-serif; font-size: 16px;" class="table table-striped table-bordered table-hover table-checkable" id="kt_table_1">
+                                    <thead>
+                                    <tr>
+                                        <th>No.</th>
+                                        <th>Date</th>
+                                        <th>Time</th>
+                                        <th>Subject</th>
+                                        <th>Lesson No.</th>
+                                        <th>Grade</th>
+                                        <th>Language</th>
+                                        <th>Video</th>
+                                        <th>Supportive Materials</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>2020/10/08</td>
+                                        <td>08.00 A. M.</td>
+                                        <td>Chemistry</td>
+                                        <td>Lesson 08</td>
+                                        <td>12</td>
+                                        <td>Sinhala</td>
+                                        <td><img src="img/tv/play.png" width="28%"> <h3 style="font-size: 18px; color: #e42c24; font-weight: 500;">
+                                                Watch Now
+                                            </h3></td>
+                                        <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; padding-right: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Bio_Diver.pdf</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>2020/10/08</td>
+                                        <td>08.00 A. M.</td>
+                                        <td>Chemistry</td>
+                                        <td>Lesson 08</td>
+                                        <td>12</td>
+                                        <td>Sinhala</td>
+                                        <td><img src="img/tv/play.png" width="28%"> <h3 style="font-size: 18px; color: #e42c24; font-weight: 500;">
+                                                Watch Now
+                                            </h3></td>
+                                        <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; padding-right: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Bio_Diver.pdf</a></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+
+                                <!--end: Datatable -->
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- end:: Content -->
+
+
+
+
+
+                    <br><br><br>
+
+
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
         </div>
     </div>
+
+
+    </div>
+    </div>
+    </div>
 </section>
-<!-- Home About Section End -->
+
 
 <?php include "includes/footer.html"; ?>
