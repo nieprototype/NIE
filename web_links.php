@@ -117,27 +117,43 @@
 
 
 
-                <div><img style="margin-top: 4%;" src="img/downloads/e-thaksalwa-Logo.png" width="60%"><h3 style="margin-top: 4%;">E-Thaksalawa</h3><a href="http://www.e-thaksalawa.moe.gov.lk/web/en/">www.e-thaksalawa.moe.gov.lk</a><br><span style="text-align: center; background-color: #ffffff00" class="latest__blog__text">
-                        <a style="font-size: 18px; " href="#">Visit Website</a>
-                    </span></div>
+                <div>
 
-                <div><img style="margin-top: 4%;" src="img/downloads/e-thaksalwa-Logo.png" width="60%"><h3 style="margin-top: 4%;">E-Thaksalawa</h3><a href="http://www.e-thaksalawa.moe.gov.lk/web/en/">www.e-thaksalawa.moe.gov.lk</a><br><span style="text-align: center; background-color: #ffffff00" class="latest__blog__text">
-                        <a style="font-size: 18px; " href="#">Visit Website</a>
-                    </span></div>
-
-
-                <div><img style="margin-top: 4%;" src="img/downloads/e-thaksalwa-Logo.png" width="60%"><h3 style="margin-top: 4%;">E-Thaksalawa</h3><a href="http://www.e-thaksalawa.moe.gov.lk/web/en/">www.e-thaksalawa.moe.gov.lk</a><br><span style="text-align: center; background-color: #ffffff00" class="latest__blog__text">
-                        <a style="font-size: 18px; " href="#">Visit Website</a>
+                    <br><img style="margin-top: 4%; margin-bottom: 4%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Khan_Academy_logo_%282018%29.svg/1280px-Khan_Academy_logo_%282018%29.svg.png" width="80%"><br>
+                    <h3 style="margin-top: 4%;">E-Thaksalawa</h3>
+                    <a style="font-family: 'Barlow Condensed', sans-serif; font-size: 18px;" href="http://www.e-thaksalawa.moe.gov.lk/web/en/">www.e-thaksalawa.moe.gov.lk</a><br><span style="text-align: center; background-color: #ffffff00" class="latest__blog__text">
+                        <a style="font-size: 18px; font-weight: 600;" href="#">Visit Website</a>
                     </span></div>
 
 
-                <div><img style="margin-top: 4%;" src="img/downloads/e-thaksalwa-Logo.png" width="60%"><h3 style="margin-top: 4%;">E-Thaksalawa</h3><a href="http://www.e-thaksalawa.moe.gov.lk/web/en/">www.e-thaksalawa.moe.gov.lk</a><br><span style="text-align: center; background-color: #ffffff00" class="latest__blog__text">
-                        <a style="font-size: 18px; " href="#">Visit Website</a>
+                <div><img style="margin-top: 6.1%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Howstuffworks_logo.svg/1280px-Howstuffworks_logo.svg.png" width="80%">
+                    <br><br><h3 style="margin-top: 4%;">
+                        HowStuffWorks</h3>
+                    <a style="font-family: 'Barlow Condensed', sans-serif; font-size: 18px;" href="http://www.e-thaksalawa.moe.gov.lk/web/en/">www.e-thaksalawa.moe.gov.lk</a><br><span style="text-align: center; background-color: #ffffff00" class="latest__blog__text">
+                        <a style="font-size: 18px; font-weight: 600;" href="#">Visit Website</a>
                     </span></div>
 
 
-                <div><img style="margin-top: 4%;" src="img/downloads/e-thaksalwa-Logo.png" width="60%"><h3 style="margin-top: 4%;">E-Thaksalawa</h3><a href="http://www.e-thaksalawa.moe.gov.lk/web/en/">www.e-thaksalawa.moe.gov.lk</a><br><span style="text-align: center; background-color: #ffffff00" class="latest__blog__text">
-                        <a style="font-size: 18px; " href="#">Visit Website</a>
+
+                <div><img style="margin-top: 3.9%;" src="img/downloads/e-thaksalwa-Logo.png" width="60%">
+                    <h3 style="margin-top: 4%;">E-Thaksalawa</h3>
+                    <a style="font-family: 'Barlow Condensed', sans-serif; font-size: 18px;" href="http://www.e-thaksalawa.moe.gov.lk/web/en/">www.e-thaksalawa.moe.gov.lk</a><br><span style="text-align: center; background-color: #ffffff00" class="latest__blog__text">
+                        <a style="font-size: 18px; font-weight: 600;" href="#">Visit Website</a>
+                    </span></div>
+
+
+
+                <div><img style="margin-top: 4%;" src="https://www.co.midland.tx.us/ImageRepository/Document?documentId=1307" width="80%">
+                    <h3 style="margin-top: 2%;">E-Thaksalawa</h3>
+                    <a style="font-family: 'Barlow Condensed', sans-serif; font-size: 18px;" href="http://www.e-thaksalawa.moe.gov.lk/web/en/">www.e-thaksalawa.moe.gov.lk</a><br><span style="text-align: center; background-color: #ffffff00" class="latest__blog__text">
+                        <a style="font-size: 18px; font-weight: 600;" href="#">Visit Website</a>
+                    </span></div>
+
+
+                <div><img style="margin-top: 6%; margin-bottom: 2%;" src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8xODc5OTU1MS8yMDAweC5wbmciLCJleHBpcmVzX2F0IjoxNjEyNDcyMTU3fQ.gY-FEaC_aleGjs_6JNHWMH-jgJdzuPticDJn8wi3Tis/img.png?width=3230&height=1024" width="60%">
+                    <h3 style="margin-top: 3.4%;">E-Thaksalawa</h3>
+                    <a style="font-family: 'Barlow Condensed', sans-serif; font-size: 18px;" href="http://www.e-thaksalawa.moe.gov.lk/web/en/">www.e-thaksalawa.moe.gov.lk</a><br><span style="text-align: center; background-color: #ffffff00" class="latest__blog__text">
+                        <a style="font-size: 18px; font-weight: 600;" href="#">Visit Website</a>
                     </span></div>
 
 
@@ -184,98 +200,7 @@
 
             </div>
 
-            <div class="row">
-                <div class="col-12">
 
-
-
-                    <br><br><br>
-
-                    <!-- begin:: Content -->
-                    <div style="width: 100%;
-                position:relative;
-    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
-       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
-            box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;" class=" kt-container--fluid  kt-grid__item kt-grid__item--fluid">
-
-
-                        <div class="kt-portlet kt-portlet--mobile">
-                            <div class="kt-portlet__head kt-portlet__head--lg">
-                                <div class="kt-portlet__head-label">
-										<span class="kt-portlet__head-icon">
-											              <span style="color: #E9AD28;" class="icon_clipboard"></span>
-										</span>
-                                    <h3 style="font-size: 18px; color: #E9AD28; font-weight: 500;">
-                                        List of courses that are offered for all teachers and Teacher Educators
-                                    </h3>
-                                </div>
-                            </div>
-                            <div class="kt-portlet__body">
-
-                                <!--begin: Datatable -->
-                                <table style="text-align:center; font-family: 'DM Sans', sans-serif; font-size: 16px;" class="table table-striped table-bordered table-hover table-checkable" id="kt_table_1">
-                                    <thead>
-                                    <tr>
-                                        <th>No.</th>
-                                        <th>Date</th>
-                                        <th>Time</th>
-                                        <th>Subject</th>
-                                        <th>Lesson No.</th>
-                                        <th>Grade</th>
-                                        <th>Language</th>
-                                        <th>Video</th>
-                                        <th>Supportive Materials</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>2020/10/08</td>
-                                        <td>08.00 A. M.</td>
-                                        <td>Chemistry</td>
-                                        <td>Lesson 08</td>
-                                        <td>12</td>
-                                        <td>Sinhala</td>
-                                        <td><img src="img/tv/play.png" width="28%"> <h3 style="font-size: 18px; color: #e42c24; font-weight: 500;">
-                                                Watch Now
-                                            </h3></td>
-                                        <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; padding-right: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Bio_Diver.pdf</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>2020/10/08</td>
-                                        <td>08.00 A. M.</td>
-                                        <td>Chemistry</td>
-                                        <td>Lesson 08</td>
-                                        <td>12</td>
-                                        <td>Sinhala</td>
-                                        <td><img src="img/tv/play.png" width="28%"> <h3 style="font-size: 18px; color: #e42c24; font-weight: 500;">
-                                                Watch Now
-                                            </h3></td>
-                                        <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; padding-right: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Bio_Diver.pdf</a></td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-
-                                <!--end: Datatable -->
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <!-- end:: Content -->
-
-
-
-
-
-                    <br><br><br>
-
-
-
-
-                </div>
-            </div>
 
 
 
