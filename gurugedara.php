@@ -176,9 +176,9 @@
 
                         <br>
 
-                        <h4 style="color: #4D5656; font-weight: 500;">Following table displays all the courses that are offered by
-                            National Institute of Education for all teachers and Teacher Educators. You can download relevant
-                            application to your preferred course by clicking <span style="color: #E9AD28;">Download Application </span>button right next to the particular corse.</h4>
+                        <h4 style="color: #4D5656; font-weight: 500;">Following table displays the TV programs of Gurugedara that are offered by
+                            National Institute of Education for all teachers and students. You can download relevant
+                            supportive materials to your preferred subject by clicking <span style="color: #E9AD28;">Download </span>button right next to the particular video.</h4>
                         <br>
 
 
@@ -215,7 +215,7 @@
 											              <span style="color: #E9AD28;" class="icon_clipboard"></span>
 										</span>
                                     <h3 style="font-size: 18px; color: #E9AD28; font-weight: 500;">
-                                        List of courses that are offered for all teachers and Teacher Educators
+                                        List of Gurugedara programms that are offered for all students and teachers
                                     </h3>
                                 </div>
                             </div>
@@ -248,20 +248,59 @@
                                         <td><img src="img/tv/play.png" width="28%"> <h3 style="font-size: 18px; color: #e42c24; font-weight: 500;">
                                                 Watch Now
                                             </h3></td>
-                                        <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; padding-right: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Bio_Diver.pdf</a></td>
+                                        <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; padding-right: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Organic.pdf</a></td>
                                     </tr>
                                     <tr>
                                         <td>2</td>
-                                        <td>2020/10/08</td>
+                                        <td>2020/10/10</td>
                                         <td>08.00 A. M.</td>
-                                        <td>Chemistry</td>
-                                        <td>Lesson 08</td>
+                                        <td>Biology</td>
+                                        <td>Lesson 11</td>
                                         <td>12</td>
                                         <td>Sinhala</td>
                                         <td><img src="img/tv/play.png" width="28%"> <h3 style="font-size: 18px; color: #e42c24; font-weight: 500;">
                                                 Watch Now
                                             </h3></td>
-                                        <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; padding-right: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Bio_Diver.pdf</a></td>
+                                        <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; padding-right: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Micro.pdf</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>2020/10/11</td>
+                                        <td>05.00 A. M.</td>
+                                        <td>Combine Mathematics</td>
+                                        <td>Lesson 05</td>
+                                        <td>13</td>
+                                        <td>Sinhala</td>
+                                        <td><img src="img/tv/play.png" width="28%"> <h3 style="font-size: 18px; color: #e42c24; font-weight: 500;">
+                                                Watch Now
+                                            </h3></td>
+                                        <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; padding-right: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Statics_PastPapers</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>2020/10/11</td>
+                                        <td>05.00 A. M.</td>
+                                        <td>History</td>
+                                        <td>Lesson 03</td>
+                                        <td>10</td>
+                                        <td>Sinhala</td>
+                                        <td><img src="img/tv/play.png" width="28%"> <h3 style="font-size: 18px; color: #e42c24; font-weight: 500;">
+                                                Watch Now
+                                            </h3></td>
+                                        <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; padding-right: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">2nd World War.pdf</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>2020/10/15</td>
+                                        <td>07.00 A. M.</td>
+                                        <td>English</td>
+                                        <td>Lesson 02</td>
+                                        <td>07</td>
+                                        <td>English</td>
+                                        <td><img src="img/tv/play.png" width="28%"> <h3 style="font-size: 18px; color: #e42c24; font-weight: 500;">
+                                                Watch Now
+                                            </h3></td>
+                                        <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; padding-right: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Letter_Writting.pdf</a></td>
                                     </tr>
                                     </tbody>
                                 </table>

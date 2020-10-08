@@ -333,7 +333,7 @@
                     <div class="col-lg-3 p-0 order-lg-4 col-md-6 order-md-3">
                         <div class="latest__blog__text">
                             <div class="label">Diploma Awards</div>
-                            <h5>Diploma Award Ceramony - NCOE -2019 at Temple Trees</h5>
+                            <h5>Diploma Award Ceramony - NCOE  at Temple Trees</h5>
                             <p><i class="fa fa-clock-o"></i> 20th August, 2019</p>
                             <a href="#">Read More</a>
                         </div>
