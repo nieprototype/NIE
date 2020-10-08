@@ -54,13 +54,10 @@
                        									</span>
                         </div>
 
+                        <br>
+                        <div id="muteYouTubeVideoPlayer" class="filter__form__input">
 
-                        <div class="filter__form__input">
-                            <br>
-                            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XyqOR3Ou1SY"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+
                         </div>
                     </div>
                     <div style="margin-left: 10%;" class="filter__form__item col-5">
