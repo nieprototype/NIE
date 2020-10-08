@@ -170,6 +170,14 @@ ol {
     letter-spacing: 2px;
 }
 
+
+.primary-btn-tbl {
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    background: #F4D695;
+    letter-spacing: 2px;
+}
 /* Preloder */
 
 #preloder {
@@ -1228,6 +1236,23 @@ ol {
 }
 
 .hover-div:hover {
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #1d1c1c;
+    cursor: pointer;
+
+}
+
+
+.hover-div-tbl {
+    border-style: solid;
+    border-width: 2px;
+    border-color: transparent transparent transparent transparent;
+    transition: 0.5s;
+}
+
+.hover-div-tbl:hover {
 
     border-style: solid;
     border-width: 2px;

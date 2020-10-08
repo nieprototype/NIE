@@ -31,7 +31,7 @@
     <div class="container">
 
 
-        <div class="row">
+        <div class="row col-12">
             <div class="col-12">
 
                 <form style="position:relative;
@@ -119,7 +119,7 @@
 
 <section>
     <div style="margin-top: 1%;" class="container">
-        <div class="row">
+        <div class="row col-12">
             <div>
                 <div style="text-align: left; margin-left: 0%;" class="hero__text">
 
@@ -158,71 +158,123 @@
 
 
 
+            <div class="row col-12">
 
 
-                <!-- begin:: Content -->
-                <div style="width: 100%;
+
+<br>
+
+                <div class="row">
+
+                    <div style="text-align: center;" class="col-6">
+                        <img width="80%" src="img/notices/asset1.png">
+                    </div>
+
+                    <div style="text-align: right;" class="col-6">
+
+                        <h2 style="color: #E9AD28;">PROGRAM GUIDE FOR GURUGEDARA</h2>
+
+                        <br>
+
+                        <h4 style="color: #4D5656; font-weight: 500;">Following table displays all the courses that are offered by
+                            National Institute of Education for all teachers and Teacher Educators. You can download relevant
+                            application to your preferred course by clicking <span style="color: #E9AD28;">Download Application </span>button right next to the particular corse.</h4>
+                        <br>
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+
+
+
+                    <br><br><br>
+
+                    <!-- begin:: Content -->
+                    <div style="width: 100%;
                 position:relative;
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
             box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;" class=" kt-container--fluid  kt-grid__item kt-grid__item--fluid">
 
 
-                    <div class="kt-portlet kt-portlet--mobile">
-                        <div class="kt-portlet__head kt-portlet__head--lg">
-                            <div class="kt-portlet__head-label">
+                        <div class="kt-portlet kt-portlet--mobile">
+                            <div class="kt-portlet__head kt-portlet__head--lg">
+                                <div class="kt-portlet__head-label">
 										<span class="kt-portlet__head-icon">
 											              <span style="color: #E9AD28;" class="icon_clipboard"></span>
 										</span>
-                                <h3 style="font-size: 18px; color: #E9AD28; font-weight: 500;">
-                                    List of courses that are offered for all teachers and Teacher Educators
-                                </h3>
+                                    <h3 style="font-size: 18px; color: #E9AD28; font-weight: 500;">
+                                        List of courses that are offered for all teachers and Teacher Educators
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="kt-portlet__body">
+
+                                <!--begin: Datatable -->
+                                <table style="text-align:center; font-family: 'DM Sans', sans-serif; font-size: 16px;" class="table table-striped table-bordered table-hover table-checkable" id="kt_table_1">
+                                    <thead>
+                                    <tr>
+                                        <th>No.</th>
+                                        <th>Date</th>
+                                        <th>Time</th>
+                                        <th>Subject</th>
+                                        <th>Medium</th>
+                                        <th>Description</th>
+                                        <th>Supportive Materials</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>C32153</td>
+                                        <td>Master of Philosophy in Education Degree</td>
+                                        <td>2 Years</td>
+                                        <td>English / Sinhala / Tamil</td>
+                                        <td>M. Phil. (Ed) is a research degree. The duration of the course is two years. The objective of the courses is to promote the professional development of teachers. The teachers are expected to obtain study leave two years respectively. </td>
+                                        <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Bio_Diver.pdf</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>C84217</td>
+                                        <td>Master of Education</td>
+                                        <td>1 Year</td>
+                                        <td>English / Sinhala / Tamil</td>
+                                        <td>This is a 30-credit study programme. A candidate should acquire the 30 credits within a minimum of 1 year, not necessarily consecutive, provided the student maintains registration throughout.</td>
+                                        <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Application</a></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+
+                                <!--end: Datatable -->
                             </div>
                         </div>
-                        <div class="kt-portlet__body">
 
-                            <!--begin: Datatable -->
-                            <table style="text-align:center; font-family: 'DM Sans', sans-serif; font-size: 16px;" class="table table-striped table-bordered table-hover table-checkable" id="kt_table_1">
-                                <thead>
-                                <tr>
-                                    <th>No.</th>
-                                    <th>Course ID</th>
-                                    <th>Course Name</th>
-                                    <th>Duration</th>
-                                    <th>Medium</th>
-                                    <th>Description</th>
-                                    <th>Application</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>C32153</td>
-                                    <td>Master of Philosophy in Education Degree</td>
-                                    <td>2 Years</td>
-                                    <td>English / Sinhala / Tamil</td>
-                                    <td>M. Phil. (Ed) is a research degree. The duration of the course is two years. The objective of the courses is to promote the professional development of teachers. The teachers are expected to obtain study leave two years respectively. </td>
-                                    <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn hover-div"><img src="img/downloads/pdf2.png" width="18%">Download Application</a></td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>C84217</td>
-                                    <td>Master of Education</td>
-                                    <td>1 Year</td>
-                                    <td>English / Sinhala / Tamil</td>
-                                    <td>This is a 30-credit study programme. A candidate should acquire the 30 credits within a minimum of 1 year, not necessarily consecutive, provided the student maintains registration throughout.</td>
-                                    <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn hover-div"><img src="img/downloads/pdf2.png" width="18%">Download Application</a></td>
-                                </tr>
-                                </tbody>
-                            </table>
-
-                            <!--end: Datatable -->
-                        </div>
                     </div>
 
-                </div>
+                    <!-- end:: Content -->
 
-                <!-- end:: Content -->
+
+
+
+
+                    <br><br><br>
+
+
+
+
+                </div>
+            </div>
 
 
 
