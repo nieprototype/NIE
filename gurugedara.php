@@ -229,29 +229,39 @@
                                         <th>Date</th>
                                         <th>Time</th>
                                         <th>Subject</th>
-                                        <th>Medium</th>
-                                        <th>Description</th>
+                                        <th>Lesson No.</th>
+                                        <th>Grade</th>
+                                        <th>Language</th>
+                                        <th>Video</th>
                                         <th>Supportive Materials</th>
                                     </tr>
                                     </thead>
                                     <tbody>
                                     <tr>
                                         <td>1</td>
-                                        <td>C32153</td>
-                                        <td>Master of Philosophy in Education Degree</td>
-                                        <td>2 Years</td>
-                                        <td>English / Sinhala / Tamil</td>
-                                        <td>M. Phil. (Ed) is a research degree. The duration of the course is two years. The objective of the courses is to promote the professional development of teachers. The teachers are expected to obtain study leave two years respectively. </td>
+                                        <td>2020/10/08</td>
+                                        <td>08.00 A. M.</td>
+                                        <td>Chemistry</td>
+                                        <td>Lesson 08</td>
+                                        <td>12</td>
+                                        <td>Sinhala</td>
+                                        <td><img src="img/tv/play.png" width="28%"> <h3 style="font-size: 18px; color: #e42c24; font-weight: 500;">
+                                                Watch Now
+                                            </h3></td>
                                         <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; padding-right: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Bio_Diver.pdf</a></td>
                                     </tr>
                                     <tr>
                                         <td>2</td>
-                                        <td>C84217</td>
-                                        <td>Master of Education</td>
-                                        <td>1 Year</td>
-                                        <td>English / Sinhala / Tamil</td>
-                                        <td>This is a 30-credit study programme. A candidate should acquire the 30 credits within a minimum of 1 year, not necessarily consecutive, provided the student maintains registration throughout.</td>
-                                        <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Application</a></td>
+                                        <td>2020/10/08</td>
+                                        <td>08.00 A. M.</td>
+                                        <td>Chemistry</td>
+                                        <td>Lesson 08</td>
+                                        <td>12</td>
+                                        <td>Sinhala</td>
+                                        <td><img src="img/tv/play.png" width="28%"> <h3 style="font-size: 18px; color: #e42c24; font-weight: 500;">
+                                                Watch Now
+                                            </h3></td>
+                                        <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; padding-right: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Bio_Diver.pdf</a></td>
                                     </tr>
                                     </tbody>
                                 </table>
