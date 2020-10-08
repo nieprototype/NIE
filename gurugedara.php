@@ -177,8 +177,8 @@
                         <br>
 
                         <h4 style="color: #4D5656; font-weight: 500;">Following table displays the TV programs of Gurugedara that are offered by
-                            National Institute of Education for all teachers and students. You can download relevant
-                            supportive materials to your preferred subject by clicking <span style="color: #E9AD28;">Download </span>button right next to the particular video.</h4>
+                            National Institute of Education for all teachers and students. You can download
+                            supportive materials according to your preferred subject.Also you can watch the video of relavant lesson by clicking <span style="color: #E9AD28;">Watch Now</span> next to Language.</h4>
                         <br>
 
 
