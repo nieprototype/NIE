@@ -204,6 +204,69 @@
 
 
 
+            <!-- begin:: Content -->
+            <div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <br><br>
+<br>
+                        <!--begin::Portlet-->
+                        <div style="width: 100%;
+                position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ; font-family: Poppins, sans-serif; font-size: 14px;" class="kt-portlet kt-portlet--tabs">
+                            <div class="kt-portlet__head">
+                                <div class="kt-portlet__head-label">
+                                    <h2 class="kt-portlet__head-title">
+                                        Recommended Web Links by Grade
+                                    </h2>
+                                </div>
+                                <div class="kt-portlet__head-toolbar">
+                                    <ul class="nav nav-tabs nav-tabs-bold nav-tabs-line   nav-tabs-line-right nav-tabs-line-brand" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" data-toggle="tab" href="#kt_portlet_tab_1_1" role="tab">
+                                                Primary School
+                                            </a>
+                                        </li>
+
+                                       <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#kt_portlet_tab_1_3" role="tab">
+                                                Ordinary Level
+                                            </a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#kt_portlet_tab_1_3" role="tab">
+                                                Advanced Level
+                                            </a>
+                                        </li>
+
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="kt-portlet__body">
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="kt_portlet_tab_1_1">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.
+                                    </div>
+                                    <div class="tab-pane" id="kt_portlet_tab_1_2">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled. Lorem Ipsum is simply dummy text.
+                                    </div>
+                                    <div class="tab-pane" id="kt_portlet_tab_1_3">
+                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--end::Portlet-->
+
+
+                    </div>
+                </div>
+            </div>
 
 
 
@@ -213,7 +276,7 @@
 
         </div>
     </div>
-
+    <br><br>
 
     </div>
     </div>
