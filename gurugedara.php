@@ -242,7 +242,7 @@
                                         <td>2 Years</td>
                                         <td>English / Sinhala / Tamil</td>
                                         <td>M. Phil. (Ed) is a research degree. The duration of the course is two years. The objective of the courses is to promote the professional development of teachers. The teachers are expected to obtain study leave two years respectively. </td>
-                                        <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Bio_Diver.pdf</a></td>
+                                        <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; padding-right: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Bio_Diver.pdf</a></td>
                                     </tr>
                                     <tr>
                                         <td>2</td>
