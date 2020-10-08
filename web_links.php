@@ -117,13 +117,29 @@
 
 
 
-                <div></div>
-                <iframe src="https://www.youtube-nocookie.com/embed/JiERtsCwZMs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe src="https://www.youtube-nocookie.com/embed/x0AdwYll7i0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe src="https://www.youtube-nocookie.com/embed/V9jYSv1f-Fk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe src="https://www.youtube-nocookie.com/embed/0Vt5bdV4qqg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe src="https://www.youtube-nocookie.com/embed/gf8my2JFlc0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe src="https://www.youtube-nocookie.com/embed/3O19vsPifRw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div><img style="margin-top: 4%;" src="img/downloads/e-thaksalwa-Logo.png" width="60%"><h3 style="margin-top: 4%;">E-Thaksalawa</h3><a href="http://www.e-thaksalawa.moe.gov.lk/web/en/">www.e-thaksalawa.moe.gov.lk</a><br><span style="text-align: center; background-color: #ffffff00" class="latest__blog__text">
+                        <a style="font-size: 18px; " href="#">Visit Website</a>
+                    </span></div>
+
+                <div><img style="margin-top: 4%;" src="img/downloads/e-thaksalwa-Logo.png" width="60%"><h3 style="margin-top: 4%;">E-Thaksalawa</h3><a href="http://www.e-thaksalawa.moe.gov.lk/web/en/">www.e-thaksalawa.moe.gov.lk</a><br><span style="text-align: center; background-color: #ffffff00" class="latest__blog__text">
+                        <a style="font-size: 18px; " href="#">Visit Website</a>
+                    </span></div>
+
+
+                <div><img style="margin-top: 4%;" src="img/downloads/e-thaksalwa-Logo.png" width="60%"><h3 style="margin-top: 4%;">E-Thaksalawa</h3><a href="http://www.e-thaksalawa.moe.gov.lk/web/en/">www.e-thaksalawa.moe.gov.lk</a><br><span style="text-align: center; background-color: #ffffff00" class="latest__blog__text">
+                        <a style="font-size: 18px; " href="#">Visit Website</a>
+                    </span></div>
+
+
+                <div><img style="margin-top: 4%;" src="img/downloads/e-thaksalwa-Logo.png" width="60%"><h3 style="margin-top: 4%;">E-Thaksalawa</h3><a href="http://www.e-thaksalawa.moe.gov.lk/web/en/">www.e-thaksalawa.moe.gov.lk</a><br><span style="text-align: center; background-color: #ffffff00" class="latest__blog__text">
+                        <a style="font-size: 18px; " href="#">Visit Website</a>
+                    </span></div>
+
+
+                <div><img style="margin-top: 4%;" src="img/downloads/e-thaksalwa-Logo.png" width="60%"><h3 style="margin-top: 4%;">E-Thaksalawa</h3><a href="http://www.e-thaksalawa.moe.gov.lk/web/en/">www.e-thaksalawa.moe.gov.lk</a><br><span style="text-align: center; background-color: #ffffff00" class="latest__blog__text">
+                        <a style="font-size: 18px; " href="#">Visit Website</a>
+                    </span></div>
+
 
 
             </div>
