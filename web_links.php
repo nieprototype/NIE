@@ -217,7 +217,8 @@
                              class="kt-portlet kt-portlet--tabs">
                             <div class="kt-portlet__head">
                                 <div class="kt-portlet__head-label">
-                                    <h2 style="font-family: 'Barlow Condensed', sans-serif; font-size: 18px;" class="kt-portlet__head-title">
+                                    <h2 style="font-family: 'Barlow Condensed', sans-serif; font-size: 18px;"
+                                        class="kt-portlet__head-title">
                                         Recommended Web Links for Different Grades
                                     </h2>
                                 </div>
@@ -225,20 +226,23 @@
                                     <ul class="nav nav-tabs nav-tabs-bold nav-tabs-line nav-tabs-line-right nav-tabs-line-brand"
                                         role="tablist">
                                         <li class="nav-item">
-                                            <a style="font-family: 'Barlow Condensed', sans-serif; font-size: 18px;" class="nav-link active" data-toggle="tab" href="#kt_portlet_tab_1_1"
+                                            <a style="font-family: 'Barlow Condensed', sans-serif; font-size: 18px;"
+                                               class="nav-link active" data-toggle="tab" href="#kt_portlet_tab_1_1"
                                                role="tab">
                                                 Primary School
                                             </a>
                                         </li>
 
                                         <li class="nav-item">
-                                            <a style="font-family: 'Barlow Condensed', sans-serif; font-size: 18px;" class="nav-link" data-toggle="tab" href="#kt_portlet_tab_1_2" role="tab">
+                                            <a style="font-family: 'Barlow Condensed', sans-serif; font-size: 18px;"
+                                               class="nav-link" data-toggle="tab" href="#kt_portlet_tab_1_2" role="tab">
                                                 Ordinary Level
                                             </a>
                                         </li>
 
                                         <li class="nav-item">
-                                            <a style="font-family: 'Barlow Condensed', sans-serif; font-size: 18px;" class="nav-link" data-toggle="tab" href="#kt_portlet_tab_1_3" role="tab">
+                                            <a style="font-family: 'Barlow Condensed', sans-serif; font-size: 18px;"
+                                               class="nav-link" data-toggle="tab" href="#kt_portlet_tab_1_3" role="tab">
                                                 Advanced Level
                                             </a>
                                         </li>
@@ -253,7 +257,6 @@
                                     <div class="tab-pane active" id="kt_portlet_tab_1_1">
 
 
-
                                         <h4 style="color: #4D5656; font-weight: 500;">1. Wikipedia</h4>
                                         <br>
                                         <div class="row">
@@ -269,7 +272,7 @@
                                                     site's name comes from wiki, a server program that enables anyone to
                                                     edit Web site content through their Web browser.</h5>
                                                 <br>
-                                                <a href="#course1"
+                                                <a target="_blank" href="https://en.wikipedia.org/wiki/Main_Page"
                                                    style="font-family: 'Barlow Condensed',sans-serif; font-size: 18px; padding-left: 20px; color: #0f0f16; padding-right: 20px;"
                                                    class="primary-btn">Visit Website &nbsp;<img
                                                             style="margin-top: -0.5%;" width="15px"
@@ -278,8 +281,6 @@
                                             </div>
 
                                         </div>
-
-
 
 
                                         <br>
@@ -287,22 +288,17 @@
                                         <br>
 
 
-                                        <h4 style="color: #4D5656; font-weight: 500;">1. Wikipedia</h4>
+                                        <h4 style="color: #4D5656; font-weight: 500;">2. NASA Kids' Club</h4>
                                         <br>
                                         <div class="row">
                                             <div class="col-2">
-                                                <img src="img/downloads/wiki.png">
+                                                <img src="img/downloads/aaa.png">
                                             </div>
 
                                             <div class="col-10">
-                                                <h5>Wikipedia is a free, open content online encyclopedia created
-                                                    through the collaborative effort of a community of users known as
-                                                    Wikipedians. Anyone registered on the site can create an article for
-                                                    publication; registration is not required to edit articles. The
-                                                    site's name comes from wiki, a server program that enables anyone to
-                                                    edit Web site content through their Web browser.</h5>
+                                                <h5>The NASA Kids' Club is a games-based website that stimulates children's interest in science, technology, engineering and mathematics by incorporating five skill levels, national education standards and NASA content.</h5>
                                                 <br>
-                                                <a href="#course1"
+                                                <a target="_blank" href="https://www.nasa.gov/kidsclub/index.html"
                                                    style="font-family: 'Barlow Condensed',sans-serif; font-size: 18px; padding-left: 20px; color: #0f0f16; padding-right: 20px;"
                                                    class="primary-btn">Visit Website &nbsp;<img
                                                             style="margin-top: -0.5%;" width="15px"
@@ -311,27 +307,22 @@
                                             </div>
 
                                         </div>
-<br>
+                                        <br>
                                         <hr>
                                         <br>
 
 
-                                        <h4 style="color: #4D5656; font-weight: 500;">1. Wikipedia</h4>
+                                        <h4 style="color: #4D5656; font-weight: 500;">3. Natural History Museum</h4>
                                         <br>
                                         <div class="row">
                                             <div class="col-2">
-                                                <img src="img/downloads/wiki.png">
+                                                <img src="img/downloads/unnamed.jpg">
                                             </div>
 
                                             <div class="col-10">
-                                                <h5>Wikipedia is a free, open content online encyclopedia created
-                                                    through the collaborative effort of a community of users known as
-                                                    Wikipedians. Anyone registered on the site can create an article for
-                                                    publication; registration is not required to edit articles. The
-                                                    site's name comes from wiki, a server program that enables anyone to
-                                                    edit Web site content through their Web browser.</h5>
+                                                <h5>Delve into the Museum from home with a virtual self-guided tour of the galleries, an interactive experience about Hope the blue whale and audio guides narrated by Sir David Attenborough.</h5>
                                                 <br>
-                                                <a href="#course1"
+                                                <a target="_blank" href="https://www.nhm.ac.uk/"
                                                    style="font-family: 'Barlow Condensed',sans-serif; font-size: 18px; padding-left: 20px; color: #0f0f16; padding-right: 20px;"
                                                    class="primary-btn">Visit Website &nbsp;<img
                                                             style="margin-top: -0.5%;" width="15px"
@@ -340,30 +331,23 @@
                                             </div>
 
                                         </div>
-
-
 
 
                                     </div>
                                     <div class="tab-pane" id="kt_portlet_tab_1_2">
 
 
-                                        <h4 style="color: #4D5656; font-weight: 500;">1. dhbfhnbfchnbcd</h4>
+                                        <h4 style="color: #4D5656; font-weight: 500;">1. Google Arts & Culture</h4>
                                         <br>
                                         <div class="row">
                                             <div class="col-2">
-                                                <img src="img/downloads/wiki.png">
+                                                <img src="img/downloads/ar.png">
                                             </div>
 
                                             <div class="col-10">
-                                                <h5>Wikipedia is a free, open content online encyclopedia created
-                                                    through the collaborative effort of a community of users known as
-                                                    Wikipedians. Anyone registered on the site can create an article for
-                                                    publication; registration is not required to edit articles. The
-                                                    site's name comes from wiki, a server program that enables anyone to
-                                                    edit Web site content through their Web browser.</h5>
+                                                <h5>Google Arts & Culture features content from over 1200 leading museums and archives who have partnered with the Google Cultural Institute to bring the world's treasures online.</h5>
                                                 <br>
-                                                <a href="#course1"
+                                                <a target="_blank" href="https://artsandculture.google.com/"
                                                    style="font-family: 'Barlow Condensed',sans-serif; font-size: 18px; padding-left: 20px; color: #0f0f16; padding-right: 20px;"
                                                    class="primary-btn">Visit Website &nbsp;<img
                                                             style="margin-top: -0.5%;" width="15px"
@@ -372,25 +356,99 @@
                                             </div>
 
                                         </div>
+
+
+                                        <br>
+                                        <hr>
+                                        <br>
+
+
+                                        <h4 style="color: #4D5656; font-weight: 500;">2. CK-12</h4>
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <img src="img/downloads/ck.svg">
+                                            </div>
+
+                                            <div class="col-10">
+                                                <h5>This is a platform that provides high quality curated STEM content for teachers and students. Its library has over 5000 math and science materials ideal to use in class</h5>
+                                                <br>
+                                                <a target="_blank" href="https://www.ck12.org/student/"
+                                                   style="font-family: 'Barlow Condensed',sans-serif; font-size: 18px; padding-left: 20px; color: #0f0f16; padding-right: 20px;"
+                                                   class="primary-btn">Visit Website &nbsp;<img
+                                                            style="margin-top: -0.5%;" width="15px"
+                                                            src="img/downloads/op.jpg"></a>
+
+                                            </div>
+
+                                        </div>
+
+                                        <br>
+                                        <hr>
+                                        <br>
+
+
+                                        <h4 style="color: #4D5656; font-weight: 500;">3. Prodigy</h4>
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <img src="img/downloads/p.jpg">
+                                            </div>
+
+                                            <div class="col-10">
+                                                <h5>Prodigy is a free, adaptive math game that integrates Common Core math (1st-7th grade) into a fantasy style game that students absolutely love playing. Prodigy takes game-based learning a step further and provides teachers with a powerful set of reporting and assessment tools that allow them to easily identify trouble spots, differentiate instruction, and better manage classroom time.</h5>
+                                                <br>
+                                                <a target="_blank" href="https://www.prodigygame.com/main-en/"
+                                                   style="font-family: 'Barlow Condensed',sans-serif; font-size: 18px; padding-left: 20px; color: #0f0f16; padding-right: 20px;"
+                                                   class="primary-btn">Visit Website &nbsp;<img
+                                                            style="margin-top: -0.5%;" width="15px"
+                                                            src="img/downloads/op.jpg"></a>
+
+                                            </div>
+
+                                        </div>
+
+                                        <br>
+                                        <hr>
+                                        <br>
+
+
+                                        <h4 style="color: #4D5656; font-weight: 500;">4. EdX</h4>
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <img src="img/downloads/edx.png">
+                                            </div>
+
+                                            <div class="col-10">
+                                                <h5>EdX offers free online courses from world’s top universities including ‘Harvard University, MIT, UC Berkeley, Tsinghua University, Microsoft, Linux, The Smithsonian and more. Courses cover different topics like computer science, engineering, history, psychology, nutrition, big data, statistics and hundreds more.’</h5>
+                                                <br>
+                                                <a target="_blank" href="https://www.edx.org/"
+                                                   style="font-family: 'Barlow Condensed',sans-serif; font-size: 18px; padding-left: 20px; color: #0f0f16; padding-right: 20px;"
+                                                   class="primary-btn">Visit Website &nbsp;<img
+                                                            style="margin-top: -0.5%;" width="15px"
+                                                            src="img/downloads/op.jpg"></a>
+
+                                            </div>
+
+                                        </div>
+
+
+
+
 
                                     </div>
                                     <div class="tab-pane" id="kt_portlet_tab_1_3">
-                                        <h4 style="color: #4D5656; font-weight: 500;">1. S</h4>
+                                        <h4 style="color: #4D5656; font-weight: 500;">1. HowStuffWorks</h4>
                                         <br>
                                         <div class="row">
                                             <div class="col-2">
-                                                <img src="img/downloads/wiki.png">
+                                                <img src="img/downloads/aaa1.jpg">
                                             </div>
 
                                             <div class="col-10">
-                                                <h5>Wikipedia is a free, open content online encyclopedia created
-                                                    through the collaborative effort of a community of users known as
-                                                    Wikipedians. Anyone registered on the site can create an article for
-                                                    publication; registration is not required to edit articles. The
-                                                    site's name comes from wiki, a server program that enables anyone to
-                                                    edit Web site content through their Web browser.</h5>
-                                                <br>
-                                                <a href="#course1"
+                                                <h5>HowStuffWorks is an American commercial infotainment website founded by professor and author Marshall Brain to provide its target audience an insight into the way many things work. The site uses various media to explain complex concepts, terminology, and mechanisms—including photographs, diagrams, videos, animations, and articles.</h5>  <br>
+                                                <a target="_blank" href="https://www.howstuffworks.com/"
                                                    style="font-family: 'Barlow Condensed',sans-serif; font-size: 18px; padding-left: 20px; color: #0f0f16; padding-right: 20px;"
                                                    class="primary-btn">Visit Website &nbsp;<img
                                                             style="margin-top: -0.5%;" width="15px"
@@ -401,6 +459,102 @@
                                         </div>
 
 
+                                        <br>
+                                        <hr>
+                                        <br>
+
+
+                                        <h4 style="color: #4D5656; font-weight: 500;">2. Khan Academy</h4>
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <img src="img/downloads/aaa2.png">
+                                            </div>
+
+                                            <div class="col-10">
+                                                <h5>Khan Academy is an American non-profit educational organization created in 2008 by Sal Khan, with the goal of creating a set of online tools that help educate students. The organization produces short lessons in the form of videos. Its website also includes supplementary practice exercises and materials for educators.</h5>   <br>
+                                                <a target="_blank" href="https://www.khanacademy.org/"
+                                                   style="font-family: 'Barlow Condensed',sans-serif; font-size: 18px; padding-left: 20px; color: #0f0f16; padding-right: 20px;"
+                                                   class="primary-btn">Visit Website &nbsp;<img
+                                                            style="margin-top: -0.5%;" width="15px"
+                                                            src="img/downloads/op.jpg"></a>
+
+                                            </div>
+
+                                        </div>
+
+                                        <br>
+                                        <hr>
+                                        <br>
+
+
+                                        <h4 style="color: #4D5656; font-weight: 500;">3. Gojimo</h4>
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <img src="img/downloads/go.jpg">
+                                            </div>
+
+                                            <div class="col-10">
+                                                <h5>Gojimo is an education software company headquartered in London, United Kingdom, which produces a self-test exam preparation mobile app for the iPhone, iPad, Android and the web. The content spans mainly across the secondary school public exams syllabus in the UK and USA such as GCSE A Level and the SAT.
+                                                </h5><br>
+                                                <a target="_blank" href="http://www.gojimo.com/"
+                                                   style="font-family: 'Barlow Condensed',sans-serif; font-size: 18px; padding-left: 20px; color: #0f0f16; padding-right: 20px;"
+                                                   class="primary-btn">Visit Website &nbsp;<img
+                                                            style="margin-top: -0.5%;" width="15px"
+                                                            src="img/downloads/op.jpg"></a>
+
+                                            </div>
+
+                                        </div>
+
+                                        <br>
+                                        <hr>
+                                        <br>
+
+
+                                        <h4 style="color: #4D5656; font-weight: 500;">4. Seneca</h4>
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <img src="img/downloads/sen.jpg">
+                                            </div>
+
+                                            <div class="col-10">
+                                                <h5>Pick from 1000+ KS2, KS3, GCSE & A Level courses based on exam board specifications. We’ve condensed the content to what you actually need to know for your exams. Your teacher can also create classes and set homework for any revision topic on the study platform creating the perfect lesson plan.</h5>  <br>
+                                                <a target="_blank" href="https://senecalearning.com/en-GB/"
+                                                   style="font-family: 'Barlow Condensed',sans-serif; font-size: 18px; padding-left: 20px; color: #0f0f16; padding-right: 20px;"
+                                                   class="primary-btn">Visit Website &nbsp;<img
+                                                            style="margin-top: -0.5%;" width="15px"
+                                                            src="img/downloads/op.jpg"></a>
+
+                                            </div>
+
+                                        </div>
+
+                                        <br>
+                                        <hr>
+                                        <br>
+
+
+                                        <h4 style="color: #4D5656; font-weight: 500;">5. GetRevising</h4>
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <img src="img/downloads/gr.png">
+                                            </div>
+
+                                            <div class="col-10">
+                                                <h5>Get Revising has been created to help students learn. Its aim is to involve students actively in their own learning and to provide an outlet for their creativity and helpfulness. It does this by providing interactive tools to plan revision and make revision notes. It also provides a resource bank where notes and resources can be shared. Get Revising is completely free to use for schools and individual students.</h5> <br>
+                                                <a target="_blank" href="https://getrevising.co.uk/resources/level/gcse"
+                                                   style="font-family: 'Barlow Condensed',sans-serif; font-size: 18px; padding-left: 20px; color: #0f0f16; padding-right: 20px;"
+                                                   class="primary-btn">Visit Website &nbsp;<img
+                                                            style="margin-top: -0.5%;" width="15px"
+                                                            src="img/downloads/op.jpg"></a>
+
+                                            </div>
+
+                                        </div>
 
 
                                     </div>
