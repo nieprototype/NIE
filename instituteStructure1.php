@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:color="http://www.w3.org/1999/xhtml">
 <?php include 'includes/header1.html' ?>
 <head>
     <title>Snapshot - Free Bootstrap 4 Template by Colorlib</title>
@@ -40,12 +40,12 @@
 <div class="container">
     <br>
     <ul class="nav nav-tabs">
-        <li class="active"><a href="#">Director General Office</a></li>
-        <li><a href="#">Humanities, languages and social sciences</a></li>
-        <li><a href="#">Teacher Education and Alternative Education</a></li>
-        <li><a href="#">Research and Planning</a></li>
-        <li><a href="#">Education Leadership Development and Management</a></li>
-        <li><a href="#">General Administrations and Finance</a></li>
+        <li class="active" style="font-weight: bold; color: #002a80" ><a href="instituteStructure1.php">Director General Office</a></li>
+        <li><a href="instituteStructure2.php">Humanities, languages and social sciences</a></li>
+        <li><a href="instituteStructure3.php">Teacher Education and Alternative Education</a></li>
+        <li><a href="instituteStructure4.php">Research and Planning</a></li>
+        <li><a href="instituteStructure5.php">Education Leadership Development and Management</a></li>
+        <li><a href="instituteStructure6.php">General Administrations and Finance</a></li>
     </ul>
     <br>
 
@@ -55,13 +55,13 @@
 
 
 <!-- Start Home Section -->
-<section id="home" class="hero-wrap js-fullheight" style="background-image: url(img/instituteStructure.jpg);" data-stellar-background-ratio="0.5">
+<section id="home" class="hero-wrap js-fullheight" style="background-image: url(img/campaign-creators-gMsnXqILjp4-unsplash.jpg);" data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
             <div class="col-lg-7 ftco-animate d-flex align-items-center">
                 <div class="text text-center">
-                    <h1 class="logo"><a href="index.html"><span class="flaticon-camera-shutter"></span>Snapshot<small>Photographer / San Francisco</small></a></h1>
+
                     <h1 class="mb-4">INSTITUTE STRUCTURE</h1>
 
                 </div>
@@ -99,8 +99,8 @@
 
 
                     <div class="p-md-4 mt-4">
-                        <div class="col-md-8 ftco-animate">
-                            <h1>Director General</h1>
+                        <div class="col-md-12 ftco-animate" >
+                            <h1 >Director General</h1>
                             <p>Dr. Sunil Jayantha Nawarathna</p>
                             <p>Director General</p>
                             <p>	+94-11-7601620</p>
@@ -112,7 +112,7 @@
                 </div>
             </div>
             <div class="col-md-5 d-flex align-items-stretch">
-                <div class="img w-100" style="background-image: url(img/SunilNawarathne.jpg);"></div>
+                <div class="img w-100" style="background-image: url(img/person_1.jpg);"></div>
             </div>
         </div>
     </div>
@@ -124,7 +124,7 @@
 <section class="ftco-section testimony-section" id="testimonial">
     <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
-            <h1>STAFF</h1>
+            <h1 style="color: white">STAFF</h1>
         </div>
         <div class="row ftco-animate">
             <div class="col-md-12">
@@ -450,7 +450,7 @@
 
 
                     <div class="p-md-4 mt-4">
-                        <div class="col-md-8 ftco-animate">
+                        <div class="col-md-12 ftco-animate">
                             <h1>Director General</h1>
                             <p>Dr. Sunil Jayantha Nawarathna</p>
                             <p>Director General</p>
@@ -625,7 +625,7 @@
 
 
                     <div class="p-md-4 mt-4">
-                        <div class="col-md-8 ftco-animate">
+                        <div class="col-md-12 ftco-animate">
                             <h1>Director General</h1>
                             <p>Dr. Sunil Jayantha Nawarathna</p>
                             <p>Director General</p>

@@ -33,14 +33,14 @@
         <div class="card card-3 p-5">
 
 
-                <h1 class="title text-center">GURUGEDARA EDUCATIONAL TV CHANNELS</h1>
+                <h1 class="title text-center " style="font: large">GURUGEDARA EDUCATIONAL TV CHANNELS</h1>
                 <h3 class="title text-center">Eye Channel/ Nethra Channel Educational Telecast</h3>
                 <h4 class="title text-center">G.C.E. Advanced Level</h4>
                 <h5 class="title text-center">Student Queries</h5>
-                <form method="POST" class="mx-auto">
+                <form method="POST" class="mx-auto" onsubmit="SubmitForm();">
                     <div class="input-group">
-                        <div class="rs-select2 js-select-simple select--no-search ">
-                            <select name="medium">
+                        <div class="rs-select2 js-select-simple select--no-search w-100">
+                            <select name="medium" required>
                                 <option disabled="disabled" selected="selected">Medium</option>
                                 <option>Sinhala</option>
                                 <option>English</option>
@@ -50,33 +50,47 @@
                         </div>
                     </div>
                         <div class="input-group">
-                            <div class="rs-select2 js-select-simple select--no-search ">
-                                <select name="subject">
+                            <div class="rs-select2 js-select-simple select--no-search w-100">
+                                <select name="subject" required>
                                     <option disabled="disabled" selected="selected">Subject</option>
-                                    <option>Male</option>
-                                    <option>Female</option>
-                                    <option>Other</option>
+                                    <option>Chemistry</option>
+                                    <option>Physics</option>
+                                    <option>Combined Mathematics</option>
+                                    <option>Biology</option>
+                                    <option>Information and Communication Technology</option>
+                                    <option>Engineering Technology</option>
+                                    <option>Agricultural Science</option>
+                                    <option>Bio System Technology</option>
+                                    <option>Science for Technology</option>
+                                    <option>Accounting</option>
+                                    <option>Business Studies</option>
+                                    <option>Economics</option>
+                                    <option>Sinhala</option>
+                                    <option>Tamil</option>
+                                    <option>Buddhist Civilization</option>
+                                    <option>Geography</option>
+                                    <option>Political Science</option>
                                 </select>
                                 <div class="select-dropdown"></div>
                             </div>
                         </div>
 
                     <div class="input-group ">
-                        <input class="input--style-3" type="text" placeholder="Name" name="name">
+                        <input class="input--style-3 " type="text" placeholder="Name" name="name" required>
                     </div>
 
                     <div class="input-group">
-                        <input class="input--style-3" type="email" placeholder="Email" name="email">
+                        <input class="input--style-3" type="email" placeholder="Email" name="email" required>
                     </div>
                     <div class="input-group">
-                        <input class="input--style-3" type="text" placeholder="Phone" name="phone">
+                        <input class="input--style-3" type="text" placeholder="Phone" name="phone" required>
                     </div>
                     <div class="input-group">
-                        <input class="input--style-3" type="text" placeholder="Queries" name="queries">
+                        <input class="input--style-3" type="text" placeholder="Queries" name="queries" required>
 
                     </div>
                     <div class=" w-100 mx-auto" >
-                        <p class="text-center"> <button class="btn btn--pill btn--green  w-50" type="submit" >Submit</button></p>
+                        <p class="text-center"> <button  class="btn btn-warning  w-50" type="submit" >Submit</button></p>
                     </div>
                 </form>
             </div>
@@ -100,3 +114,9 @@
 <!-- end document-->
 
 <?php include 'includes/footer.html' ?>
+
+<script>
+    function SubmitForm() {
+        alert("Form Submitted Successfully!")
+    }
+</script>

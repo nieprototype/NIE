@@ -349,7 +349,7 @@ input {
   padding: 5px 0;
   font-size: 16px;
   color: #ccc;
-  background: transparent;
+  background: black;
 }
 
 .input--style-3::-webkit-input-placeholder {
@@ -376,7 +376,7 @@ input {
 
 .input--style-3:-ms-input-placeholder {
   /* Microsoft Edge */
-  color: #ccc;
+  color: #cccccc;
 }
 
 /* ==========================================================================

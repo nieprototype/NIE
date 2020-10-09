@@ -1,4 +1,4 @@
-<?php include 'includes/header.html' ?>
+<?php include 'includes/header1.html' ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,14 +33,14 @@
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
 
-                        <img class="img-fluid" src="assets/img/portfolio/01-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src="img/books/envio-34.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Travel and Hospitality Intermediate Module </div>
 
                         <div class="portfolio-caption-subheading text-muted">Grade 12 Sinhala</div>
 
-                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">display</a>
+                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3" href="#services">display</a>
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
 
-                        <img class="img-fluid" src="assets/img/portfolio/02-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src="img/books/math-teacher.png" alt="" />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Combined Mathematics coordinate-1_2</div>
@@ -61,10 +61,10 @@
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
 
-                        <img class="img-fluid" src="assets/img/portfolio/03-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src="img/books/BUSINESSMAN_IN_SUIT_HOLD_A_CALENDAR_ON_HIS_HAND.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Task Event Management</div>
+                        <div class="portfolio-caption-heading">Task Event Management &nbsp;</div>
                         <div class="portfolio-caption-subheading text-muted">Training stream</div>
                         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">display</a>
                     </div>
@@ -74,11 +74,11 @@
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
 
-                        <img class="img-fluid" src="assets/img/portfolio/04-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src="img/books/BUSINESSMAN_IN_SUIT_HOLD_A_CALENDAR_ON_HIS_HAND.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading"> Story Book </div>
-                        <div class="portfolio-caption-subheading text-muted">Grade 05</div>
+                        <div class="portfolio-caption-heading"> Event Management </div>
+                        <div class="portfolio-caption-subheading text-muted">Tamil</div>
                         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">display</a>
                     </div>
                 </div>
@@ -87,12 +87,12 @@
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
 
-                        <img class="img-fluid" src="assets/img/portfolio/05-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src="img/books/cww3_n3k6_190124.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading"> Picture Dictionary Book </div>
+                        <div class="portfolio-caption-heading">Story Book  </div>
                         <div class="portfolio-caption-subheading text-muted">Grade 05</div>
-                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">display</a>
+                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger " href="#services">display</a>
                     </div>
                 </div>
             </div>
@@ -100,17 +100,30 @@
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
 
-                        <img class="img-fluid" src="assets/img/portfolio/06-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src="img/books/5lt4_dqnu_181214.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Tamil Language</div>
-                        <div class="portfolio-caption-subheading text-muted">Photography</div>
-                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">display</a>
+                        <div class="portfolio-caption-heading">Picture Dictionary Book</div>
+                        <div class="portfolio-caption-subheading text-muted">Grade 05</div>
+                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger "  href="pdf/IAS_Assignment_AllegroWorksheet.pdf">display</a>
                     </div>
                 </div>
             </div>
+            <div class="col-12 m-4">
+                <div class="col-5 float-left"><span>&nbsp;&nbsp; </span></div>
+                <div class="pagination__number blog__pagination col-4 float-left">
+
+                    <a href="publications2.php">1</a>
+                    <a href="publications3.php">2</a>
+                    <a href="#">Next <span class="arrow_right"></span></a>
+                </div>
+                <div class="col-3 float-right"><span><pre></pre> </span> </div>
+            </div>
         </div>
+
     </div>
+
+
 </section>
 
 
@@ -119,7 +132,7 @@
 <section class="page-section" id="contact">
     <div class="container">
         <div class="text-center">
-            <h2 class="section-heading text-uppercase">Provide Your Suggestions</h2>
+            <h1 class="section-heading text-uppercase">Provide Your Suggestions</h1>
             <br>
         </div>
         <form id="contactForm" name="sentMessage" novalidate="novalidate">
@@ -127,13 +140,35 @@
                 <div class="col-md-6">
 
                     <div class="form-group">
-                        <div class="input-group">
+                        <div >
+                               <select class="form-control" id="" type="text" placeholder="Medium"  >
 
-                                <input class="form-control" id="name" type="text" placeholder="Medium"  />
-                                <p class="help-block text-danger"></p>
+
+                                       <option disabled="disabled" selected="selected">Medium</option>
+                                       <option>Sinhala</option>
+                                       <option>English</option>
+                                       <option>Tamil</option>
+                               </select>
+
 
                         </div>
                     </div>
+
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown button
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">hh</a>
+                            <a class="dropdown-item" href="#">hjh</a>
+                            <a class="dropdown-item" href="#">hhjjh</a>
+                        </div>
+                    </div>
+
+
+
+
+
 
                     <div class="form-group">
                         <input class="form-control" id="unit/pageNo" type="email" placeholder="Unit/Page No" required="required" data-validation-required-message="Please enter your email address." />
@@ -155,10 +190,18 @@
                 </div>
                 <div class="col-md-6">
                     <div class="form-group form-group-textarea mb-md-0">
-                        <textarea class="form-control" id="message" placeholder="Suggestions "  data-validation-required-message="Please enter a message."></textarea>
+                        <input class="form-control" id="message" placeholder="Book "  data-validation-required-message="Please select a book."/input>
                         <p class="help-block text-danger"></p>
+
+                        <div class="form-group">
+                            <textarea class="form-control" maxlength="200" style="margin-top: 22px" id="name" type="text" placeholder="Suggestions " required="required" data-validation-required-message="Please enter a message."></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
                     </div>
+
+
                 </div>
+
             </div>
             <div class="text-center">
                 <div id="success"></div>
