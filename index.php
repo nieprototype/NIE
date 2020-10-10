@@ -113,12 +113,134 @@
             </div>
         </div>
     </div>
+
+
+    <div class="col-12">
     <div class="gallery__slider owl-carousel">
-        <div class="gallery__item small__item set-bg" data-setbg="img/gallery/gallery-1.jpg"></div>
-        <div class="gallery__item set-bg" data-setbg="img/gallery/gallery-2.jpg"></div>
-        <div class="gallery__item set-bg" data-setbg="img/gallery/gallery-3.jpg"></div>
-        <div class="gallery__item set-bg" data-setbg="img/gallery/gallery-4.jpg"></div>
+        <div class="gallery__item small__item set-bg" data-setbg="img/gallery/sp1.jpg">
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+            <form action="#" class="filter__form">
+
+                <div style="text-align: center; width: 84%;" class="filter__form__item">
+
+                    <div class="kt-widget14__header">
+                        <hr class="new4">
+                        <h3 style="font-weight: 400;" class="kt-widget14__title">
+
+                            Prevent Covid-19: Stay Healthy
+                        </h3>
+
+                        <br>
+                        <p style="text-align: center; font-size: 15px;">Guidance of district leaders to best support their students, schools and communities.</p>
+
+                        <hr class="new4">
+                    </div>
+                </div>
+
+            </form>
+
+
+        </div>
+        <div class="gallery__item set-bg" data-setbg="img/gallery/sp2.jpg">
+
+
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+            <form action="#" class="filter__form">
+
+                <div style="text-align: center;width: 84%;" class="filter__form__item">
+
+                    <div class="kt-widget14__header">
+                        <hr class="new4">
+                        <h3 style="font-weight: 400;" class="kt-widget14__title">
+
+                            Greetings : Children's Day
+                        </h3>
+
+                        <br>
+                        <p style="text-align: center; font-size: 15px;">Message by Prime Minister Mahinda on the World Children’s Day</p>
+
+                        <hr class="new4">
+                    </div>
+                </div>
+
+            </form>
+
+
+
+
+        </div>
+        <div class="gallery__item set-bg" data-setbg="img/gallery/sp4.jpg">
+
+
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+            <form action="#" class="filter__form">
+
+                <div style="text-align: center; width: 84%;" class="filter__form__item">
+
+                    <div class="kt-widget14__header">
+                        <hr class="new4">
+                        <h3 style="font-weight: 400;" class="kt-widget14__title">
+
+                            IDs for NCE professionals
+                        </h3>
+
+                        <br>
+                        <p style="text-align: center; font-size: 15px;">Issue Identity Cards to principals,lecturers and teachers in NCE</p>
+
+                        <hr class="new4">
+                    </div>
+                </div>
+
+            </form>
+
+
+
+
+        </div>
+        <div class="gallery__item set-bg">
+            <video style="position: absolute; z-index: -10000000000; width: 100%;" autoplay="autoplay" muted="muted" loop="loop">
+                <source src="img/gallery/vd.mp4" type="video/mp4">
+            </video>
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+            <form style="z-index: +100000000000000000;position: absolute; width: 100%" action="#" class="filter__form">
+
+                <div style="text-align: center; width: 84%;" class="filter__form__item">
+
+                    <div class="kt-widget14__header">
+                        <hr class="new4">
+                        <h3 style="font-weight: 400;" class="kt-widget14__title">
+
+                            Discussions : Raise on Forum
+                        </h3>
+
+                        <br>
+                        <p style="text-align: center; font-size: 15px;">Weekly discussion forum on curriculum reforms was held on 12/10/2020</p>
+
+
+
+
+
+                        <hr class="new4">
+                    </div>
+                </div>
+
+            </form>
+
+
+
+        </div>
     </div>
+    </div>
+
 </section>
 <!-- Gallery Section End -->
 
@@ -128,55 +250,55 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title">
-                    <h5>NEWS & EVENT</h5>
-                    <h2>From Our Blog</h2>
+                    <h5>EVENTS AT NIE</h5>
+                    <h2>RECENT EVENTS</h2>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-3 p-0 order-lg-1 col-md-6 order-md-1">
-                <div class="latest__blog__pic set-bg" data-setbg="img/latest-blog/lb-1.jpg"></div>
+                <div class="latest__blog__pic set-bg hover-div1" data-setbg="img/bakthi.jpg"></div>
             </div>
             <div class="col-lg-3 p-0 order-lg-2 col-md-6 order-md-2">
-                <div class="latest__blog__text">
-                    <div class="label">Hotel</div>
-                    <h5>Ut enim ad minim veniam, quis nostrud</h5>
-                    <p><i class="fa fa-clock-o"></i> 19th March, 2019</p>
+                <div id="a" class="latest__blog__text">
+                    <div id="b" class="label">Religious</div>
+                    <h5>Bhakthi Gee Program at the Faculty of ELDM Meepe</h5>
+                    <p><i class="fa fa-clock-o"></i> 19th March, 2020</p>
                     <a href="#">Read More</a>
                 </div>
             </div>
             <div class="col-lg-3 p-0 order-lg-3 col-md-6 order-md-4">
-                <div class="latest__blog__pic set-bg" data-setbg="img/latest-blog/lb-2.jpg"></div>
+                <div class="latest__blog__pic set-bg hover-div1" data-setbg="img/educ.jpg"></div>
             </div>
             <div class="col-lg-3 p-0 order-lg-4 col-md-6 order-md-3">
                 <div class="latest__blog__text">
-                    <div class="label">Restaurant</div>
-                    <h5>Ut enim ad minim veniam, quis nostrud</h5>
-                    <p><i class="fa fa-clock-o"></i> 22th March, 2019</p>
+                    <div class="label">Diploma Awards</div>
+                    <h5>Diploma Award Ceramony - NCOE  at Temple Trees</h5>
+                    <p><i class="fa fa-clock-o"></i> 20th August, 2019</p>
                     <a href="#">Read More</a>
                 </div>
             </div>
             <div class="col-lg-3 p-0 order-lg-6 col-md-6 order-md-5">
-                <div class="latest__blog__pic latest__blog__pic__last__row set-bg"
-                     data-setbg="img/latest-blog/lb-3.jpg"></div>
+                <div class="latest__blog__pic latest__blog__pic__last__row set-bg hover-div1"
+                     data-setbg="img/charity.jpg"></div>
             </div>
             <div class="col-lg-3 p-0 order-lg-5 col-md-6 order-md-6">
                 <div class="latest__blog__text">
-                    <div class="label">Travel</div>
-                    <h5>Ut enim ad minim veniam, quis nostrud</h5>
-                    <p><i class="fa fa-clock-o"></i> 25th March, 2019</p>
+                    <div class="label">Charity</div>
+                    <h5>Almsgiving Ceremoney held by Transport Unit</h5>
+                    <p><i class="fa fa-clock-o"></i> 01st January, 2020</p>
                     <a href="#">Read More</a>
                 </div>
             </div>
             <div class="col-lg-3 p-0 order-lg-8 col-md-6 order-md-8">
-                <div class="latest__blog__pic latest__blog__pic__last__row set-bg"
-                     data-setbg="img/latest-blog/lb-4.jpg"></div>
+                <div class="latest__blog__pic latest__blog__pic__last__row set-bg hover-div1"
+                     data-setbg="img/grad.jpg"></div>
             </div>
             <div class="col-lg-3 p-0 order-lg-7 col-md-6 order-md-7">
                 <div class="latest__blog__text">
-                    <div class="label">Booking</div>
-                    <h5>Ut enim ad minim veniam, quis nostrud</h5>
-                    <p><i class="fa fa-clock-o"></i> 29th March, 2019</p>
+                    <div class="label">Graduation</div>
+                    <h5>Annual NIE Convocation 2019 at BMICH</h5>
+                    <p><i class="fa fa-clock-o"></i> 29th March, 2020</p>
                     <a href="#">Read More</a>
                 </div>
             </div>
