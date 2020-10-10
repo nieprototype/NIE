@@ -105,13 +105,13 @@
             <div class="items">
 
 
-                <div>
+                <div style="cursor: pointer;" onclick="window.open('http://www.google.com')">
 
                     <br><img style="margin-top: 4%; margin-bottom: 4%;"
                              src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Khan_Academy_logo_%282018%29.svg/1280px-Khan_Academy_logo_%282018%29.svg.png"
                              width="80%"><br>
                     <h3 style="margin-top: 4%;">E-Thaksalawa</h3>
-                    <a style="font-family: 'Barlow Condensed', sans-serif; font-size: 18px;"
+                    <a class="a_h" style="font-family: 'Barlow Condensed', sans-serif; font-size: 18px;"
                        href="http://www.e-thaksalawa.moe.gov.lk/web/en/">www.e-thaksalawa.moe.gov.lk</a><br><span
                             style="text-align: center; background-color: #ffffff00" class="latest__blog__text">
                         <a style="font-size: 18px; font-weight: 600;" href="#">Visit Website</a>
