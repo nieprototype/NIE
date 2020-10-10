@@ -3,56 +3,28 @@
     <div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
         <div class="container">
             <div class="row">
+                <div style="text-align: right;" class="col-12">
 
+                    <a href="#card" style="font-family: 'Barlow Condensed',sans-serif; font-size: 20px;"
+                       class="primary-btn"><i class="fa fa-angle-left" aria-hidden="true"></i> Back to Dashboard</a>
+
+
+                </div>
                 <div class="row">
                     <div class="col-lg-12">
                         <div style="text-align: left" class="section-title">
-                            <br><br><br>
                             <h2>ADMIN DASHBOARD</h2>
-                            <h5>Home > Dashboard</h5>
+                            <h5>Home > Dashboard > Downloads</h5>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="row">
-                    <div class="col-12">
-
-                        <div class="row">
-
-
-                            <div class="col-7">
-
-                                <h2 style="color: #E9AD28;">Manage. Everything.</h2>
-                                <br>
-                                <h4 style="color: #4D5656; font-weight: 500;">Followings are the courses that are
-                                    provided by
-                                    National
-                                    Institute of Education. You can download relevant
-                                    application to your preferred course. Click on View Courses to get started.</h4>
-                                <br><br>
-                                <br>
-                                <a href="#card" style="font-family: 'Barlow Condensed',sans-serif; font-size: 20px;"
-                                   class="primary-btn">Get Started</a>
-
-
-                            </div>
-
-                            <div class="col-5">
-                                <img width="100%" src="img/downloads/dash.png">
-                            </div>
-
-                        </div>
-
-                        <br><br>
-
-                    </div>
-                </div>
             </div>
             <section id="card">
 
 
-                <br>
+
 
 
                 <!--begin::Portlet-->
@@ -80,7 +52,7 @@
                                 <div class="row">
 
 
-                                    <div style="cursor: pointer;" onclick="location.href='down_manage.php';" class="col-4">
+                                    <div style="cursor: pointer;" onclick="location.href='task_add.php';" class="col-4">
                                         <div style="position:relative;
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
@@ -117,7 +89,7 @@
                                         </div>
                                     </div>
 
-                                    <div style="cursor: pointer;" onclick="location.href='down_manage.php';" class="col-4">
+                                    <div style="cursor: pointer;" onclick="location.href='task_add.php';" class="col-4">
                                         <div style="position:relative;
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
