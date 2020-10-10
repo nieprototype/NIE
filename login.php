@@ -19,7 +19,7 @@
                             <button style="font-family: 'Barlow Condensed', sans-serif">Register</button>
                         </div>
                         <div style="background-color: #1a1a1a;" class="wrapper">
-                            <form id="hid1"  autocomplete="off" style="background-color: transparent;" action="" method="POST">
+                            <form id="hid1"  autocomplete="off" style="background-color: transparent;" action="forms.php" method="POST">
                                 <h2 style="color: #fff; font-family: 'Barlow Condensed', sans-serif;">NIE STAFF</h2>
                                 
                                 <img width="70%" src="img/downloads/login.png">
