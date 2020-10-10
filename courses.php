@@ -1,7 +1,6 @@
 <?php include "includes/header.html"; ?>
 
 <!-- Content Begin -->
-
 <div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
     <div class="container">
         <div class="row">
