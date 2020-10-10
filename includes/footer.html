@@ -89,6 +89,7 @@
 </footer>
 <!-- Footer Section End -->
 
+
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
     var Tawk_API = Tawk_API || {},
@@ -107,7 +108,7 @@
 <!--End of Tawk.to Script-->
 
 <script>
-    $(document).ready(function(){
+    $(document).ready(function () {
         $(".g-scrolling-carousel.items").gScrollingCarousel();
     });
 </script>
@@ -125,7 +126,7 @@
                 var link = (full_link.split("/").pop());
 
 
-                if (link == 'about.html'){
+                if (link == 'about.html') {
 
                     swal.fire("<h6>You have clicked a dummy link</h6>", "" +
                         "<h5 style='margin-bottom: 4%;'>Followings are the pages that we are <span style='color: #E9AD28'>redesigned.</span></h5> " +
@@ -167,7 +168,7 @@
             width: 560,               // Player width (in px)
             height: 315,              // Player height (in px)
             playerVars: {
-                start:120,
+                start: 120,
                 autoplay: 1,        // Auto-play the video on load
                 controls: 1,        // Show pause/play buttons in player
                 showinfo: 0,        // Hide the video title
@@ -179,7 +180,7 @@
                 autohide: 0         // Hide video controls when playing
             },
             events: {
-                onReady: function(e) {
+                onReady: function (e) {
                     e.target.mute();
                 }
             }
@@ -207,11 +208,62 @@
 <script src="js/scrollable.js" type="text/javascript"></script>
 <script src="js/jquery.gScrollingCarousel.js"></script>
 <script>
-    $(document).ready(function(){
+    $(document).ready(function () {
         $(".g-scrolling-carousel .items").gScrollingCarousel();
     });
 </script>
+<style type="text/css">
+    .site-link {
+        padding: 5px 15px;
+        position: fixed;
+        z-index: 99999;
+        background: #fff;
+        box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
+        right: 30px;
+        bottom: 30px;
+        border-radius: 10px;
+    }
 
+    .site-link img {
+        width: 30px;
+        height: 30px;
+    }
+
+</style>
+<!-- partial -->
+
+<script>
+    $(document).ready(function () {
+
+        var x = document.getElementById("hid1");
+        var y = document.getElementById("hid2");
+
+        $(".veen .rgstr-btn button").click(function () {
+
+            x.style.display = "none";
+            y.style.display = "block";
+
+            $('.veen .wrapper').addClass('move');
+            $('.body').css('background', 'rgb(136 123 75)');
+            $(".veen .login-btn button").removeClass('active');
+            $(this).addClass('active');
+
+        });
+        $(".veen .login-btn button").click(function () {
+
+            x.style.display = "block";
+            y.style.display = "none";
+
+            $('.veen .wrapper').removeClass('move');
+            $('.body').css('background', 'rgb(102 163 187)');
+            $(".veen .rgstr-btn button").removeClass('active');
+            $(this).addClass('active');
+        });
+
+
+    });
+
+</script>
 </body>
 
 </html>
