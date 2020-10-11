@@ -36,6 +36,16 @@
     margin-bottom: 40px;
 }
 
+#inputSearch {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-weight: bold;
+}
+
+#inputSearch:hover {
+    color: gold;
+}
+
 .download-container {
     margin-bottom: 30px;
 }
@@ -96,12 +106,45 @@
 
 .nice-select {
     width: 100%;
-    border-color: grey;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: white 1px solid;
+    font-weight: bold;
+}
+
+.nice-select:hover {
+    border-color: gold;
+    color: gold;
 }
 
 .selectCat,
 .nice-select.open .list {
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+.nice-select .option:hover,
+.nice-select .option.focus {
+    color: white;
+}
+
+.nice-select .option.selected {
+    color: black;
+}
+
+.nice-select .option.selected.focus {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.nice-select .option.selected.focus:hover {
+    color: black;
+    background-color: gold;
+}
+
+.nice-select .option:hover {
+    color: black;
 }
 
 .col-sm input[type="text"] {
@@ -134,8 +177,12 @@
     width: 100%;
 }
 
+.col-sm input[type="text"] {
+    border-color: white;
+}
+
 .col-sm input[type="text"]:hover {
-    border-color: grey;
+    border-color: gold;
 }
 
 .input-group.input-group-unstyled input.form-control {

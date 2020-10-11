@@ -9,6 +9,10 @@ h2 {
     color: white;
 }
 
+.container-fluid {
+    width: 100%;
+}
+
 .container-fluid .row .col {
     padding: 2%;
 }

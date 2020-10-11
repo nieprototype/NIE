@@ -3,22 +3,22 @@
     <link rel="stylesheet" href="css/educationalSoftware.css">
     <script src="js/educationalSoftware.js"></script>
 
-    <div class="container-fluid">
-
-        <div class="topic">
-            <h1>NIE Educational Software</h1>
+    <div class="container-fluid" style="background-image: url('../NIE/img/SoftwarePackages/library.jpg'); background-size: cover; padding: 20px;">
+    <div style="background-color: rgba(0, 0, 0, 0.8);">
+        <div class="topic" >
+            <h1 style="color: white;">NIE Educational Software</h1>
         </div>
         <div class="intro">
-            <p>
+            <p style="color: white;">
                 NIE has been developed educational software since 1988. The first educational software packages distributed in schools were Waves, Curve Plotter and Potentiometer. The Wave software was the first software which was developed in Sinhala medium. Later NIE
                 distributed following software packages for various advanced level subjects. These software packages were developed in three medium of English, Sinhala and Tamil. Later; educational software packages have been developed for subjects of
                 grade 6 to 11.
             </p>
         </div>
         <div class="sorter">
-            <h2>DOWNLOAD SOFTWARE PACKAGES</h2>
+            <h2 style="color: white;">DOWNLOAD SOFTWARE PACKAGES</h2>
             <div class="sortSection">
-                <div class="row">
+                <div class="row" style="margin-left: 3%; margin-right: 3%;">
                     <div class="col-sm">
                         <select name="grade" id="grade" class="selectCat">
                             <option value="" class="catOption">Select Grade</option>
@@ -100,6 +100,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
 <?php include "includes/footer.html"; ?>
