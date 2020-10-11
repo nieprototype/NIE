@@ -33,14 +33,14 @@
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
 
-                        <img class="img-fluid" src="assets/img/portfolio/01-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src="img/books/97-972804_tamil-books-pluma-y-libro-png.png" alt="" />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Tamil Language  </div>
 
                         <div class="portfolio-caption-subheading text-muted"> Grade 08 </div>
                         <br>
-                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="#services">display</a>
+                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="pdf/IT3060-Lecture-01.pdf">display</a>
                     </div>
                 </div>
             </div>
@@ -48,13 +48,13 @@
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
 
-                        <img class="img-fluid" src="assets/img/portfolio/02-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src="img/books/horti1.png" alt="" />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Horticulture </div>
                         <div class="portfolio-caption-subheading text-muted">Sinhala- Module 01</div>
                         <br>
-                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="#services">display</a>
+                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="pdf/Lecture_02_HCI_Design%20Mindset.pdf">display</a>
                     </div>
                 </div>
             </div>
@@ -62,13 +62,13 @@
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
 
-                        <img class="img-fluid" src="assets/img/portfolio/03-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src="img/books/horti2.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Horticulture </div>
                         <div class="portfolio-caption-subheading text-muted">Tamil- Module 01</div>
                         <br>
-                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="#services">display</a>
+                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="pdf/L03_Need_Finding_User_Research_Techniques.pdf">display</a>
                     </div>
                 </div>
             </div>
@@ -76,13 +76,13 @@
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
 
-                        <img class="img-fluid" src="assets/img/portfolio/04-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src="img/books/spade-24434_1280.png" alt="" />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading"> Horticulture </div>
                         <div class="portfolio-caption-subheading text-muted">Sinhala - Module 02</div>
                         <br>
-                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="#services">display</a>
+                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="pdf/L04_Design_for_Different_Interactions.pdf">display</a>
                     </div>
                 </div>
             </div>
@@ -90,13 +90,13 @@
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
 
-                        <img class="img-fluid" src="assets/img/portfolio/05-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src="img/books/horti3.png" alt="" />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading"> Horticulture </div>
                         <div class="portfolio-caption-subheading text-muted">Tamil - Module 02</div>
                         <br>
-                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="#services">display</a>
+                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="pdf/L05_Design_Recommendations.pdf">display</a>
                     </div>
                 </div>
             </div>
@@ -104,13 +104,13 @@
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
 
-                        <img class="img-fluid" src="assets/img/portfolio/06-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src="img/books/Education_31-60_211.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Physic Resource Book</div>
                         <div class="portfolio-caption-subheading text-muted">Unit 10- Sinhala</div>
                         <br>
-                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="#services">display</a>
+                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="pdf/Surveys.pdf">display</a>
                     </div>
                 </div>
             </div>

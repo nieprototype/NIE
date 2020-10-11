@@ -40,7 +40,7 @@
 
                         <div class="portfolio-caption-subheading text-muted">Grade 12 Sinhala</div>
                         <br>
-                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="#services">display</a>
+                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="pdf/IT3060-Lecture-01.pdf">display</a>
                     </div>
                 </div>
             </div>
@@ -48,13 +48,13 @@
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
 
-                        <img class="img-fluid" src="img/books/math-teacher.png" alt="" />
+                        <img class="img-fluid" src="img/books/mmm.png" alt="" />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Combined Mathematics coordinate-1_2</div>
                         <div class="portfolio-caption-subheading text-muted">Grade 12</div>
                         <br>
-                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="#services">display</a>
+                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="pdf/Lecture_02_HCI_Design%20Mindset.pdf">display</a>
                     </div>
                 </div>
             </div>
@@ -68,7 +68,7 @@
                         <div class="portfolio-caption-heading">Task Event Management &nbsp;</div>
                         <div class="portfolio-caption-subheading text-muted">Training stream</div>
                         <br>
-                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="#services">display</a>
+                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="pdf/L03_Need_Finding_User_Research_Techniques.pdf">display</a>
                     </div>
                 </div>
             </div>
@@ -76,13 +76,13 @@
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
 
-                        <img class="img-fluid" src="img/books/BUSINESSMAN_IN_SUIT_HOLD_A_CALENDAR_ON_HIS_HAND.jpg" alt="" />
+                        <img class="img-fluid" src="img/books/vecteezy_mockup-paper-with-foliage-and-pink-background_1223860.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading"> Event Management </div>
                         <div class="portfolio-caption-subheading text-muted">Tamil</div>
                         <br>
-                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="#services">display</a>
+                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="pdf/L04_Design_for_Different_Interactions.pdf">display</a>
                     </div>
                 </div>
             </div>
@@ -90,13 +90,13 @@
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
 
-                        <img class="img-fluid" src="img/books/cww3_n3k6_190124.jpg" alt="" />
+                        <img class="img-fluid" src="img/books/cccc.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Story Book  </div>
                         <div class="portfolio-caption-subheading text-muted">Grade 05</div>
                         <br>
-                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="#services">display</a>
+                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="pdf/L05_Design_Recommendations.pdf">display</a>
                     </div>
                 </div>
             </div>
@@ -104,13 +104,13 @@
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
 
-                        <img class="img-fluid" src="img/books/5lt4_dqnu_181214.jpg" alt="" />
+                        <img class="img-fluid" src="img/books/qq.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Picture Dictionary Book</div>
                         <div class="portfolio-caption-subheading text-muted">Grade 05</div>
                         <br>
-                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50"  href="pdf/IAS_Assignment_AllegroWorksheet.pdf">display</a>
+                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50"  href="pdf/Surveys.pdf">display</a>
                     </div>
                 </div>
             </div>
@@ -169,6 +169,9 @@
                             <a class="dropdown-item" href="#">hhjjh</a>
                         </div>
                     </div>
+
+
+
 
 
 

@@ -230,7 +230,7 @@
                     </div>
                     <div class="item">
                         <div class="testimony-wrap p-4 pb-5">
-                            <div class="user-img mb-4" style="background-image: url(img/person_1.jpg)">
+                            <div class="user-img mb-4" style="background-image: url(img/People/portrait-2068044_1920.jpg)">
 
                             </div>
                             <div class="text">

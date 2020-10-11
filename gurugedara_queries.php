@@ -104,6 +104,7 @@
 <script src="vendor_queries/select2/select2.min.js"></script>
 <script src="vendor_queries/datepicker/moment.min.js"></script>
 <script src="vendor_queries/datepicker/daterangepicker.js"></script>
+<script src="vendor_queries/sweet/sweetalert2.js" type="text/javascript"></script>
 
 <!-- Main JS-->
 <script src="js/global.js"></script>

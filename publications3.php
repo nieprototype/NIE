@@ -33,14 +33,14 @@
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
 
-                        <img class="img-fluid" src="assets/img/portfolio/01-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src="img/books/43301389-physics-textbook.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Travel and Hospitality Intermediate Module </div>
+                        <div class="portfolio-caption-heading">Physics Science Resource Book  </div>
 
-                        <div class="portfolio-caption-subheading text-muted">Grade 12 Sinhala</div>
+                        <div class="portfolio-caption-subheading text-muted">Unit 11 - Sinhala</div>
                         <br>
-                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="#services">display</a>
+                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="pdf/IT3060-Lecture-01.pdf">display</a>
                     </div>
                 </div>
             </div>
@@ -48,13 +48,13 @@
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
 
-                        <img class="img-fluid" src="assets/img/portfolio/02-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src="img/books/1200px-සිංහල_in_Noto_Serif_Sinhala_Black.svg.png" alt="" />
                     </a>
                     <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Combined Mathematics coordinate-1_2</div>
-                        <div class="portfolio-caption-subheading text-muted">Grade 12</div>
+                        <div class="portfolio-caption-heading">Sinhala Language and Literature Activity Book </div>
+                        <div class="portfolio-caption-subheading text-muted">Grade 06</div>
                         <br>
-                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="#services">display</a>
+                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="pdf/Lecture_02_HCI_Design%20Mindset.pdf">display</a>
                     </div>
                 </div>
             </div>
@@ -62,13 +62,13 @@
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
 
-                        <img class="img-fluid" src="assets/img/portfolio/03-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src="img/books/sinhalasb.png" alt="" />
                     </a>
                     <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Task Event Management</div>
-                        <div class="portfolio-caption-subheading text-muted">Training stream</div>
+                        <div class="portfolio-caption-heading"> Second Language Sinhala - Activity Book  </div>
+                        <div class="portfolio-caption-subheading text-muted">Grade 07</div>
                         <br>
-                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="#services">display</a>
+                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="pdf/L03_Need_Finding_User_Research_Techniques.pdf">display</a>
                     </div>
                 </div>
             </div>
@@ -76,13 +76,13 @@
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
 
-                        <img class="img-fluid" src="assets/img/portfolio/04-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src="img/books/sanskrit-book-1517907875-3630119.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading"> Story Book </div>
-                        <div class="portfolio-caption-subheading text-muted">Grade 05</div>
+                        <div class="portfolio-caption-heading"> Hindi Language</div>
+                        <div class="portfolio-caption-subheading text-muted"> Grade 10, 11</div>
                         <br>
-                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="#services">display</a>
+                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="pdf/L04_Design_for_Different_Interactions.pdf">display</a>
                     </div>
                 </div>
             </div>
@@ -90,13 +90,13 @@
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
 
-                        <img class="img-fluid" src="assets/img/portfolio/05-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src="img/books/physics-book-2057207-1731458.png" alt="" />
                     </a>
                     <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading"> Picture Dictionary Book </div>
-                        <div class="portfolio-caption-subheading text-muted">Grade 05</div>
+                        <div class="portfolio-caption-heading">  Physics </div>
+                        <div class="portfolio-caption-subheading text-muted"> Unit 5 -8, Sinhala</div>
                         <br>
-                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="#services">display</a>
+                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="pdf/L05_Design_Recommendations.pdf">display</a>
                     </div>
                 </div>
             </div>
@@ -104,13 +104,13 @@
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
 
-                        <img class="img-fluid" src="assets/img/portfolio/06-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src="img/books/physics-book-2054930-1730255.png" alt="" />
                     </a>
                     <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Tamil Language</div>
-                        <div class="portfolio-caption-subheading text-muted">Photography</div>
+                        <div class="portfolio-caption-heading">Physics</div>
+                        <div class="portfolio-caption-subheading text-muted">Unit 9 - Sinhala </div>
                         <br>
-                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="#services">display</a>
+                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="pdf/Surveys.pdf">display</a>
                     </div>
                 </div>
             </div>
