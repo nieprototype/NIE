@@ -39,8 +39,8 @@
                         <div class="portfolio-caption-heading">Travel and Hospitality Intermediate Module </div>
 
                         <div class="portfolio-caption-subheading text-muted">Grade 12 Sinhala</div>
-
-                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">display</a>
+                        <br>
+                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="#services">display</a>
                     </div>
                 </div>
             </div>
@@ -53,7 +53,8 @@
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Combined Mathematics coordinate-1_2</div>
                         <div class="portfolio-caption-subheading text-muted">Grade 12</div>
-                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">display</a>
+                        <br>
+                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="#services">display</a>
                     </div>
                 </div>
             </div>
@@ -66,7 +67,8 @@
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Task Event Management</div>
                         <div class="portfolio-caption-subheading text-muted">Training stream</div>
-                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">display</a>
+                        <br>
+                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="#services">display</a>
                     </div>
                 </div>
             </div>
@@ -79,7 +81,8 @@
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading"> Story Book </div>
                         <div class="portfolio-caption-subheading text-muted">Grade 05</div>
-                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">display</a>
+                        <br>
+                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="#services">display</a>
                     </div>
                 </div>
             </div>
@@ -92,7 +95,8 @@
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading"> Picture Dictionary Book </div>
                         <div class="portfolio-caption-subheading text-muted">Grade 05</div>
-                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger " href="#services">display</a>
+                        <br>
+                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="#services">display</a>
                     </div>
                 </div>
             </div>
@@ -105,7 +109,8 @@
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Tamil Language</div>
                         <div class="portfolio-caption-subheading text-muted">Photography</div>
-                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">display</a>
+                        <br>
+                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="#services">display</a>
                     </div>
                 </div>
             </div>
@@ -114,12 +119,11 @@
             
 
             <div class="col-12 m-4">
-                <div class="col-4 float-left"><span>&nbsp;&nbsp; </span></div>
+                <div class="col-5 float-left"><span>&nbsp;&nbsp; </span></div>
                 <div class="pagination__number blog__pagination col-4 float-left">
-                    <a href="#"> <span class="arrow_left"></span>Back</a>
-                    <a href="#">1</a>
-                    <a href="#">2</a>
-                    <a href="#">Next <span class="arrow_right"></span></a>
+                    <a href="publications2.php"> <span class="arrow_left"></span>Back</a>
+
+                    <a href="publication_suggestions.php">Next <span class="arrow_right p-3 w-50"></span></a>
                 </div>
                 <div class="col-4 float-right"><span><pre></pre> </span> </div>
             </div>

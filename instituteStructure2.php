@@ -80,19 +80,20 @@
 
                     <div class="p-md-4 mt-4">
                         <div class="col-md-12 ftco-animate" >
-                            <h1 >Director General</h1>
-                            <p>Dr. Sunil Jayantha Nawarathna</p>
-                            <p>Director General</p>
-                            <p>	+94-11-7601620</p>
-                            <p>+94-11-7601800</p>
-                            <p>dg@nie.edu.lk</p>
+                            <h1 >Faculty of Languages, Humanities and Social Sciences</h1>
+                            <br>
+                            <p>Dr. Darshana Samaraweera</p>
+                            <p>Deputy Director General</p>
+                            <p>	+94-11-7601701</p>
+                            <p>+94-11-7601719</p>
+                            <p>darshana@nie.edu.lk</p>
 
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-5 d-flex align-items-stretch">
-                <div class="img w-100" style="background-image: url(img/person_1.jpg);"></div>
+                <div class="img w-100" style="background-image: url(img/People/blake-barlow-qzqqoIIE_j0-unsplash.jpg);"></div>
             </div>
         </div>
     </div>
@@ -117,22 +118,22 @@
                             <div class="text">
 
                                 <div class="pl-5">
-                                    <p class="name">Mrs. A.A.R.C. Rajapaksha</p>
-                                    <span class="position">Human Resource officer I</span>
+                                    <p class="name">Mr. H.P. Kanth</p>
+                                    <span class="position">Office Secretary</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="testimony-wrap p-4 pb-5">
-                            <div class="user-img mb-4" style="background-image: url(img/person_2.jpg)">
+                            <div class="user-img mb-4" style="background-image: url(img/People/timothy-dykes-90uVYog2FKE-unsplash.jpg)">
 
                             </div>
                             <div class="text">
 
                                 <div class="pl-5">
-                                    <p class="name">Mrs. D.L.P.C. Senanayaka	</p>
-                                    <span class="position">Board Secretary	</span>
+                                    <p class="name">Miss. N. Nandini</p>
+                                    <span class="position">Management Assistant - I</span>
                                 </div>
                             </div>
                         </div>
@@ -145,82 +146,30 @@
                             <div class="text">
 
                                 <div class="pl-5">
-                                    <p class="name">Mrs. H.S. Hewawasam</p>
-                                    <span class="position">Office Secretary</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimony-wrap p-4 pb-5">
-                            <div class="user-img mb-4" style="background-image: url(img/person_1.jpg)">
-
-                            </div>
-                            <div class="text">
-
-                                <div class="pl-5">
-                                    <p class="name">Mrs. W.M. Dammika</p>
-                                    <span class="position">Technical Officer</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimony-wrap p-4 pb-5">
-                            <div class="user-img mb-4" style="background-image: url(img/person_1.jpg)">
-
-                            </div>
-                            <div class="text">
-
-                                <div class="pl-5">
-                                    <p class="name">Mrs. G.K.A.K.K. Gajanayake</p>
-                                    <span class="position">Management Assistant - I	</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimony-wrap p-4 pb-5">
-                            <div class="user-img mb-4" style="background-image: url(img/person_1.jpg)">
-
-                            </div>
-                            <div class="text">
-
-                                <div class="pl-5">
-                                    <p class="name">Mrs. P.A.G. Padminee</p>
-                                    <span class="position">Management Assistant - I	</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimony-wrap p-4 pb-5">
-                            <div class="user-img mb-4" style="background-image: url(img/person_1.jpg)">
-
-                            </div>
-                            <div class="text">
-
-                                <div class="pl-5">
-                                    <p class="name">Mr. J.M. Amarasiri</p>
-                                    <span class="position">Office Aide I</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimony-wrap p-4 pb-5">
-                            <div class="user-img mb-4" style="background-image: url(img/person_1.jpg)">
-
-                            </div>
-                            <div class="text">
-
-                                <div class="pl-5">
-                                    <p class="name">Mr. A.V.D.P. Leelarathna</p>
+                                    <p class="name">Mr. H.H.N. Prasad</p>
                                     <span class="position">Office Aide III</span>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="item">
+                        <div class="testimony-wrap p-4 pb-5">
+                            <div class="user-img mb-4" style="background-image: url(img/person_2.jpg)">
+
+                            </div>
+                            <div class="text">
+
+                                <div class="pl-5">
+                                    <p class="name">Mr. W.M. Dammika</p>
+                                    <span class="position">Technical Officer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
                 </div>
             </div>
         </div>
@@ -256,19 +205,20 @@
 
                     <div class="p-md-4 mt-4">
                         <div class="col-md-12 ftco-animate" >
-                            <h1>Director General</h1>
-                            <p>Dr. Sunil Jayantha Nawarathna</p>
-                            <p>Director General</p>
+                            <h1>Department of Early Childhood Development & Primary Education</h1>
+                            <br>
+                            <p>Ms. R. M. K. de Silva</p>
+                            <p>Director</p>
                             <p>	+94-11-7601620</p>
-                            <p>+94-11-7601800</p>
-                            <p>dg@nie.edu.lk</p>
+                            <p>+94-117601730</p>
+                            <p>rmkumudu@yahoo.com</p>
 
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-5 d-flex align-items-stretch">
-                <div class="img w-100" style="background-image: url(img/SunilNawarathne.jpg);"></div>
+                <div class="img w-100" style="background-image: url(img/People/michael-dam-mEZ3PoFGs_k-unsplash.jpg);"></div>
             </div>
         </div>
     </div>
@@ -280,7 +230,7 @@
 <section class="ftco-section testimony-section" id="testimonial">
     <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
-            <h1>STAFF</h1>
+            <h1 style="color: white">STAFF</h1>
         </div>
         <div class="row ftco-animate">
             <div class="col-md-12">
@@ -293,8 +243,8 @@
                             <div class="text">
 
                                 <div class="pl-5">
-                                    <p class="name">Mrs. A.A.R.C. Rajapaksha</p>
-                                    <span class="position">Human Resource officer I</span>
+                                    <p class="name">Mr. S. Udayasandiran</p>
+                                    <span class="position">Senior Lecturer</span>
                                 </div>
                             </div>
                         </div>
@@ -307,22 +257,22 @@
                             <div class="text">
 
                                 <div class="pl-5">
-                                    <p class="name">Mrs. D.L.P.C. Senanayaka	</p>
-                                    <span class="position">Board Secretary	</span>
+                                    <p class="name">Mr. W. G. S. Kumara	</p>
+                                    <span class="position">Senior Lecturer	</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="testimony-wrap p-4 pb-5">
-                            <div class="user-img mb-4" style="background-image: url(img/person_3.jpg)">
+                            <div class="user-img mb-4" style="background-image: url(img/People/eugene-chystiakov-vvsGsK5-RLo-unsplash.jpg)">
 
                             </div>
                             <div class="text">
 
                                 <div class="pl-5">
-                                    <p class="name">Mrs. H.S. Hewawasam</p>
-                                    <span class="position">Office Secretary</span>
+                                    <p class="name">Ms. J. A. N. D. Jayasinghe</p>
+                                    <span class="position">Ms. S. M. S. Deshappriya</span>
                                 </div>
                             </div>
                         </div>
@@ -336,20 +286,20 @@
 
                                 <div class="pl-5">
                                     <p class="name">Mrs. W.M. Dammika</p>
-                                    <span class="position">Technical Officer	</span>
+                                    <span class="position">Senior Lecturer	</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="testimony-wrap p-4 pb-5">
-                            <div class="user-img mb-4" style="background-image: url(img/person_1.jpg)">
+                            <div class="user-img mb-4" style="background-image: url(img/person_2.jpg)">
 
                             </div>
                             <div class="text">
 
                                 <div class="pl-5">
-                                    <p class="name">Mrs. G.K.A.K.K. Gajanayake</p>
+                                    <p class="name">Mr. G.K.A.K.K. Gajanayake</p>
                                     <span class="position">Management Assistant - I	</span>
                                 </div>
                             </div>
@@ -357,13 +307,13 @@
                     </div>
                     <div class="item">
                         <div class="testimony-wrap p-4 pb-5">
-                            <div class="user-img mb-4" style="background-image: url(img/person_1.jpg)">
+                            <div class="user-img mb-4" style="background-image: url(img/person_3.jpg)">
 
                             </div>
                             <div class="text">
 
                                 <div class="pl-5">
-                                    <p class="name">Mrs. P.A.G. Padminee</p>
+                                    <p class="name">Mr. P.A.G. Padminee</p>
                                     <span class="position">Management Assistant - I	</span>
                                 </div>
                             </div>
@@ -385,7 +335,7 @@
                     </div>
                     <div class="item">
                         <div class="testimony-wrap p-4 pb-5">
-                            <div class="user-img mb-4" style="background-image: url(img/person_1.jpg)">
+                            <div class="user-img mb-4" style="background-image: url(img/person_2.jpg)">
 
                             </div>
                             <div class="text">
@@ -431,19 +381,20 @@
 
                     <div class="p-md-4 mt-4">
                         <div class="col-md-12 ftco-animate">
-                            <h1>Director General</h1>
-                            <p>Dr. Sunil Jayantha Nawarathna</p>
-                            <p>Director General</p>
+                            <h1>Department of Sinhala</h1>
+                            <br>
+                            <p>M.R.W.Madduma</p>
+                            <p>Director </p>
                             <p>	+94-11-7601620</p>
                             <p>+94-11-7601800</p>
-                            <p>dg@nie.edu.lk</p>
+                            <p>mrw_madduma@yahoo.com</p>
 
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-5 d-flex align-items-stretch">
-                <div class="img w-100" style="background-image: url(img/SunilNawarathne.jpg);"></div>
+                <div class="img w-100" style="background-image: url(img/People/usman-yousaf-GFOlzpLuiCg-unsplash.jpg);"></div>
             </div>
         </div>
     </div>
@@ -455,7 +406,7 @@
 <section class="ftco-section testimony-section" id="testimonial">
     <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
-            <h1>STAFF</h1>
+            <h1 style="color: white">STAFF</h1>
         </div>
         <div class="row ftco-animate">
             <div class="col-md-12">
@@ -468,8 +419,8 @@
                             <div class="text">
 
                                 <div class="pl-5">
-                                    <p class="name">Mrs. A.A.R.C. Rajapaksha</p>
-                                    <span class="position">Human Resource officer I</span>
+                                    <p class="name">Mr. A.A.R.C. Rajapaksha</p>
+                                    <span class="position">Senior Lecturer</span>
                                 </div>
                             </div>
                         </div>
@@ -482,8 +433,8 @@
                             <div class="text">
 
                                 <div class="pl-5">
-                                    <p class="name">Mrs. D.L.P.C. Senanayaka	</p>
-                                    <span class="position">Board Secretary	</span>
+                                    <p class="name">Mr. D.L.P.C. Senanayaka	</p>
+                                    <span class="position">Senior Lecturer	</span>
                                 </div>
                             </div>
                         </div>
@@ -496,8 +447,8 @@
                             <div class="text">
 
                                 <div class="pl-5">
-                                    <p class="name">Mrs. H.S. Hewawasam</p>
-                                    <span class="position">Office Secretary</span>
+                                    <p class="name">Mr. H.S. Hewawasam</p>
+                                    <span class="position">Senior Lecturer</span>
                                 </div>
                             </div>
                         </div>
@@ -510,36 +461,36 @@
                             <div class="text">
 
                                 <div class="pl-5">
-                                    <p class="name">Mrs. W.M. Dammika</p>
-                                    <span class="position">Technical Officer	</span>
+                                    <p class="name">Mr. W.M. Dammika</p>
+                                    <span class="position">Senior Lecturer	</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="testimony-wrap p-4 pb-5">
-                            <div class="user-img mb-4" style="background-image: url(img/person_1.jpg)">
+                            <div class="user-img mb-4" style="background-image: url(img/person_2.jpg)">
 
                             </div>
                             <div class="text">
 
                                 <div class="pl-5">
-                                    <p class="name">Mrs. G.K.A.K.K. Gajanayake</p>
-                                    <span class="position">Management Assistant - I	</span>
+                                    <p class="name">Mr. G.K.A.K.K. Gajanayake</p>
+                                    <span class="position"> Assistant Lecturer	</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="testimony-wrap p-4 pb-5">
-                            <div class="user-img mb-4" style="background-image: url(img/person_1.jpg)">
+                            <div class="user-img mb-4" style="background-image: url(img/person_3.jpg)">
 
                             </div>
                             <div class="text">
 
                                 <div class="pl-5">
-                                    <p class="name">Mrs. P.A.G. Padminee</p>
-                                    <span class="position">Management Assistant - I	</span>
+                                    <p class="name">Mr. P.A.G. Padma</p>
+                                    <span class="position">Assistant Lecturer	</span>
                                 </div>
                             </div>
                         </div>
@@ -553,21 +504,21 @@
 
                                 <div class="pl-5">
                                     <p class="name">Mr. J.M. Amarasiri</p>
-                                    <span class="position">Office Aide I</span>
+                                    <span class="position">Assistant Lecturer/span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="testimony-wrap p-4 pb-5">
-                            <div class="user-img mb-4" style="background-image: url(img/person_1.jpg)">
+                            <div class="user-img mb-4" style="background-image: url(img/person_2.jpg)">
 
                             </div>
                             <div class="text">
 
                                 <div class="pl-5">
                                     <p class="name">Mr. A.V.D.P. Leelarathna</p>
-                                    <span class="position">Office Aide III</span>
+                                    <span class="position">Management Assistant - III</span>
                                 </div>
                             </div>
                         </div>
@@ -606,19 +557,20 @@
 
                     <div class="p-md-4 mt-4">
                         <div class="col-md-12 ftco-animate">
-                            <h1>Director General</h1>
-                            <p>Dr. Sunil Jayantha Nawarathna</p>
-                            <p>Director General</p>
+                            <h1>Department of Tamil Language</h1>
+                            <br>
+                            <p>Dr. K. Prabaharan</p>
+                            <p>Director</p>
                             <p>	+94-11-7601620</p>
                             <p>+94-11-7601800</p>
-                            <p>dg@nie.edu.lk</p>
+                            <p>kpraba@nie.edu.lk</p>
 
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-5 d-flex align-items-stretch">
-                <div class="img w-100" style="background-image: url(img/SunilNawarathne.jpg);"></div>
+                <div class="img w-100" style="background-image: url(img/People/hannah-nicollet-JQ2D4I-2eyw-unsplash.jpg);"></div>
             </div>
         </div>
     </div>
@@ -630,7 +582,7 @@
 <section class="ftco-section testimony-section" id="testimonial">
     <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
-            <h1>STAFF</h1>
+            <h1 style="color: white">STAFF</h1>
         </div>
         <div class="row ftco-animate">
             <div class="col-md-12">
@@ -643,8 +595,8 @@
                             <div class="text">
 
                                 <div class="pl-5">
-                                    <p class="name">Mrs. A.A.R.C. Rajapaksha</p>
-                                    <span class="position">Human Resource officer I</span>
+                                    <p class="name">Mr. M. Thayanithi</p>
+                                    <span class="position">Senior Lecturer</span>
                                 </div>
                             </div>
                         </div>
@@ -657,8 +609,8 @@
                             <div class="text">
 
                                 <div class="pl-5">
-                                    <p class="name">Mrs. D.L.P.C. Senanayaka	</p>
-                                    <span class="position">Board Secretary	</span>
+                                    <p class="name">Mr. P. Suman	</p>
+                                    <span class="position">Assistant Lecturer</span>
                                 </div>
                             </div>
                         </div>
@@ -671,8 +623,8 @@
                             <div class="text">
 
                                 <div class="pl-5">
-                                    <p class="name">Mrs. H.S. Hewawasam</p>
-                                    <span class="position">Office Secretary</span>
+                                    <p class="name">Mr. A. Lohageetha</p>
+                                    <span class="position">Assistant Lecturer</span>
                                 </div>
                             </div>
                         </div>
@@ -685,63 +637,37 @@
                             <div class="text">
 
                                 <div class="pl-5">
-                                    <p class="name">Mrs. W.M. Dammika</p>
-                                    <span class="position">Technical Officer	</span>
+                                    <p class="name">Mr. T. Ravichandran</p>
+                                    <span class="position">Assistant Lecturer</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="testimony-wrap p-4 pb-5">
-                            <div class="user-img mb-4" style="background-image: url(img/person_1.jpg)">
+                            <div class="user-img mb-4" style="background-image: url(img/person_2.jpg)">
 
                             </div>
                             <div class="text">
 
                                 <div class="pl-5">
-                                    <p class="name">Mrs. G.K.A.K.K. Gajanayake</p>
-                                    <span class="position">Management Assistant - I	</span>
+                                    <p class="name">Mr. V.J. Liyanage</p>
+                                    <span class="position">Management Assistant - II	</span>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+
                     <div class="item">
                         <div class="testimony-wrap p-4 pb-5">
-                            <div class="user-img mb-4" style="background-image: url(img/person_1.jpg)">
+                            <div class="user-img mb-4" style="background-image: url(img/person_3.jpg)">
 
                             </div>
                             <div class="text">
 
                                 <div class="pl-5">
-                                    <p class="name">Mrs. P.A.G. Padminee</p>
-                                    <span class="position">Management Assistant - I	</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimony-wrap p-4 pb-5">
-                            <div class="user-img mb-4" style="background-image: url(img/person_1.jpg)">
-
-                            </div>
-                            <div class="text">
-
-                                <div class="pl-5">
-                                    <p class="name">Mr. J.M. Amarasiri</p>
-                                    <span class="position">Office Aide I</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimony-wrap p-4 pb-5">
-                            <div class="user-img mb-4" style="background-image: url(img/person_1.jpg)">
-
-                            </div>
-                            <div class="text">
-
-                                <div class="pl-5">
-                                    <p class="name">Mr. A.V.D.P. Leelarathna</p>
+                                    <p class="name">Mr. I.P. Nawarathna</p>
                                     <span class="position">Office Aide III</span>
                                 </div>
                             </div>
