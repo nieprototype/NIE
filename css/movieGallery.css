@@ -1,14 +1,30 @@
-.container-fluid {
-    margin-top: 10px;
-    margin-bottom: 10px;
+.containr {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-.leftCol {
-    padding: 10px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+    color: white;
+}
+
+.leftCol h4 {
+    margin-left: 20%;
+    color: white;
 }
 
 .leftCol img {
     height: 250px;
+    border: 1px black solid;
 }
 
 .topic {
@@ -16,7 +32,7 @@
 }
 
 .videoUploadForm {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     padding: 2%;
 }
 
@@ -65,17 +81,13 @@
 }
 
 .recentUploads {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     padding: 2%;
     height: 65%;
 }
 
-.row {
-    margin-bottom: 10px;
-}
-
 .col-sm img {
-    width: 70%;
+    width: 80%;
 }
 
 .overlay {
@@ -123,4 +135,77 @@
 .text a:hover {
     color: white;
     transition: .5s ease;
+}
+
+.nice-select {
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: white 1px solid;
+    font-weight: bold;
+}
+
+.nice-select:hover {
+    border-color: gold;
+    color: gold;
+}
+
+.selectCat,
+.nice-select.open .list {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.nice-select .option:hover,
+.nice-select .option.focus {
+    color: white;
+}
+
+.nice-select .option.selected {
+    color: black;
+}
+
+.nice-select .option.selected.focus {
+    color: white;
+    background-color: black;
+}
+
+.nice-select .option.selected.focus:hover {
+    color: black;
+    background-color: gold;
+}
+
+.nice-select .option:hover {
+    color: black;
+}
+
+#videotopic {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+#videotopic:hover {
+    color: gold;
+    font-weight: bold;
+    border: 1px solid gold;
+}
+
+#filename {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+#filename:hover {
+    color: gold;
+    font-weight: bold;
+    border: 1px solid gold;
+}
+
+#videoUploadForm .row {
+    margin-bottom: 15px;
 }
