@@ -2,7 +2,7 @@
 <html lang="en" xmlns:color="http://www.w3.org/1999/xhtml">
 <?php include 'includes/header1.html' ?>
 <head>
-    <title>Snapshot - Free Bootstrap 4 Template by Colorlib</title>
+    <title>National Institute of Education</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 

@@ -1,4 +1,4 @@
-<?php include 'includes/header1.html' ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Agency - Start Bootstrap Theme</title>
+    <title>National Institute of Education</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles_pub.css" rel="stylesheet" />
+    <?php include 'includes/header1.html' ?>
 </head>
 <body id="page-top">
 
@@ -65,8 +66,10 @@
                         <img class="img-fluid" src="img/books/BUSINESSMAN_IN_SUIT_HOLD_A_CALENDAR_ON_HIS_HAND.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Task Event Management &nbsp;</div>
+                        <div class="portfolio-caption-heading">Task Event Management &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+
                         <div class="portfolio-caption-subheading text-muted">Training stream</div>
+
                         <br>
                         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3 w-50" href="pdf/L03_Need_Finding_User_Research_Techniques.pdf">display</a>
                     </div>
@@ -140,36 +143,19 @@
             <h1 class="section-heading text-uppercase">Provide Your Suggestions</h1>
             <br>
         </div>
+
         <form id="contactForm" name="sentMessage" novalidate="novalidate">
-            <div class="row align-items-stretch mb-5">
-                <div class="col-md-6">
+            <div class="row align-items-stretch ">
+                <div class="col-md-6" >
+                    <div class="form-group  pb-5 ">
+                        <select class="form-control w-100 pt-2 pb-5 dropdown" id=""  placeholder="Unit/Page No"  required>
+                            <option value="" disabled selected hidden>Medium</option>
+                            <option >Sinhala</option>
+                            <option >English</option>
+                            <option class="w-100"> Tamil</option>
 
-                    <div class="form-group">
-                        <div >
-                               <select class="form-control" id="" type="text" placeholder="Medium"  >
-
-
-                                       <option disabled="disabled" selected="selected">Medium</option>
-                                       <option>Sinhala</option>
-                                       <option>English</option>
-                                       <option>Tamil</option>
-                               </select>
-
-
-                        </div>
+                        </select>
                     </div>
-
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown button
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">hh</a>
-                            <a class="dropdown-item" href="#">hjh</a>
-                            <a class="dropdown-item" href="#">hhjjh</a>
-                        </div>
-                    </div>
-
 
 
 
@@ -196,14 +182,41 @@
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
+
+
                 <div class="col-md-6">
                     <div class="form-group form-group-textarea mb-md-0">
-                        <input class="form-control" id="message" placeholder="Book "  data-validation-required-message="Please select a book."/input>
-                        <p class="help-block text-danger"></p>
+                        <div class="form-group  pb-5 ">
+                            <select class="form-control w-100 pt-2 pb-5 dropdown" id=""  placeholder="Unit/Page No"  required>
+                                <option value="" disabled selected hidden>Books</option>
+                                <option >Travel and Hospitality Intermediate Module</option>
+                                <option >Combined Mathematics coordinate-1_2</option>
+                                <option >Task Event Management </option>
+                                <option >Event Management</option>
+                                <option >Story Book</option>
+                                <option >Picture Dictionary Book</option>
+                                <option >Tamil Language</option>
+                                <option >Horticulture Sinhala- Module 01</option>
+                                <option >Horticulture Tamil- Module 01</option>
+                                <option >Horticulture Sinhala - Module 02</option>
+                                <option >Horticulture Tamil - Module 02</option>
+                                <option >Physics Science Resource Book Unit 11 - Sinhala</option>
+                                <option >Sinhala Language and Literature Activity Book Grade 06</option>
+                                <option >Second Language Sinhala - Activity Book Grade 07</option>
+                                <option >Hindi Language Grade 10, 11</option>
+                                <option >Physics Unit 5 -8, Sinhala</option>
+                                <option class="w-100">Physics Unit 9 - Sinhala</option>
+
+                            </select>
+                        </div>
 
                         <div class="form-group">
                             <textarea class="form-control" maxlength="200" style="margin-top: 22px" id="name" type="text" placeholder="Suggestions " required="required" data-validation-required-message="Please enter a message."></textarea>
                             <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="float-right">
+                            <div id="success"></div>
+                            <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">SUBMIT</button>
                         </div>
                     </div>
 
@@ -211,11 +224,13 @@
                 </div>
 
             </div>
-            <div class="text-center">
-                <div id="success"></div>
-                <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">SUBMIT</button>
-            </div>
+
         </form>
+
+
+
+
+
     </div>
 </section>
 

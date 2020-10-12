@@ -11,7 +11,7 @@
     <meta name="keywords" content="Colorlib Templates">
 
     <!-- Title Page-->
-    <title>Au Register Forms by Colorlib</title>
+    <title>National Institute of Education</title>
 
     <!-- Icons font CSS-->
     <link href="vendor_queries/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">

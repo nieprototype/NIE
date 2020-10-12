@@ -2,7 +2,7 @@
 <html lang="en" xmlns:color="http://www.w3.org/1999/xhtml">
 <?php include 'includes/header1.html' ?>
 <head>
-    <title>Snapshot - Free Bootstrap 4 Template by Colorlib</title>
+    <title>National Institute of Education</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -209,18 +209,18 @@
                         <div class="col-md-12 ftco-animate" >
                             <h1>Department of Teacher Education</h1>
                             <br>
-                            <p>Jayantha Nawarathna</p>
+                            <p>Pavan Somarathne</p>
                             <p>Director</p>
                             <p>	+94-11-7601620</p>
                             <p>+94-11-7601800</p>
-                            <p>dg@nie.edu.lk</p>
+                            <p>ps@nie.edu.lk</p>
 
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-5 d-flex align-items-stretch">
-                <div class="img w-100" style="background-image: url(img/People/alejandro-vergara-blanco-872557_1920.jpg);"></div>
+                <div class="img w-100" style="background-image: url(img/People/about1.jpg);"></div>
             </div>
         </div>
     </div>
