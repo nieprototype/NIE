@@ -52,7 +52,7 @@
                         </div>
 
                         <!--begin::Form-->
-                        <form class="kt-form kt-form--label-right">
+                        <form id="down_materials" class="kt-form kt-form--label-right">
                             <div class="kt-portlet__body">
                                 <div class="form-group row">
                                     <label class="col-lg-3 col-form-label">Title of the Material :</label>
@@ -65,16 +65,16 @@
                                     <label class="col-lg-3 col-form-label" for="type">Type of the Material :</label>
                                     &nbsp; &nbsp;&nbsp;
                                     <select class="col-2" id="type">
-                                        <option>Syllabus</option>
-                                        <option>Teacher's Guide</option>
-                                        <option>Other Material</option>
+                                        <option value="Syllabus">Syllabus</option>
+                                        <option value="Teacher's Guide">Teacher's Guide</option>
+                                        <option value="Other Material">Other Material</option>
                                     </select>
                                 </div>
 
                                 <div class="form-group row">
                                     <label class="col-lg-3 col-form-label" for="type">Related Grade of the Material :</label>
                                     &nbsp; &nbsp;&nbsp;
-                                    <select class="col-2" id="type">
+                                    <select class="col-2" id="grade">
 
                                         <?php
 
@@ -85,7 +85,7 @@
 
                                         ?>
 
-                                        <option>Grade <?php echo $i;
+                                        <option value="Grade <?php echo $i; ?>">Grade <?php echo $i;
                                         $i++; ?></option>
 
                                         <?php
@@ -100,31 +100,31 @@
                                 <div class="form-group row">
                                     <label class="col-lg-3 col-form-label" for="type">Related Subject of the Material :</label>
                                     &nbsp; &nbsp;&nbsp;
-                                    <select class="col-4" id="type">
-                                        <option>Information and Communication Technology</option>
-                                        <option>Sinhala</option>
-                                        <option>English</option>
-                                        <option>Tamil</option>
-                                        <option>Buddhism</option>
-                                        <option>Islam</option>
-                                        <option>Catholic</option>
-                                        <option>Science</option>
-                                        <option>Mathematics</option>
-                                        <option>History</option>
-                                        <option>Geography</option>
-                                        <option>Health and Physical Education</option>
-                                        <option>Music</option>
-                                        <option>Life Competencies and Citizenship Education</option>
-                                        <option>Biology</option>
-                                        <option>Physics</option>
-                                        <option>Chemistry</option>
-                                        <option>Business Studies</option>
-                                        <option>Accounting</option>
-                                        <option>IT (A/L)</option>
-                                        <option>Economics</option>
-                                        <option>Languages</option>
-                                        <option>Mathematics (A/L)</option>
-                                        <option>English Literature</option>
+                                    <select class="col-4" id="subject">
+                                        <option value="Information and Communication Technology">Information and Communication Technology</option>
+                                        <option value="Sinhala">Sinhala</option>
+                                        <option value="English">English</option>
+                                        <option value="Tamil">Tamil</option>
+                                        <option value="Buddhism">Buddhism</option>
+                                        <option value="Islam">Islam</option>
+                                        <option value="Catholic">Catholic</option>
+                                        <option value="Science">Science</option>
+                                        <option value="Mathematics">Mathematics</option>
+                                        <option value="History">History</option>
+                                        <option value="Geography">Geography</option>
+                                        <option value="Health and Physical Education">Health and Physical Education</option>
+                                        <option value="Music">Music</option>
+                                        <option value="Life Competencies and Citizenship Education">Life Competencies and Citizenship Education</option>
+                                        <option value="Biology">Biology</option>
+                                        <option value="Physics">Physics</option>
+                                        <option value="Chemistry">Chemistry</option>
+                                        <option value="Business Studies">Business Studies</option>
+                                        <option value="Accounting">Accounting</option>
+                                        <option value="IT (A/L)">IT (A/L)</option>
+                                        <option value="Economics">Economics</option>
+                                        <option value="Languages">Languages</option>
+                                        <option value="Mathematics (A/L)">Mathematics (A/L)</option>
+                                        <option value="English Literature">English Literature</option>
 
                                     </select>
                                 </div>
@@ -132,17 +132,17 @@
                                 <div class="form-group row">
                                     <label class="col-lg-3 col-form-label" for="type">Language of the Material :</label>
                                     &nbsp; &nbsp;&nbsp;
-                                    <select class="col-2" id="type">
-                                        <option>Sinahala</option>
-                                        <option>English</option>
-                                        <option>Tamil</option>
+                                    <select class="col-2" id="lan">
+                                        <option value="Sinhala">Sinhala</option>
+                                        <option value="English">English</option>
+                                        <option value="Tamil">Tamil</option>
                                     </select>
                                 </div>
 
                                 <div class="form-group row">
                                     <label class="col-lg-3 col-form-label">Description :</label>
                                     <div class="col-lg-7">
-                                        <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Please enter a short description on the uploading material"></textarea>
+                                        <textarea class="form-control" id="desc" rows="3" placeholder="Please enter a short description on the uploading material"></textarea>
                                         <span class="form-text text-muted">Short description on the material</span>
                                     </div>
                                 </div>
@@ -157,7 +157,7 @@
                                                 <div class="dropzone-item" style="display:none">
                                                     <div class="dropzone-file">
                                                         <div class="dropzone-filename" title="some_image_file_name.jpg">
-                                                            <span data-dz-name>some_image_file_name.jpg</span> <strong>(<span  data-dz-size>340kb</span>)</strong>
+                                                            <span id="filename" data-dz-name>some_image_file_name.jpg</span> <strong>(<span  data-dz-size>340kb</span>)</strong>
                                                         </div>
                                                         <div class="dropzone-error" data-dz-errormessage></div>
                                                     </div>
@@ -183,7 +183,7 @@
                                         <div style="font-family: 'Barlow Condensed', sans-serif; font-size: 14px;" class="col-lg-6">
                                             <button style="border-radius:0px; padding: 8px; width: 20%;" onclick="download_input()" type="button" class="btn primary-btn">Submit</button>
                                            &nbsp;
-                                            <button style="border-radius:0px; padding: 8px; width: 20%; background-color: lightgrey; color: #1a1a1a;" type="reset" onClick="window.parent.location = window.parent.location.href;" class="btn primary-btn">Cancel</button>
+                                            <button style="border-radius:0px; padding: 8px; width: 20%; background-color: lightgrey; color: #1a1a1a;" type="reset" onClick="reset()" class="btn primary-btn">Cancel</button>
                                         </div>
                                     </div>
                                 </div>
@@ -280,7 +280,7 @@
                                     <td id="d_subject"></td>
                                     <td id="d_lan"></td>
                                     <td id="d_desc"></td>
-                                   <td style="text-align: center;"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1"><img src="img/downloads/pdf2.png" width="50px"></a></td>
+                                   <td style="text-align: center;"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1"><img src="img/downloads/pdf2.png" width="50px"> <span id="file_d"></span></a></td>
                                 </tr>
 
 

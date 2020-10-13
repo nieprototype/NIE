@@ -344,7 +344,6 @@
     var startProductBarPos = -1;
 
 
-
     window.onscroll = function () {
         var bar = document.getElementById('stick');
         if (startProductBarPos < 0) startProductBarPos = findPosY(bar);
@@ -352,7 +351,6 @@
         if (pageYOffset > startProductBarPos) {
             bar.style.position = 'fixed';
             bar.style.top = 0;
-
 
 
             function myFunction(x) {
@@ -402,16 +400,23 @@
 <script>
     function download_input() {
 
-        var title_d = document.getElementById('title').value;
-        var type_d = document.getElementById('title').value;
-        var title_d = document.getElementById('title').value;
-        var title_d = document.getElementById('title').value;
-        var title_d = document.getElementById('title').value;
-        var title_d = document.getElementById('title').value;
+        var table = $('#kt_table_1').DataTable();
 
+        var title_d = document.getElementById('title').value;
+        var type_d = document.getElementById('type').value;
+        var grade_d = document.getElementById('grade').value;
+        var subject_d = document.getElementById('subject').value;
+        var lan_d = document.getElementById('lan').value;
+        var desc_d = document.getElementById('desc').value;
 
+        if (title_d == '' || desc_d ==''){
 
+            swal.fire("All Fields Required !", "Please Fill All the Required Fields.", "warning");
+            document.getElementById('title').className = 'form-control is-invalid';
+            document.getElementById('desc').className = 'form-control is-invalid';
+            return false;
 
+        }
 
         document.getElementById('d_title').innerHTML = title_d;
         document.getElementById('d_type').innerHTML = type_d;
@@ -420,13 +425,18 @@
         document.getElementById('d_lan').innerHTML = lan_d;
         document.getElementById('d_desc').innerHTML = desc_d;
 
-
-        document.getElementById('downloads_upload').style.display = 'revert';
+        $('#downloads_upload').show();
+        table.draw();
 
         swal.fire("Successfully Uploaded !", "Downloadable Material Added Successfully.", "success");
+
+        document.getElementById('title').className = 'form-control';
+        document.getElementById('desc').className = 'form-control';
+
+        document.getElementById("down_materials").reset();
+
     }
 </script>
-
 
 
 </body>
