@@ -42,10 +42,12 @@
             box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ; font-family: Poppins, sans-serif; font-size: 14px;" class="kt-portlet kt-margin-top-30">
                         <div class="kt-portlet__head">
                             <div class="kt-portlet__head-label">
-                                <h2 style="font-family: 'Barlow Condensed', sans-serif; font-size: 20px;"
-                                    class="kt-portlet__head-title">
-                                    Add a new downloadable material
-                                </h2>
+	<span class="kt-portlet__head-icon">
+											              <span style="color: #E9AD28; font-size: 18px;" class="icon_folder-add_alt"></span>
+										</span>
+
+                                <h3 style="font-size: 18px; color: #E9AD28; font-weight: 500;">
+                                    Add a new downloadable material            </h3>
                             </div>
                         </div>
 
@@ -53,28 +55,95 @@
                         <form class="kt-form kt-form--label-right">
                             <div class="kt-portlet__body">
                                 <div class="form-group row">
-                                    <label class="col-lg-3 col-form-label">Full Name:</label>
+                                    <label class="col-lg-3 col-form-label">Title of the Material :</label>
                                     <div class="col-lg-7">
-                                        <input type="name" class="form-control" placeholder="Enter full name">
-                                        <span class="form-text text-muted">Please enter your full name</span>
+                                        <input type="text" name="title" id="title" class="form-control" placeholder="Name of the Downloadable Material">
+                                        <span class="form-text text-muted">Please enter the title of the material</span>
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label class="col-lg-3 col-form-label" for="type">Default Select :</label>
+                                    <label class="col-lg-3 col-form-label" for="type">Type of the Material :</label>
                                     &nbsp; &nbsp;&nbsp;
-                                    <select class="col-4" id="type">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
+                                    <select class="col-2" id="type">
+                                        <option>Syllabus</option>
+                                        <option>Teacher's Guide</option>
+                                        <option>Other Material</option>
                                     </select>
                                 </div>
+
                                 <div class="form-group row">
-                                    <label class="col-lg-3 col-form-label">Message:</label>
+                                    <label class="col-lg-3 col-form-label" for="type">Related Grade of the Material :</label>
+                                    &nbsp; &nbsp;&nbsp;
+                                    <select class="col-2" id="type">
+
+                                        <?php
+
+                                        $i = 1;
+                                        while ($i < 14){
+
+
+
+                                        ?>
+
+                                        <option>Grade <?php echo $i;
+                                        $i++; ?></option>
+
+                                        <?php
+
+                                        }
+
+                                        ?>
+
+                                    </select>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label class="col-lg-3 col-form-label" for="type">Related Subject of the Material :</label>
+                                    &nbsp; &nbsp;&nbsp;
+                                    <select class="col-4" id="type">
+                                        <option>Information and Communication Technology</option>
+                                        <option>Sinhala</option>
+                                        <option>English</option>
+                                        <option>Tamil</option>
+                                        <option>Buddhism</option>
+                                        <option>Islam</option>
+                                        <option>Catholic</option>
+                                        <option>Science</option>
+                                        <option>Mathematics</option>
+                                        <option>History</option>
+                                        <option>Geography</option>
+                                        <option>Health and Physical Education</option>
+                                        <option>Music</option>
+                                        <option>Life Competencies and Citizenship Education</option>
+                                        <option>Biology</option>
+                                        <option>Physics</option>
+                                        <option>Chemistry</option>
+                                        <option>Business Studies</option>
+                                        <option>Accounting</option>
+                                        <option>IT (A/L)</option>
+                                        <option>Economics</option>
+                                        <option>Languages</option>
+                                        <option>Mathematics (A/L)</option>
+                                        <option>English Literature</option>
+
+                                    </select>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label class="col-lg-3 col-form-label" for="type">Language of the Material :</label>
+                                    &nbsp; &nbsp;&nbsp;
+                                    <select class="col-2" id="type">
+                                        <option>Sinahala</option>
+                                        <option>English</option>
+                                        <option>Tamil</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label class="col-lg-3 col-form-label">Description :</label>
                                     <div class="col-lg-7">
-                                        <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Please enter your message"></textarea>
-                                        <span class="form-text text-muted">We'll never share your message with anyone else.</span>
+                                        <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Please enter a short description on the uploading material"></textarea>
+                                        <span class="form-text text-muted">Short description on the material</span>
                                     </div>
                                 </div>
                                 <div class="form-group form-group-last row">
@@ -112,7 +181,7 @@
                                     <div class="row">
                                         <div class="col-lg-3"></div>
                                         <div style="font-family: 'Barlow Condensed', sans-serif; font-size: 14px;" class="col-lg-6">
-                                            <button style="border-radius:0px; padding: 8px; width: 20%;" type="submit" class="btn primary-btn">Submit</button>
+                                            <button style="border-radius:0px; padding: 8px; width: 20%;" onclick="download_input()" type="button" class="btn primary-btn">Submit</button>
                                            &nbsp;
                                             <button style="border-radius:0px; padding: 8px; width: 20%; background-color: lightgrey; color: #1a1a1a;" type="reset" onClick="window.parent.location = window.parent.location.href;" class="btn primary-btn">Cancel</button>
                                         </div>
@@ -147,7 +216,7 @@
                         <div class="kt-portlet__head kt-portlet__head--lg">
                             <div class="kt-portlet__head-label">
 										<span class="kt-portlet__head-icon">
-											              <span style="color: #E9AD28;" class="icon_clipboard"></span>
+											              <span style="color: #E9AD28;" class="icon_folder-alt"></span>
 										</span>
                                 <h3 style="font-size: 18px; color: #E9AD28; font-weight: 500;">
                                     List of courses that are offered for all teachers and Teacher Educators
@@ -161,33 +230,60 @@
                                 <thead>
                                 <tr>
                                     <th>No.</th>
-                                    <th>Course ID</th>
-                                    <th>Course Name</th>
-                                    <th>Duration</th>
-                                    <th>Medium</th>
+                                    <th>Title</th>
+                                    <th>Type</th>
+                                    <th>Grade</th>
+                                    <th>Subject</th>
+                                    <th>Language</th>
                                     <th>Description</th>
-                                    <th>Application</th>
+                                    <th>Files</th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>C32153</td>
-                                    <td>Master of Philosophy in Education Degree</td>
-                                    <td>2 Years</td>
-                                    <td>English / Sinhala / Tamil</td>
-                                    <td>M. Phil. (Ed) is a research degree. The duration of the course is two years. The objective of the courses is to promote the professional development of teachers. The teachers are expected to obtain study leave two years respectively. </td>
-                                    <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Application</a></td>
+                                    <td>Business Studies (2017)</td>
+                                    <td>Syllabus</td>
+                                    <td>Grade 12</td>
+                                    <td>Business Studies</td>
+                                    <td>Sinhala</td>
+                                    <td>Its study combines elements of accountancy, finance, marketing, organizational studies and operations.</td>
+                                    <td style="text-align: center;"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1"><img src="img/downloads/pdf2.png" width="50px"></a></td>
+
                                 </tr>
                                 <tr>
                                     <td>2</td>
-                                    <td>C84217</td>
-                                    <td>Master of Education</td>
-                                    <td>1 Year</td>
-                                    <td>English / Sinhala / Tamil</td>
-                                    <td>This is a 30-credit study programme. A candidate should acquire the 30 credits within a minimum of 1 year, not necessarily consecutive, provided the student maintains registration throughout.</td>
-                                    <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Application</a></td>
+                                    <td>English (2017)</td>
+                                    <td>Teacher's Guide</td>
+                                    <td>Grade 8</td>
+                                    <td>English</td>
+                                    <td>English</td>
+                                    <td>This Teachers' Guide consists of detailed syllabus of grade 09, instructions for... Competencies through teaching of English Language in Sri Lanka to ensure...</td>
+                                    <td style="text-align: center;"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1"><img src="img/downloads/pdf2.png" width="50px"></a></td>
                                 </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Biology Practical Book for Teachers and Teachers Guide</td>
+                                    <td>Teacher's Guide</td>
+                                    <td>Grade 12</td>
+                                    <td>Biology</td>
+                                    <td>English</td>
+                                    <td>Three aspects need to be taken into consideration by teachers when using this book. They are, the coherence of the Teacher's Instructional Manual and the...</td>
+                                    <td style="text-align: center;"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1"><img src="img/downloads/pdf2.png" width="50px"></a><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1"><img src="img/downloads/pdf2.png" width="50px"></a></td>
+                                </tr>
+
+                                <tr id="downloads_upload" style="display:none;">
+                                    <td>4</td>
+                                    <td id="d_title"></td>
+                                    <td id="d_type"></td>
+                                    <td id="d_grade"></td>
+                                    <td id="d_subject"></td>
+                                    <td id="d_lan"></td>
+                                    <td id="d_desc"></td>
+                                   <td style="text-align: center;"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1"><img src="img/downloads/pdf2.png" width="50px"></a></td>
+                                </tr>
+
+
                                 </tbody>
                             </table>
 

@@ -399,6 +399,34 @@
     }
 </script>
 
+<script>
+    function download_input() {
+
+        var title_d = document.getElementById('title').value;
+        var type_d = document.getElementById('title').value;
+        var title_d = document.getElementById('title').value;
+        var title_d = document.getElementById('title').value;
+        var title_d = document.getElementById('title').value;
+        var title_d = document.getElementById('title').value;
+
+
+
+
+
+        document.getElementById('d_title').innerHTML = title_d;
+        document.getElementById('d_type').innerHTML = type_d;
+        document.getElementById('d_grade').innerHTML = grade_d;
+        document.getElementById('d_subject').innerHTML = subject_d;
+        document.getElementById('d_lan').innerHTML = lan_d;
+        document.getElementById('d_desc').innerHTML = desc_d;
+
+
+        document.getElementById('downloads_upload').style.display = 'revert';
+
+        swal.fire("Successfully Uploaded !", "Downloadable Material Added Successfully.", "success");
+    }
+</script>
+
 
 
 </body>
