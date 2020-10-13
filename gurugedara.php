@@ -94,7 +94,7 @@
                             <img style="margin-left: 2.5%;" src="img/downloads/down.png" width="16%">
 
                             <h5 style="text-align: left; margin-left: 20%; margin-top: -11%;">
-                                Geograpy_Pastpaper_Questions_8.pdf
+                                Geograpy_Pastpaper_Questions_8.docx
                             </h5>
 
                         </div>
@@ -298,7 +298,7 @@
                                         <td>07</td>
                                         <td>English</td>
                                         <td><img src="img/tv/play.png" width="28%"> <h3 style="font-size: 18px; color: #e42c24; font-weight: 500;">
-                                                Watch Now
+                                                <a href="https://www.youtube.com/watch?v=jXBYIuxI8nQ">Watch Now</a>
                                             </h3></td>
                                         <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; padding-right: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Letter_Writting.pdf</a></td>
                                     </tr>
