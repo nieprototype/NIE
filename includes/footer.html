@@ -438,6 +438,38 @@
     }
 </script>
 
+<script>
+    function edit_d_r1() {
+
+        // Form Elements
+        var title_d = document.getElementById('title');
+        var type_d = document.getElementById('type').value;
+        var grade_d = document.getElementById('grade').value;
+        var subject_d = document.getElementById('subject').value;
+        var lan_d = document.getElementById('lan').value;
+        var desc_d = document.getElementById('desc');
+
+        // Table Data
+        var d_title_1 = document.getElementById('d_title_1').innerHTML;
+        var d_type_1 = document.getElementById('d_type_1').innerHTML;
+        var d_grade_1 = document.getElementById('d_grade_1').innerHTML;
+        var d_subject_1 = document.getElementById('d_subject_1').innerHTML;
+        var d_lan_1 = document.getElementById('d_lan_1').innerHTML;
+        var d_desc_1 = document.getElementById('d_desc_1').innerHTML;
+
+        // Setting Form Values
+        title_d.value = d_title_1;
+        type_d.value = d_type_1;
+        subject_d.value = d_subject_1;
+        lan_d.value = d_lan_1;
+        desc_d.value = d_desc_1;
+
+        var card = document.getElementById('card');
+        card.scrollIntoView();
+
+    }
+</script>
+
 
 </body>
 

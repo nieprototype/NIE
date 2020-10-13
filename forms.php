@@ -64,9 +64,9 @@
                      class="kt-portlet kt-portlet--tabs">
                     <div class="kt-portlet__head">
                         <div class="kt-portlet__head-label">
-                            <h2 style="font-family: 'Barlow Condensed', sans-serif; font-size: 18px;"
+                            <h2 style="font-family: 'Barlow Condensed', sans-serif; font-size: 20px;"
                                 class="kt-portlet__head-title">
-                                Recommended Web Links for Different Grades
+                                Dashboard
                             </h2>
                         </div>
 
