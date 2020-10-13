@@ -60,11 +60,15 @@
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label class="col-lg-3 col-form-label">Email:</label>
-                                    <div class="col-lg-7">
-                                        <input type="email" class="form-control" placeholder="Enter email">
-                                        <span class="form-text text-muted">Please enter your email</span>
-                                    </div>
+                                    <label class="col-lg-3 col-form-label" for="type">Default Select :</label>
+                                    &nbsp; &nbsp;&nbsp;
+                                    <select class="col-4" id="type">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
                                 </div>
                                 <div class="form-group row">
                                     <label class="col-lg-3 col-form-label">Message:</label>
