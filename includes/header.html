@@ -25,7 +25,6 @@
     <link rel="manifest" href="favicon/manifest.json">
 
 
-
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
@@ -34,7 +33,7 @@
 
 
     <link href="css/datatables.bundle.css" rel="stylesheet" type="text/css"/>
-    <link href="css/plugins.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="css/plugins.bundle.css" rel="stylesheet" type="text/css"/>
     <link href="css/style.bundle.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
@@ -63,19 +62,21 @@
             transition: 0.3s;
 
         }
-        .ticker-wrapper{
-            position:relative;
+
+        .ticker-wrapper {
+            position: relative;
 
             margin: auto;
-            padding-top :10px;
+            padding-top: 10px;
         }
-        .bigHeading{
-            display:block;
-            position:absolute;
-            font-style:italic;
+
+        .bigHeading {
+            display: block;
+            position: absolute;
+            font-style: italic;
             font-size: 20px;
             background: #E9AD28;
-            color:#fff;
+            color: #fff;
             text-transform: uppercase;
             padding: 15px;
             letter-spacing: 3px;
@@ -83,31 +84,35 @@
             height: 58px;
             z-index: 2
         }
+
         .bigHeading::after,
-        .bigHeading::before{
-            content:'';
+        .bigHeading::before {
+            content: '';
             width: 0;
-            position:absolute;
+            position: absolute;
             border-width: 58px;
             border-style: solid;
             top: 0;
             z-index: -1
         }
-        .bigHeading::before{
-            border-color: #E9AD28 transparent transparent transparent ;
+
+        .bigHeading::before {
+            border-color: #E9AD28 transparent transparent transparent;
             right: -58px
         }
-        .bigHeading::after{
-            border-color: transparent transparent #E9AD28 transparent ;
+
+        .bigHeading::after {
+            border-color: transparent transparent #E9AD28 transparent;
             left: -58px;
             top: -58px
         }
-        .text-update{
+
+        .text-update {
             height: 50px;
             background: #1d1c1c;
             overflow: hidden;
-            position:relative;
-            color:#fff;
+            position: relative;
+            color: #fff;
             text-transform: uppercase;
             letter-spacing: 1px;
             font-size: 16px;
@@ -116,21 +121,23 @@
             align-items: center;
             left: 125px;
         }
-        .text-update p{
-            position:absolute;
+
+        .text-update p {
+            position: absolute;
             width: 100%;
-            margin :0;
+            margin: 0;
             color: #fff;
             font-weight: 700;
-            text-align:left;
+            text-align: left;
             transform: translateX(100%);
             animation: moving 26s linear infinite
         }
-        @keyframes moving{
-            0%{
+
+        @keyframes moving {
+            0% {
                 transform: translateX(100%);
             }
-            100%{
+            100% {
                 transform: translateX(-100%);
             }
         }
@@ -148,6 +155,7 @@
             display: inline-block;
 
         }
+
         hr.new4 {
             border: 1px solid #E9AD28;
         }
@@ -159,7 +167,7 @@
 
         }
 
-        .black:hover{
+        .black:hover {
 
             color: #fff !important;
             background-color: #181818 !important;
@@ -172,13 +180,12 @@
 
         }
 
-        .white:hover{
+        .white:hover {
 
             color: #fff;
             background-color: #0f0f16 !important;
 
         }
-
 
 
         html {
@@ -188,63 +195,75 @@
         .g-scrolling-carousel {
             position: relative;
         }
+
         .g-scrolling-carousel .items {
             overflow-x: scroll;
             white-space: nowrap;
             width: 100%;
             -webkit-overflow-scrolling: touch;
         }
+
         .g-scrolling-carousel .items::-webkit-scrollbar {
             display: none;
         }
+
         .jc-right,
         .jc-left {
             width: 36px;
             height: 36px;
-            color:#757575;
+            color: #757575;
             margin-bottom: auto;
-            margin-top:auto;
-            box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 4px 8px 0 rgba(0,0,0,0.20);
+            margin-top: auto;
+            box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.04), 0 4px 8px 0 rgba(0, 0, 0, 0.20);
             background: #fff;
             border-radius: 50%;
             cursor: pointer;
             position: absolute;
             top: 0;
             bottom: 0;
-            z-index:2;
+            z-index: 2;
             opacity: 0.94;
 
         }
+
         .jc-right {
-            right:-18px;
+            right: -18px;
         }
+
         .jc-left {
-            left:-18px;
+            left: -18px;
         }
 
         .jc-right:hover,
-        .jc-left:hover{
+        .jc-left:hover {
             opacity: 0.98;
         }
+
         .jc-right svg,
-        .jc-left svg{
+        .jc-left svg {
             position: absolute;
-            left: 0;right: 0;bottom: 0;top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
             margin: auto;
             width: 24px;
             height: 24px;
             fill: #757575;
         }
+
         .jc-right:hover svg,
-        .jc-left:hover svg{
+        .jc-left:hover svg {
             fill: #000;
         }
+
         @media (pointer: coarse) {
             .jc-right,
             .jc-left {
                 display: none !important;
             }
         }
+
         .noselect {
             -webkit-touch-callout: none; /* iOS Safari */
             -webkit-user-select: none; /* Safari */
@@ -254,18 +273,19 @@
             user-select: none;
         }
 
-        .a_h:hover{
+        .a_h:hover {
 
             color: #E9AD28;
 
         }
 
 
-        .g-scrolling-carousel .items{
+        .g-scrolling-carousel .items {
             padding: 5px;
 
         }
-        .g-scrolling-carousel .items iframe{
+
+        .g-scrolling-carousel .items iframe {
             display: inline-block; /* notice the comments between inline-block items */
             margin-right: 10px;
             height: 215px;
@@ -275,7 +295,8 @@
             border-radius: 4px;
 
         }
-        .g-scrolling-carousel .items div{
+
+        .g-scrolling-carousel .items div {
             display: inline-block; /* notice the comments between inline-block items */
             margin-right: 10px;
             height: 215px;
@@ -283,29 +304,30 @@
             box-shadow: 0 0 5px #a6a6a4;
             text-align: center;
             background-image: url("img/downloads/v.jpg");
-            background-color: rgba(255,255,255,0.6);
+            background-color: rgba(255, 255, 255, 0.6);
             background-blend-mode: lighten;
-border-radius: 6px;
+            border-radius: 6px;
         }
-        h1{
-            text-align:center;
+
+        h1 {
+            text-align: center;
             margin-top: 30px;
             padding: 20px;
             color: #515151;
         }
-        @media only screen and (min-width: 720px){
-            main{
+
+        @media only screen and (min-width: 720px) {
+            main {
                 background: #f9f9f9;
                 width: 650px;
                 padding: 40px;
-                margin-left:auto;
-                margin-right:auto;
+                margin-left: auto;
+                margin-right: auto;
                 box-shadow: 2px 1px 6px #777;
                 padding-bottom: 50px;
             }
 
         }
-
 
 
         .veen {
@@ -318,7 +340,7 @@ border-radius: 6px;
             box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
         }
 
-        .veen>div {
+        .veen > div {
             display: table-cell;
             vertical-align: middle;
             text-align: center;
@@ -330,12 +352,12 @@ border-radius: 6px;
             display: inline-block;
             padding: 10px 30px;
             border: 3px solid #fff;
-font-family: 'Barlow Condensed', sans-serif;
+            font-family: 'Barlow Condensed', sans-serif;
             font-size: 18px;
             background-clip: padding-box;
             position: relative;
             color: #FFF;
-        //box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+        / / box-shadow: 0 0 4 px rgba(0, 0, 0, .14), 0 4 px 8 px rgba(0, 0, 0, .28);
             transition: all .25s;
         }
 
@@ -379,7 +401,7 @@ font-family: 'Barlow Condensed', sans-serif;
             outline: none;
         }
 
-        .veen>.wrapper {
+        .veen > .wrapper {
             position: absolute;
             width: 40%;
             height: 120%;
@@ -392,7 +414,7 @@ font-family: 'Barlow Condensed', sans-serif;
             overflow: hidden;
         }
 
-        .veen .wrapper>form {
+        .veen .wrapper > form {
             padding: 34px 30px 30px;
             width: 100%;
             transition: all .5s;
@@ -400,7 +422,7 @@ font-family: 'Barlow Condensed', sans-serif;
             width: 100%;
         }
 
-        .veen .wrapper>form:focus {
+        .veen .wrapper > form:focus {
             outline: none;
         }
 
@@ -424,7 +446,7 @@ font-family: 'Barlow Condensed', sans-serif;
             visibility: hidden;
         }
 
-        .veen .wrapper>form>div {
+        .veen .wrapper > form > div {
             position: relative;
             margin-bottom: 15px;
         }
@@ -458,7 +480,7 @@ font-family: 'Barlow Condensed', sans-serif;
             height: 40px;
             padding: 5px 15px;
             width: 100%;
-            border:#1a1a1a;
+            border: #1a1a1a;
             background-color: rgba(35, 34, 34, 0.99);
 
         }
@@ -468,11 +490,11 @@ font-family: 'Barlow Condensed', sans-serif;
             border-color: #e0b722;
         }
 
-        .veen>.wrapper.move {
+        .veen > .wrapper.move {
             left: 45%;
         }
 
-        .veen>.wrapper.move input:focus {
+        .veen > .wrapper.move input:focus {
             border-color: #e0b722;
         }
 
@@ -484,7 +506,7 @@ font-family: 'Barlow Condensed', sans-serif;
                 display: block;
             }
 
-            .veen>.wrapper {
+            .veen > .wrapper {
                 position: relative;
                 height: auto;
                 top: 0;
@@ -492,7 +514,7 @@ font-family: 'Barlow Condensed', sans-serif;
                 width: 100%;
             }
 
-            .veen>div {
+            .veen > div {
                 display: inline-block;
             }
 
@@ -527,7 +549,7 @@ font-family: 'Barlow Condensed', sans-serif;
                 display: none;
             }
 
-            .veen>.wrapper.move {
+            .veen > .wrapper.move {
                 left: 0%;
             }
         }
@@ -538,10 +560,60 @@ font-family: 'Barlow Condensed', sans-serif;
             box-shadow: inset 0 0 0 50px #ffffff
         }
 
+        #upfile {
+
+            padding: 5px;
+            width: 15%;
+            background-color: #1a1a1a;
+            font-size: 14px;
+            font-weight: 400;
+            color: #fff;
+            border-radius:0px;
+        }
+
+        #upfile:hover {
+
+            background-color: #E9AD28;
+            color: #1a1a1a;
+
+        }
+
+        @-webkit-keyframes quickFlash {
+            0% {
+                background-color: #E9AD28;
+
+                opacity: 1;
+            }
+              22% {
+                background-color: rgba(233, 173, 40, 0.88);
+
+              }
+              77% {
+                background-color: rgba(233, 173, 40, 0.29);
+              }
+            100% {
+                background-color: inherit;
+            }
+        }
+
+        .quickFlash {
+         -webkit-animation-name: quickFlash;
+            -webkit-animation-duration: 1900ms;
+            -webkit-animation-iteration-count: 1;
+            -webkit-animation-timing-function: ease;
+            -moz-animation-name: quickFlash;
+            -moz-animation-duration: 1900ms;
+            -moz-animation-iteration-count: 1;
+            -moz-animation-timing-function: ease;
+        }
 
 
 
+        #stick:hover{
 
+            color: #1a1a1a;
+
+        }
 
     </style>
 
@@ -627,7 +699,7 @@ font-family: 'Barlow Condensed', sans-serif;
             </div>
         </div>
     </div>
-    <div class="header__nav__option">
+    <div id="navbar1" class="header__nav__option">
         <div class="container">
             <div class="row">
                 <div class="col-lg-2">
@@ -690,7 +762,8 @@ font-family: 'Barlow Condensed', sans-serif;
                                         <li><a class="white" href="./about.html">Request for Teachers Training</a></li>
                                         <li><a class="black" href="./about.html">Request for
                                             Courses</a></li>
-                                        <li><a class="white" href="./about.html">B.Ed. 2018 Student Registration</a></li>
+                                        <li><a class="white" href="./about.html">B.Ed. 2018 Student Registration</a>
+                                        </li>
                                         <li><a class="black" href="./about.html">B.Ed. 2018 Student
                                             Area</a></li>
                                     </ul>
@@ -716,7 +789,8 @@ font-family: 'Barlow Condensed', sans-serif;
                             </ul>
                         </nav>
                         <div class="header__nav__widget">
-                            <a class="hvrdown" href="downloads.php">Downloads <span class="hoverdown1 arrow_right"></span></a>
+                            <a class="hvrdown" href="downloads.php">Downloads <span
+                                    class="hoverdown1 arrow_right"></span></a>
                         </div>
 
                     </div>

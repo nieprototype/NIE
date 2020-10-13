@@ -28,6 +28,7 @@ var KTSweetAlert2Demo = function() {
             swal.fire("Good job!", "You clicked the button!", "success");
         });
 
+
         $('#kt_sweetalert_demo_3_4').click(function(e) {
             swal.fire("Good job!", "You clicked the button!", "info");
         });
