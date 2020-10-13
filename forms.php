@@ -112,7 +112,7 @@
                                         </div>
                                     </div>
 
-                                    <div style="cursor: pointer;" onclick="location.href='down_manage.php';" class="col-5">
+                                    <div style="cursor: pointer;" onclick="location.href='guru_manage.php';" class="col-5">
                                         <div style="position:relative;
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
@@ -134,7 +134,7 @@
                                                             <a class="kt-link" href="guru_manage.php">Manage Gurugedara Materials</a>
                                                         </h3>
                                                         <div class="kt-iconbox__content">
-                                                            <a style="color: #9392a0" class="kt-link" href="task_add.php">Manage all Supportive Materials for Gurugedara</a>
+                                                            <a style="color: #9392a0" class="kt-link" href="guru_manage.php">Manage all Supportive Materials for Gurugedara</a>
                                                         </div>
                                                     </div>
                                                 </div>
