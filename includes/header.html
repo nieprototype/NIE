@@ -578,6 +578,37 @@
 
         }
 
+        @-webkit-keyframes quickFlash {
+            0% {
+                background-color: #E9AD28;
+
+                opacity: 1;
+            }
+              22% {
+                background-color: rgba(233, 173, 40, 0.88);
+
+              }
+              77% {
+                background-color: rgba(233, 173, 40, 0.29);
+              }
+            100% {
+                background-color: inherit;
+            }
+        }
+
+        .quickFlash {
+         -webkit-animation-name: quickFlash;
+            -webkit-animation-duration: 1900ms;
+            -webkit-animation-iteration-count: 1;
+            -webkit-animation-timing-function: ease;
+            -moz-animation-name: quickFlash;
+            -moz-animation-duration: 1900ms;
+            -moz-animation-iteration-count: 1;
+            -moz-animation-timing-function: ease;
+        }
+
+
+
         #stick:hover{
 
             color: #1a1a1a;

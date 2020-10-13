@@ -439,7 +439,8 @@
 </script>
 
 <script>
-    function edit_d_r1() {
+
+    function edit_d_r1(clicked_id) {
 
         // Form Elements
         var title_d = document.getElementById('title');
@@ -449,25 +450,157 @@
         var lan_d = document.getElementById('lan').value;
         var desc_d = document.getElementById('desc');
 
-        // Table Data
-        var d_title_1 = document.getElementById('d_title_1').innerHTML;
-        var d_type_1 = document.getElementById('d_type_1').innerHTML;
-        var d_grade_1 = document.getElementById('d_grade_1').innerHTML;
-        var d_subject_1 = document.getElementById('d_subject_1').innerHTML;
-        var d_lan_1 = document.getElementById('d_lan_1').innerHTML;
-        var d_desc_1 = document.getElementById('d_desc_1').innerHTML;
+        document.getElementById('submit_form').style.display = 'none';
+
+        if (clicked_id == 1){
+
+            document.getElementById('row1_edit').style.display = 'revert';
+            document.getElementById('row2_edit').style.display = 'none';
+            document.getElementById('row3_edit').style.display = 'none';
+            document.getElementById('row4_edit').style.display = 'none';
+
+            // Table Data
+            var d_title_1 = document.getElementById('d_title_1').innerHTML;
+            var d_type_1 = document.getElementById('d_type_1').innerHTML;
+            var d_grade_1 = document.getElementById('d_grade_1').innerHTML;
+            var d_subject_1 = document.getElementById('d_subject_1').innerHTML;
+            var d_lan_1 = document.getElementById('d_lan_1').innerHTML;
+            var d_desc_1 = document.getElementById('d_desc_1').innerHTML;
+
+        }if (clicked_id == 2){
+
+            document.getElementById('row2_edit').style.display = 'revert';
+            document.getElementById('row1_edit').style.display = 'none';
+            document.getElementById('row3_edit').style.display = 'none';
+            document.getElementById('row4_edit').style.display = 'none';
+
+            // Table Data
+            var d_title_1 = document.getElementById('d_title_2').innerHTML;
+            var d_type_1 = document.getElementById('d_type_2').innerHTML;
+            var d_grade_1 = document.getElementById('d_grade_2').innerHTML;
+            var d_subject_1 = document.getElementById('d_subject_2').innerHTML;
+            var d_lan_1 = document.getElementById('d_lan_2').innerHTML;
+            var d_desc_1 = document.getElementById('d_desc_2').innerHTML;
+
+        }if (clicked_id == 3){
+
+            document.getElementById('row3_edit').style.display = 'revert';
+            document.getElementById('row1_edit').style.display = 'none';
+            document.getElementById('row2_edit').style.display = 'none';
+            document.getElementById('row4_edit').style.display = 'none';
+
+            // Table Data
+            var d_title_1 = document.getElementById('d_title_3').innerHTML;
+            var d_type_1 = document.getElementById('d_type_3').innerHTML;
+            var d_grade_1 = document.getElementById('d_grade_3').innerHTML;
+            var d_subject_1 = document.getElementById('d_subject_3').innerHTML;
+            var d_lan_1 = document.getElementById('d_lan_3').innerHTML;
+            var d_desc_1 = document.getElementById('d_desc_3').innerHTML;
+
+        }if (clicked_id == 4){
+
+            document.getElementById('row4_edit').style.display = 'revert';
+            document.getElementById('row1_edit').style.display = 'none';
+            document.getElementById('row2_edit').style.display = 'none';
+            document.getElementById('row3_edit').style.display = 'none';
+
+            // Table Data
+            var d_title_1 = document.getElementById('d_title').innerHTML;
+            var d_type_1 = document.getElementById('d_type').innerHTML;
+            var d_grade_1 = document.getElementById('d_grade').innerHTML;
+            var d_subject_1 = document.getElementById('d_subject').innerHTML;
+            var d_lan_1 = document.getElementById('d_lan').innerHTML;
+            var d_desc_1 = document.getElementById('d_desc').innerHTML;
+
+        }
 
         // Setting Form Values
         title_d.value = d_title_1;
         type_d.value = d_type_1;
+        grade_d = d_grade_1.value;
         subject_d.value = d_subject_1;
         lan_d.value = d_lan_1;
         desc_d.value = d_desc_1;
 
+        document.getElementById('form_title').innerHTML = 'Update downloadable material';
+
         var card = document.getElementById('card');
         card.scrollIntoView();
 
+
+        function flashYellow(element) {
+            element
+                .addClass("quickFlash")
+                .on(
+                    "webkitAnimationEnd oanimationend msAnimationEnd animationend",
+                    function() {
+                        console.log("animationend");
+                        $(this)
+                            .delay(500)// Wait for milliseconds.
+                            .queue(function() {
+                                console.log("end of delay");
+                                $(this)
+                                    .removeClass("quickFlash")
+                                    .dequeue();
+                            });
+                    }
+                );
+        }
+
+        flashYellow($("#form_color"));
+
     }
+
+</script>
+
+
+<script>
+
+    function edit_row_1_submit() {
+
+        var table = $('#kt_table_1').DataTable();
+
+        // Form Elements
+        var title_d = document.getElementById('title').value;
+        var type_d = document.getElementById('type').value;
+        var grade_d = document.getElementById('grade').value;
+        var subject_d = document.getElementById('subject').value;
+        var lan_d = document.getElementById('lan').value;
+        var desc_d = document.getElementById('desc').value;
+
+        if (title_d == '' || desc_d ==''){
+
+            swal.fire("All Fields Required !", "Please Fill All the Required Fields.", "warning");
+            document.getElementById('title').className = 'form-control is-invalid';
+            document.getElementById('desc').className = 'form-control is-invalid';
+            return false;
+
+        }
+
+        // Table Data
+        document.getElementById('d_title_1').innerHTML = title_d;
+        document.getElementById('d_type_1').innerHTML = type_d;
+        document.getElementById('d_grade_1').innerHTML = grade_d;
+        document.getElementById('d_subject_1').innerHTML = subject_d;
+        document.getElementById('d_lan_1').innerHTML = lan_d;
+        document.getElementById('d_desc_1').innerHTML = desc_d;
+
+        table.draw();
+
+        swal.fire("Successfully Updated !", "Selected Material Updated Successfully.", "success");
+
+        document.getElementById('title').className = 'form-control';
+        document.getElementById('desc').className = 'form-control';
+
+        document.getElementById("down_materials").reset();
+
+        document.getElementById('form_title').innerHTML = 'Add a new downloadable material';
+        document.getElementById('submit_form').style.display = 'revert';
+        document.getElementById('row1_edit').style.display = 'none';
+
+
+    }
+
 </script>
 
 

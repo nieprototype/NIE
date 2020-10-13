@@ -32,14 +32,14 @@
        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
             box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ; font-family: Poppins, sans-serif; font-size: 14px;"
                          class="kt-portlet kt-margin-top-30">
-                        <div class="kt-portlet__head">
+                        <div id="form_color" class="kt-portlet__head">
                             <div class="kt-portlet__head-label">
 	<span class="kt-portlet__head-icon">
 											              <span style="color: #E9AD28; font-size: 18px;"
                                                                 class="icon_folder-add_alt"></span>
 										</span>
 
-                                <h3 style="font-size: 18px; color: #E9AD28; font-weight: 500;">
+                                <h3 id="form_title" style="font-size: 18px; color: #E9AD28; font-weight: 500;">
                                     Add a new downloadable material </h3>
                             </div>
                         </div>
@@ -190,9 +190,31 @@
                                         <div class="col-lg-3"></div>
                                         <div style="font-family: 'Barlow Condensed', sans-serif; font-size: 14px;"
                                              class="col-lg-6">
-                                            <button style="border-radius:0px; padding: 8px; width: 20%;"
+                                            <button id="submit_form"
+                                                    style="border-radius:0px; padding: 8px; width: 20%;"
                                                     onclick="download_input()" type="button" class="btn primary-btn">
                                                 Submit
+                                            </button>
+
+                                            <button id="row1_edit"
+                                                    style="border-radius:0px; display: none; padding: 8px; width: 20%;"
+                                                    onclick="edit_row_1_submit()" type="button" class="btn primary-btn">
+                                                Update
+                                            </button>
+                                            <button id="row2_edit"
+                                                    style="border-radius:0px; display: none; padding: 8px; width: 20%;"
+                                                    onclick="edit_row_1_submit()" type="button" class="btn primary-btn">
+                                                Update
+                                            </button>
+                                            <button id="row3_edit"
+                                                    style="border-radius:0px; display: none; padding: 8px; width: 20%;"
+                                                    onclick="edit_row_1_submit()" type="button" class="btn primary-btn">
+                                                Update
+                                            </button>
+                                            <button id="row4_edit"
+                                                    style="border-radius:0px; display: none; padding: 8px; width: 20%;"
+                                                    onclick="edit_row_1_submit()" type="button" class="btn primary-btn">
+                                                Update
                                             </button>
                                             &nbsp;
                                             <button style="border-radius:0px; padding: 8px; width: 20%; background-color: lightgrey; color: #1a1a1a;"
@@ -268,13 +290,14 @@
                                                     href="#course1"><img src="img/downloads/pdf2.png" width="50px"></a>
                                         </td>
                                         <td>
-                                            <button onclick="edit_d_r1()" id="edit" name="edit" style="background-color: rgba(246,219,172,0.51);" type="submit"
+                                            <button onclick="edit_d_r1(this.id)" id="1" name="1"
+                                                    style="background-color: rgba(246,219,172,0.51);" type="submit"
                                                     class="btn btn-sm btn-clean btn-icon btn-icon-md kt-badge kt-badge--inline kt-badge--pill"
                                                     title="Update">
                                                 <i style="font-size: 18px; color: #E9AD28; font-weight: 800;"
                                                    class="icon_pencil"></i>
                                             </button>
-<hr>
+                                            <hr>
                                             <button onclick="
                               if (confirm('Are you sure you want to delete this material ?')) {
                                    document.getElementById('row_1').style.display = 'none';
@@ -297,16 +320,15 @@
                                         <td id="d_grade_2">Grade 8</td>
                                         <td id="d_subject_2">English</td>
                                         <td id="d_lan_2">English</td>
-                                        <td id="d_desc_2">This Teachers' Guide consists of detailed syllabus of grade 09, instructions
-                                            for... Competencies through teaching of English Language in Sri Lanka to
-                                            ensure...
+                                        <td id="d_desc_2">This Teachers' Guide consists of detailed syllabus of grade 09, instructions for... Competencies through teaching of English Language in Sri Lanka to ensure...
                                         </td>
                                         <td style="text-align: center;"><a
                                                     style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;"
                                                     href="#course1"><img src="img/downloads/pdf2.png" width="50px"></a>
                                         </td>
                                         <td>
-                                            <button onclick="edit_d()" id="edit" name="edit" style="background-color: rgba(246,219,172,0.51);" type="submit"
+                                            <button onclick="edit_d_r1(this.id)" id="2" name="2"
+                                                    style="background-color: rgba(246,219,172,0.51);" type="submit"
                                                     class="btn btn-sm btn-clean btn-icon btn-icon-md kt-badge kt-badge--inline kt-badge--pill"
                                                     title="Update">
                                                 <i style="font-size: 18px; color: #E9AD28; font-weight: 800;"
@@ -335,9 +357,7 @@
                                         <td id="d_grade_3">Grade 12</td>
                                         <td id="d_subject_3">Biology</td>
                                         <td id="d_lan_3">English</td>
-                                        <td id="d_desc_3">Three aspects need to be taken into consideration by teachers when using
-                                            this book. They are, the coherence of the Teacher's Instructional Manual and
-                                            the...
+                                        <td id="d_desc_3">Three aspects need to be taken into consideration by teachers when using this book. They are, the coherence of the Teacher's Instructional Manual and the...
                                         </td>
                                         <td style="text-align: center;"><a
                                                     style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;"
@@ -347,7 +367,8 @@
                                                     href="#course1"><img src="img/downloads/pdf2.png" width="50px"></a>
                                         </td>
                                         <td>
-                                            <button onclick="edit_d()" id="edit" name="edit" style="background-color: rgba(246,219,172,0.51);" type="submit"
+                                            <button onclick="edit_d_r1(this.id)" id="3" name="3"
+                                                    style="background-color: rgba(246,219,172,0.51);" type="submit"
                                                     class="btn btn-sm btn-clean btn-icon btn-icon-md kt-badge kt-badge--inline kt-badge--pill"
                                                     title="Update">
                                                 <i style="font-size: 18px; color: #E9AD28; font-weight: 800;"
@@ -383,7 +404,8 @@
                                                     href="#course1"><img src="img/downloads/pdf2.png" width="50px">
                                                 <span id="file_d"></span></a></td>
                                         <td>
-                                            <button onclick="edit_d()" id="edit" name="edit" style="background-color: rgba(246,219,172,0.51);" type="submit"
+                                            <button onclick="edit_d_r1(this.id)" id="4" name="4"
+                                                    style="background-color: rgba(246,219,172,0.51);" type="submit"
                                                     class="btn btn-sm btn-clean btn-icon btn-icon-md kt-badge kt-badge--inline kt-badge--pill"
                                                     title="Update">
                                                 <i style="font-size: 18px; color: #E9AD28; font-weight: 800;"
