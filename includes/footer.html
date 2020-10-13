@@ -559,7 +559,7 @@
 
 <script>
 
-    function edit_row_1_submit() {
+    function edit_row_submit(clicked_id_edit) {
 
         var table = $('#kt_table_1').DataTable();
 
@@ -580,13 +580,50 @@
 
         }
 
-        // Table Data
-        document.getElementById('d_title_1').innerHTML = title_d;
-        document.getElementById('d_type_1').innerHTML = type_d;
-        document.getElementById('d_grade_1').innerHTML = grade_d;
-        document.getElementById('d_subject_1').innerHTML = subject_d;
-        document.getElementById('d_lan_1').innerHTML = lan_d;
-        document.getElementById('d_desc_1').innerHTML = desc_d;
+        if (clicked_id_edit == "row1_edit") {
+
+            // Table Data
+            document.getElementById('d_title_1').innerHTML = title_d;
+            document.getElementById('d_type_1').innerHTML = type_d;
+            document.getElementById('d_grade_1').innerHTML = grade_d;
+            document.getElementById('d_subject_1').innerHTML = subject_d;
+            document.getElementById('d_lan_1').innerHTML = lan_d;
+            document.getElementById('d_desc_1').innerHTML = desc_d;
+
+        }
+        if (clicked_id_edit == "row2_edit") {
+
+            // Table Data
+            document.getElementById('d_title_2').innerHTML = title_d;
+            document.getElementById('d_type_2').innerHTML = type_d;
+            document.getElementById('d_grade_2').innerHTML = grade_d;
+            document.getElementById('d_subject_2').innerHTML = subject_d;
+            document.getElementById('d_lan_2').innerHTML = lan_d;
+            document.getElementById('d_desc_2').innerHTML = desc_d;
+
+        }
+        if (clicked_id_edit == "row3_edit") {
+
+            // Table Data
+            document.getElementById('d_title_3').innerHTML = title_d;
+            document.getElementById('d_type_3').innerHTML = type_d;
+            document.getElementById('d_grade_3').innerHTML = grade_d;
+            document.getElementById('d_subject_3').innerHTML = subject_d;
+            document.getElementById('d_lan_3').innerHTML = lan_d;
+            document.getElementById('d_desc_3').innerHTML = desc_d;
+
+        }
+        if (clicked_id_edit == "row4_edit") {
+
+            // Table Data
+            document.getElementById('d_title').innerHTML = title_d;
+            document.getElementById('d_type').innerHTML = type_d;
+            document.getElementById('d_grade').innerHTML = grade_d;
+            document.getElementById('d_subject').innerHTML = subject_d;
+            document.getElementById('d_lan').innerHTML = lan_d;
+            document.getElementById('d_desc').innerHTML = desc_d;
+
+        }
 
         table.draw();
 
@@ -600,7 +637,9 @@
         document.getElementById('form_title').innerHTML = 'Add a new downloadable material';
         document.getElementById('submit_form').style.display = 'revert';
         document.getElementById('row1_edit').style.display = 'none';
-
+        document.getElementById('row2_edit').style.display = 'none';
+        document.getElementById('row3_edit').style.display = 'none';
+        document.getElementById('row4_edit').style.display = 'none';
 
     }
 
