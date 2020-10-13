@@ -115,7 +115,7 @@
                                                         </h3>
                                                         <div class="kt-iconbox__content">
                                                             <a style="color: #9392a0" class="kt-link"
-                                                               href="down_manage.php">Manage all Downloadable
+                                                               href="down_manage.php">Manage all Downloadable Supportive
                                                                 Materials</a>
                                                         </div>
                                                     </div>
@@ -150,7 +150,7 @@
                                                     </div>
                                                     <div class="kt-iconbox__desc">
                                                         <h3 class="kt-iconbox__title">
-                                                            <a class="kt-link" href="guru_manage.php">Manage Gurugedara
+                                                            <a class="kt-link" href="guru_manage.php">Manage Gurugedara Support
                                                                 Materials</a>
                                                         </h3>
                                                         <div class="kt-iconbox__content">
