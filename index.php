@@ -30,7 +30,6 @@
                                 $i = 1;
                                 while ($i < 14) {
 
-
                                     ?>
 
                                     <option value="<?php echo $i; ?>">Grade <?php echo $i;
