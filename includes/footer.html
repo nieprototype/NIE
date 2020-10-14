@@ -724,8 +724,9 @@
             var g_lessonNo_1 = document.getElementById('d_lessonNo_1').innerHTML;
             var g_grade_1 = document.getElementById('d_grade_1').innerHTML;
             var g_lan_1 = document.getElementById('d_lan_1').innerHTML;
-            var g_dateTime_1 = document.getElementById('d_dateTime_1').innerHTML;
-            var g_link_1 = document.getElementById('d_link_1').innerHTML;
+            var g_dateTime = document.getElementById('d_dateTime_1').innerHTML;
+            var g_dateTime_1 = g_dateTime.replace(/ /g, "T");
+            var g_link_1 = document.getElementById('d_link_1_a').href;
 
         }
         if (clicked_id == 2) {
@@ -740,8 +741,9 @@
             var g_lessonNo_1 = document.getElementById('d_lessonNo_2').innerHTML;
             var g_grade_1 = document.getElementById('d_grade_2').innerHTML;
             var g_lan_1 = document.getElementById('d_lan_2').innerHTML;
-            var g_dateTime_1 = document.getElementById('d_dateTime_2').innerHTML;
-            var g_link_1 = document.getElementById('d_link_2').innerHTML;
+            var g_dateTime = document.getElementById('d_dateTime_2').innerHTML;
+            var g_dateTime_1 = g_dateTime.replace(/ /g, "T");
+            var g_link_1 = document.getElementById('d_link_2_a').href;
 
         }
         if (clicked_id == 3) {
@@ -756,8 +758,9 @@
             var g_lessonNo_1 = document.getElementById('d_lessonNo_3').innerHTML;
             var g_grade_1 = document.getElementById('d_grade_3').innerHTML;
             var g_lan_1 = document.getElementById('d_lan_3').innerHTML;
-            var g_dateTime_1 = document.getElementById('d_dateTime_3').innerHTML;
-            var g_link_1 = document.getElementById('d_link_3').innerHTML;
+            var g_dateTime = document.getElementById('d_dateTime_3').innerHTML;
+            var g_dateTime_1 = g_dateTime.replace(/ /g, "T");
+            var g_link_1 = document.getElementById('d_link_3_a').href;
 
         }
         if (clicked_id == 4) {
@@ -768,12 +771,13 @@
             document.getElementById('row3_edit').style.display = 'none';
 
             // Table Data
-            var g_title_1 = document.getElementById('d_subject_4').innerHTML;
-            var g_lessonNo_1 = document.getElementById('d_lessonNo_4').innerHTML;
-            var g_grade_1 = document.getElementById('d_grade_4').innerHTML;
-            var g_lan_1 = document.getElementById('d_lan_4').innerHTML;
-            var g_dateTime_1 = document.getElementById('d_dateTime_4').innerHTML;
-            var g_link_1 = document.getElementById('d_link_4').innerHTML;
+            var g_title_1 = document.getElementById('d_subject').innerHTML;
+            var g_lessonNo_1 = document.getElementById('d_lessonNo').innerHTML;
+            var g_grade_1 = document.getElementById('d_grade').innerHTML;
+            var g_lan_1 = document.getElementById('d_lan').innerHTML;
+            var g_dateTime = document.getElementById('d_dateTime').innerHTML;
+            var g_dateTime_1 = g_dateTime.replace(/ /g, "T");
+            var g_link_1 = document.getElementById('d_link_a').href;
 
         }
 
@@ -782,7 +786,7 @@
         lesson_d.value = g_lessonNo_1;
         grade_d = g_grade_1.value;
         lan_d.value = g_lan_1;
-        datetime_d_t = g_dateTime_1;
+        $("#datetime").val(g_dateTime_1);
         link_d.value = g_link_1;
 
         document.getElementById('form_title').innerHTML = 'Update Supportive Material for the Gurugedara Video';
@@ -822,19 +826,21 @@
 
         var table = $('#kt_table_1').DataTable();
 
-        // Form Elements
-        var title_d = document.getElementById('title').value;
-        var type_d = document.getElementById('type').value;
-        var grade_d = document.getElementById('grade').value;
+        //Form Elements
         var subject_d = document.getElementById('subject').value;
+        var lesson_d = document.getElementById('lesson').value;
+        var grade_d = document.getElementById('grade').value;
         var lan_d = document.getElementById('lan').value;
-        var desc_d = document.getElementById('desc').value;
+        var datetime_d_t = document.getElementById('datetime').value;
+        var datetime_d = datetime_d_t.replace(/T/g, " ");
+        var link_d = document.getElementById('link').value;
 
-        if (title_d == '' || desc_d == '') {
+        if (lesson_d == '' || datetime_d == '' || link_d == '') {
 
             swal.fire("All Fields Required !", "Please Fill All the Required Fields.", "warning");
-            document.getElementById('title').className = 'form-control is-invalid';
-            document.getElementById('desc').className = 'form-control is-invalid';
+            document.getElementById('lesson').className = 'form-control is-invalid';
+            document.getElementById('datetime').className = 'form-control is-invalid';
+            document.getElementById('link').className = 'form-control is-invalid';
             return false;
 
         }
@@ -842,45 +848,45 @@
         if (clicked_id_edit == "row1_edit") {
 
             // Table Data
-            document.getElementById('d_title_1').innerHTML = title_d;
-            document.getElementById('d_type_1').innerHTML = type_d;
-            document.getElementById('d_grade_1').innerHTML = grade_d;
             document.getElementById('d_subject_1').innerHTML = subject_d;
+            document.getElementById('d_lessonNo_1').innerHTML = lesson_d;
+            document.getElementById('d_grade_1').innerHTML = grade_d;
             document.getElementById('d_lan_1').innerHTML = lan_d;
-            document.getElementById('d_desc_1').innerHTML = desc_d;
+            document.getElementById('d_dateTime_1').innerHTML = datetime_d;
+            document.getElementById('d_link_1').innerHTML = link_d;
 
         }
         if (clicked_id_edit == "row2_edit") {
 
             // Table Data
-            document.getElementById('d_title_2').innerHTML = title_d;
-            document.getElementById('d_type_2').innerHTML = type_d;
-            document.getElementById('d_grade_2').innerHTML = grade_d;
             document.getElementById('d_subject_2').innerHTML = subject_d;
+            document.getElementById('d_lessonNo_2').innerHTML = lesson_d;
+            document.getElementById('d_grade_2').innerHTML = grade_d;
             document.getElementById('d_lan_2').innerHTML = lan_d;
-            document.getElementById('d_desc_2').innerHTML = desc_d;
+            document.getElementById('d_dateTime_2').innerHTML = datetime_d;
+            document.getElementById('d_link_2').innerHTML = link_d;
 
         }
         if (clicked_id_edit == "row3_edit") {
 
             // Table Data
-            document.getElementById('d_title_3').innerHTML = title_d;
-            document.getElementById('d_type_3').innerHTML = type_d;
-            document.getElementById('d_grade_3').innerHTML = grade_d;
             document.getElementById('d_subject_3').innerHTML = subject_d;
+            document.getElementById('d_lessonNo_3').innerHTML = lesson_d;
+            document.getElementById('d_grade_3').innerHTML = grade_d;
             document.getElementById('d_lan_3').innerHTML = lan_d;
-            document.getElementById('d_desc_3').innerHTML = desc_d;
+            document.getElementById('d_dateTime_3').innerHTML = datetime_d;
+            document.getElementById('d_link_3').innerHTML = link_d;
 
         }
         if (clicked_id_edit == "row4_edit") {
 
             // Table Data
-            document.getElementById('d_title').innerHTML = title_d;
-            document.getElementById('d_type').innerHTML = type_d;
-            document.getElementById('d_grade').innerHTML = grade_d;
             document.getElementById('d_subject').innerHTML = subject_d;
+            document.getElementById('d_lessonNo').innerHTML = lesson_d;
+            document.getElementById('d_grade').innerHTML = grade_d;
             document.getElementById('d_lan').innerHTML = lan_d;
-            document.getElementById('d_desc').innerHTML = desc_d;
+            document.getElementById('d_dateTime').innerHTML = datetime_d;
+            document.getElementById('d_link').innerHTML = link_d;
 
         }
 
@@ -888,12 +894,13 @@
 
         swal.fire("Successfully Updated !", "Selected Material Updated Successfully.", "success");
 
-        document.getElementById('title').className = 'form-control';
-        document.getElementById('desc').className = 'form-control';
+        document.getElementById('lesson').className = 'form-control';
+        document.getElementById('datetime').className = 'form-control';
+        document.getElementById('link').className = 'form-control';
 
-        document.getElementById("down_materials").reset();
+        document.getElementById("guru_materials").reset();
 
-        document.getElementById('form_title').innerHTML = 'Add a new downloadable material';
+        document.getElementById('form_title').innerHTML = 'Add a New Supportive Material for a Gurugedara Video';
         document.getElementById('submit_form').style.display = 'revert';
         document.getElementById('row1_edit').style.display = 'none';
         document.getElementById('row2_edit').style.display = 'none';

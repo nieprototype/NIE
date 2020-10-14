@@ -42,7 +42,7 @@ date_default_timezone_set("Asia/Colombo");
                             <div class="kt-portlet__head-label">
 	<span class="kt-portlet__head-icon">
 											              <span style="color: #E9AD28; font-size: 18px;"
-                                                                class="icon_plus_alt2"></span>
+                                                                class="icon_book_alt"></span>
 										</span>
 
                                 <h3 id="form_title" style="font-size: 18px; color: #E9AD28; font-weight: 500;">
@@ -152,7 +152,7 @@ date_default_timezone_set("Asia/Colombo");
                                 <div class="form-group row">
                                     <label class="col-lg-3 col-form-label">Vedio Link of the TV Program :</label>
                                     <div class="col-lg-7">
-                                        <input type="text" name="link" id="link" class="form-control"
+                                        <input style="color: #0288d1;" type="text" name="link" id="link" class="form-control"
                                                placeholder="Vedio Link of the TV Program">
                                         <span class="form-text text-muted">Please type the vedio link of the TV program</span>
                                     </div>
@@ -296,7 +296,7 @@ date_default_timezone_set("Asia/Colombo");
                                         <td id="d_grade_1">Grade 12</td>
                                         <td id="d_lan_1">Sinhala</td>
                                         <td id="d_dateTime_1">2020-10-08 17:00</td>
-                                        <td id="d_link_1"><a class="gm_vl" style="text-decoration: none; color: #0288d1;" href="https://www.youtube.com/watch?v=sDWXR_HprN4" target="_blank">Gurugedara | AL Chemistry Sinhala Medium Part-03</a>
+                                        <td style="text-decoration: none; color: #0288d1;" id="d_link_1"><a id="d_link_1_a" class="gm_vl" style="text-decoration: none; color: #0288d1;" href="https://www.youtube.com/watch?v=sDWXR_HprN4" target="_blank">Gurugedara | AL Chemistry Sinhala Medium Part-03</a>
                                         </td>
                                         <td style="text-align: center;"><a
                                                     style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;"
@@ -333,7 +333,7 @@ date_default_timezone_set("Asia/Colombo");
                                         <td id="d_grade_2">Grade 12</td>
                                         <td id="d_lan_2">Sinhala</td>
                                         <td id="d_dateTime_2">2020-10-10 08:00</td>
-                                        <td id="d_link_2"><a class="gm_vl" style="text-decoration: none; color: #0288d1;" href="https://www.youtube.com/watch?v=mIdNFvFSWwI" target="_blank">Biology A/L | Microbiology Part - 02</a>
+                                        <td style="text-decoration: none; color: #0288d1;" id="d_link_2"><a id="d_link_2_a" class="gm_vl" style="text-decoration: none; color: #0288d1;" href="https://www.youtube.com/watch?v=mIdNFvFSWwI" target="_blank">Biology A/L | Microbiology Part - 02</a>
                                         </td>
                                         <td style="text-align: center;"><a
                                                     style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;"
@@ -370,9 +370,9 @@ date_default_timezone_set("Asia/Colombo");
                                         <td id="d_grade_3">Grade 13</td>
                                         <td id="d_lan_3">Sinhala</td>
                                         <td id="d_dateTime_3">2020-10-11 05:00</td>
-                                        <td id="d_link_3">
+                                        <td style="text-decoration: none; color: #0288d1;" id="d_link_3">
 
-                                            <a class="gm_vl" style="text-decoration: none; color: #0288d1;" href="https://www.youtube.com/watch?v=jXBYIuxI8nQ" target="_blank">NIE Guru Gedara | O/L English - Lesson 03 (Part 01)</a>
+                                            <a id="d_link_3_a" class="gm_vl" style="text-decoration: none; color: #0288d1;" href="https://www.youtube.com/watch?v=jXBYIuxI8nQ" target="_blank">NIE Guru Gedara | O/L English - Lesson 03 (Part 01)</a>
 
                                         </td>
                                         <td style="text-align: center;">
@@ -416,9 +416,9 @@ date_default_timezone_set("Asia/Colombo");
                                         <td id="d_lan"></td>
                                         <td id="d_dateTime"></td>
                                         <td class="gm_vl" style="text-decoration: none; color: #0288d1;" id="d_link"></td>
-                                        <td style="text-align: center;"><a
+                                        <td style="text-align: center;"><a id="d_link_a"
                                                     style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;"
-                                                    href="#course1"><img src="img/downloads/pdf2.png" width="50px">
+                                                    href="https://www.youtube.com/watch?v=jXBYIuxI8nQ"><img src="img/downloads/pdf2.png" width="50px">
                                                 <span id="file_d"></span></a></td>
                                         <td>
                                             <button onclick="edit_g_r1(this.id)" id="4" name="4"
