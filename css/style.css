@@ -1045,6 +1045,7 @@ ol {
 .lat_a:hover {
 
     color: #19191A;
+    cursor: pointer;
 
 }
 

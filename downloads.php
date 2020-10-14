@@ -21,19 +21,38 @@
                         </h3>
                         <br>
                         <div class="filter__form__input col-12">
-                            <input style="text-align: center" type="text" placeholder="Search Downloads">
+                            <input id="d_input" style="text-align: center" type="text" placeholder="Search Downloads">
                             <span style="margin-right: 2%;" class="icon_search"></span>
 
-                            <h3 style="font-weight: 400; font-size: 20px; margin-top: 2%; margin-bottom: -1%;"
-                                class="kt-widget14__title">
-                                Top Searches :
+                            <div style="text-align: center;" class="row">
 
-                                <a class="lat_a" style="font-size: large;" href="">Biology Lesson 02</a>
-                                ,
-                                <a class="lat_a" style="font-size: large;" href="">Teacher's Guide</a>
-                                ,
 
-                                <a class="lat_a" style="font-size: large;" href="">Syllabus</a>
+                                <div style="text-align: right;" class="col-5">
+
+                                    <h3 style="font-weight: 400; font-size: 20px; margin-top: 3.1%;"
+                                        class="kt-widget14__title">
+                                        Top Searches :
+                                    </h3>
+
+                                </div>
+
+                                <div style="text-align: left; margin-left: -2%; margin-top: 1%;" class="col-7">
+
+
+                                    <h3 onClick="alert('svgbs')" id="bl2" class="lat_a" style="font-size: large;">
+                                        Biology Lesson 02</h3>
+                                    ,
+                                    <h3 onClick="alert('svgbs')" id="bl2" class="lat_a" style="font-size: large;">
+                                        Teacher's Guide</h3>
+                                    ,
+
+                                    <a onclick="tag_search(this.id)" class="lat_a" id="syl" style="font-size: large;"
+                                       href="javascript:void(0)">Syllabus</a>
+
+
+                                </div>
+
+                            </div>
 
 
                         </div>
@@ -278,11 +297,12 @@
 
                         <div class="kt-widget14__header">
                             <h3 style="font-weight: 400;" class="kt-widget14__title">
-                               Practical Instructional Manual
+                                Practical Instructional Manual
                             </h3>
 
 
-                            <p style="text-align: left; font-size: 15px;">G.C.E. (A/L)Practical Instructional Manual (Biology-Sinhala)</p>
+                            <p style="text-align: left; font-size: 15px;">G.C.E. (A/L)Practical Instructional Manual
+                                (Biology-Sinhala)</p>
 
                             <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                  class="latest__blog__text">
@@ -320,7 +340,8 @@
                             </h3>
 
 
-                            <p style="text-align: left; font-size: 15px;">Suggested Answers for the ICT (G.C.E. A/L)issued
+                            <p style="text-align: left; font-size: 15px;">Suggested Answers for the ICT (G.C.E.
+                                A/L)issued
                                 by the General of Examinations.</p>
 
                             <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
@@ -363,7 +384,8 @@
                             </h3>
 
 
-                            <p style="text-align: left; font-size: 15px;">Electrical, Electronic & IT Reference book for technology
+                            <p style="text-align: left; font-size: 15px;">Electrical, Electronic & IT Reference book for
+                                technology
                                 stream students.</p>
 
                             <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
@@ -402,7 +424,8 @@
                             </h3>
 
 
-                            <p style="text-align: left; font-size: 15px;">Geometry - I (Resource Book)-Sinhala for Advanced level.</p>
+                            <p style="text-align: left; font-size: 15px;">Geometry - I (Resource Book)-Sinhala for
+                                Advanced level.</p>
 
                             <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                  class="latest__blog__text">
@@ -446,7 +469,8 @@
                             </h3>
 
 
-                            <p style="text-align: left; font-size: 15px;">G.C.E. (A/L) : List of Practical's (Physics_Sinhala).</p>
+                            <p style="text-align: left; font-size: 15px;">G.C.E. (A/L) : List of Practical's
+                                (Physics_Sinhala).</p>
 
                             <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                  class="latest__blog__text">
