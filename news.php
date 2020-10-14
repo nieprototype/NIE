@@ -40,7 +40,7 @@
                         </div>
                     </div>
                     <div class="filter__form__item col-5">
-                        <p style="text-align: right;"><a href="#" class="primary-btn">Read More ></a></p>
+                        <p style="text-align: right;"><a href="news_details.php" class="primary-btn">Read More ></a></p>
 
 
                         <div class="kt-widget14__header kt-margin-b-30">
@@ -91,7 +91,7 @@
 
                             <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                  class="latest__blog__text">
-                                <a style="font-size: large;" href="#">Read More</a>
+                                <a style="font-size: large;" href="news_details.php">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -125,7 +125,7 @@
 
                             <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                  class="latest__blog__text">
-                                <a style="font-size: large;" href="#">Read More</a>
+                                <a style="font-size: large;" href="news_details.php">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -159,7 +159,7 @@
 
                             <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                  class="latest__blog__text">
-                                <a style="font-size: large;" href="#">Read More</a>
+                                <a style="font-size: large;" href="news_details.php">Read More</a>
                             </div>
                         </div>
                     </div>
