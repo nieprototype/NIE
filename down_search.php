@@ -7,7 +7,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div style="text-align: left" class="section-title">
-                            <h2 style="font-size: 50px; margin-bottom: 2%; margin-top: 6%;">DOWNLOADS SEARCH RESULTS&nbsp;<span style="font-size: 40px; color: rgba(17,17,17,0.36)"> for "dfszdf"</span></h2>
+                            <h2 style="font-size: 50px; margin-bottom: 2%; margin-top: 6%;">DOWNLOADS SEARCH RESULTS&nbsp;<span style="font-size: 40px; color: rgba(17,17,17,0.36)"> for "<span id="st"></span>"</span></h2>
                             <h5>Home > Downloads > Search</h5>
                         </div>
                     </div>

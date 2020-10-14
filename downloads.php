@@ -12,7 +12,7 @@
                     <br><br>
 
                 </div>
-                <form action="#" style="margin-bottom: -10%" class="filter__form col-12">
+                <form action="down_search.php" method="get" style="margin-bottom: -10%" class="filter__form col-12">
                     <div style="text-align: center;" class="filter__form__item filter__form__item--search col-sm-10">
 
                         <h3 class="kt-widget14__title">
@@ -21,7 +21,7 @@
                         </h3>
                         <br>
                         <div class="filter__form__input col-12">
-                            <input id="d_input" style="text-align: center" type="text" placeholder="Search Downloads">
+                            <input required name="name_search" id="d_input" style="text-align: center" type="text" placeholder="Search Downloads">
                             <span style="margin-right: 2%;" class="icon_search"></span>
 
                             <div style="text-align: center;" class="row">
@@ -36,16 +36,15 @@
 
                                 </div>
 
-                                <div style="text-align: left; margin-left: -2%; margin-top: 1%;" class="col-7">
+                                <div style="text-align: left; margin-left: -2%; margin-top: 1.4%;" class="col-7">
 
-                                    <h3 onClick="alert('svgbs')" id="bl2" class="lat_a" style="font-size: large;">
+                                    <h3 onClick="change_text(this.id)" id="bl2" class="lat_a" style="font-size: large;">
                                         Biology Lesson 02</h3>
                                     ,
-                                    <h3 onClick="alert('svgbs')" id="tg" class="lat_a" style="font-size: large;">
+                                    <h3 onClick="change_text(this.id)" id="tg" class="lat_a" style="font-size: large;">
                                         Teacher's Guide</h3>
                                     ,
-
-                                    <h3 onClick="alert()" id="syl" class="lat_a" style="font-size: large;">
+                                    <h3 onClick="change_text(this.id)" id="syl" class="lat_a" style="font-size: large;">
                                         Syllabus</h3>
 
                                 </div>
