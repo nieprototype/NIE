@@ -100,8 +100,8 @@
                                     <span class="icon_group"></span>
                                     <select>
                                         <option value="">Select Grade</option>
-                                        <option value="">2 Adult</option>
-                                        <option value="">1 Adult</option>
+                                        <option value="">Grade 11</option>
+                                        <option value="">Grade 13</option>
                                     </select>
                                 </div>
                             </div>
@@ -119,8 +119,8 @@
                                     <span class="icon_globe-2"></span>
                                     <select>
                                         <option value="">Select Medium</option>
-                                        <option value="">2 Adult</option>
-                                        <option value="">1 Adult</option>
+                                        <option value="">Sinhala</option>
+                                        <option value="">English</option>
                                     </select>
                                 </div>
                             </div>
@@ -138,8 +138,8 @@
                                     <span class="icon_book"></span>
                                     <select>
                                         <option value="">Select Subject</option>
-                                        <option value="">2 Adult</option>
-                                        <option value="">1 Adult</option>
+                                        <option value="">Biology</option>
+                                        <option value="">History</option>
                                     </select>
                                 </div>
                             </div>
@@ -175,7 +175,7 @@
                             </h3>
                             <span class="kt-widget14__desc">
 														  <p style="font-size: small; margin-top: 2%;">
-                                                             Most of the syllabi are attached in the Teachers' Guides. Only separated English medium syllabi are displayed under this option.</p>
+                                                             You can search the preffered teacher's guide according to the relavant grade, medium and the subject under this option.</p>
                        									</span>
                         </div>
 
@@ -185,7 +185,7 @@
 
                                 <div class="kt-widget14__header">
                                     <h3 style="font-weight: 400; font-size: 24px;" class="kt-widget14__title">
-                                        Grade of the Syllabus
+                                        Grade of the Guide
                                     </h3>
                                 </div>
 
@@ -194,8 +194,8 @@
                                     <span class="icon_group"></span>
                                     <select>
                                         <option value="">Select Grade</option>
-                                        <option value="">2 Adult</option>
-                                        <option value="">1 Adult</option>
+                                        <option value="">Grade 12</option>
+                                        <option value="">Grade 09</option>
                                     </select>
                                 </div>
                             </div>
@@ -204,7 +204,7 @@
 
                                 <div class="kt-widget14__header">
                                     <h3 style="font-weight: 400; font-size: 24px;" class="kt-widget14__title">
-                                        Medium of the Syllabus
+                                        Medium of the Guide
                                     </h3>
                                 </div>
 
@@ -213,8 +213,8 @@
                                     <span class="icon_globe-2"></span>
                                     <select>
                                         <option value="">Select Medium</option>
-                                        <option value="">2 Adult</option>
-                                        <option value="">1 Adult</option>
+                                        <option value="">English</option>
+                                        <option value="">Sinhala</option>
                                     </select>
                                 </div>
                             </div>
@@ -223,7 +223,7 @@
 
                                 <div class="kt-widget14__header">
                                     <h3 style="font-weight: 400; font-size: 24px;" class="kt-widget14__title">
-                                        Subject of the Syllabus
+                                        Subject of the Guide
                                     </h3>
                                 </div>
 
@@ -232,8 +232,8 @@
                                     <span class="icon_book"></span>
                                     <select>
                                         <option value="">Select Subject</option>
-                                        <option value="">2 Adult</option>
-                                        <option value="">1 Adult</option>
+                                        <option value="">Chemistry</option>
+                                        <option value="">English</option>
                                     </select>
                                 </div>
                             </div>
@@ -278,12 +278,11 @@
 
                         <div class="kt-widget14__header">
                             <h3 style="font-weight: 400;" class="kt-widget14__title">
-                                Grade V Scholarship
+                               Practical Instructional Manual
                             </h3>
 
 
-                            <p style="text-align: left; font-size: 15px;">Fifteen minutes extra will be provided for
-                                Grade V Scholarship Examination on October.</p>
+                            <p style="text-align: left; font-size: 15px;">G.C.E. (A/L)Practical Instructional Manual (Biology-Sinhala)</p>
 
                             <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                  class="latest__blog__text">
@@ -317,12 +316,12 @@
 
                         <div class="kt-widget14__header">
                             <h3 style="font-weight: 400;" class="kt-widget14__title">
-                                Grade V Scholarship
+                                ICT Model Paper
                             </h3>
 
 
-                            <p style="text-align: left; font-size: 15px;">Fifteen minutes extra will be provided for
-                                Grade V Scholarship Examination on October.</p>
+                            <p style="text-align: left; font-size: 15px;">Suggested Answers for the ICT (G.C.E. A/L)issued
+                                by the General of Examinations.</p>
 
                             <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                  class="latest__blog__text">
@@ -360,12 +359,12 @@
 
                         <div class="kt-widget14__header">
                             <h3 style="font-weight: 400;" class="kt-widget14__title">
-                                Grade V Scholarship
+                                Electrical, Electronic Reference
                             </h3>
 
 
-                            <p style="text-align: left; font-size: 15px;">Fifteen minutes extra will be provided for
-                                Grade V Scholarship Examination on October.</p>
+                            <p style="text-align: left; font-size: 15px;">Electrical, Electronic & IT Reference book for technology
+                                stream students.</p>
 
                             <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                  class="latest__blog__text">
@@ -399,12 +398,11 @@
 
                         <div class="kt-widget14__header">
                             <h3 style="font-weight: 400;" class="kt-widget14__title">
-                                Grade V Scholarship
+                                Geometry - I
                             </h3>
 
 
-                            <p style="text-align: left; font-size: 15px;">Fifteen minutes extra will be provided for
-                                Grade V Scholarship Examination on October.</p>
+                            <p style="text-align: left; font-size: 15px;">Geometry - I (Resource Book)-Sinhala for Advanced level.</p>
 
                             <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                  class="latest__blog__text">
@@ -444,12 +442,11 @@
 
                         <div class="kt-widget14__header">
                             <h3 style="font-weight: 400;" class="kt-widget14__title">
-                                Grade V Scholarship
+                                Physics List of Practical's
                             </h3>
 
 
-                            <p style="text-align: left; font-size: 15px;">Fifteen minutes extra will be provided for
-                                Grade V Scholarship Examination on October.</p>
+                            <p style="text-align: left; font-size: 15px;">G.C.E. (A/L) : List of Practical's (Physics_Sinhala).</p>
 
                             <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                  class="latest__blog__text">
@@ -483,12 +480,12 @@
 
                         <div class="kt-widget14__header">
                             <h3 style="font-weight: 400;" class="kt-widget14__title">
-                                Grade V Scholarship
+                                Mechanical Technology
                             </h3>
 
 
-                            <p style="text-align: left; font-size: 15px;">Fifteen minutes extra will be provided for
-                                Grade V Scholarship Examination on October.</p>
+                            <p style="text-align: left; font-size: 15px;">Mechanical Technology Reference book for
+                                Gr-13-sinhala.</p>
 
                             <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                  class="latest__blog__text">

@@ -75,13 +75,11 @@
 
                             <div class="kt-widget14__header">
                                 <h3 style="font-weight: 400;" class="kt-widget14__title">
-                                    Annual Staff Awareness
+                                    Master of Philosophy
                                 </h3>
 
 
-                                <p style="text-align: left; font-size: 15px;">NIE Staff Awareness Program for Security
-                                    07th
-                                    November, 2020.</p>
+                                <p style="text-align: left; font-size: 15px;">M. Phil. (Ed) is a research degree. The duration of the course is two years.</p>
 
                                 <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                      class="latest__blog__text">
@@ -111,13 +109,11 @@
 
                             <div class="kt-widget14__header">
                                 <h3 style="font-weight: 400;" class="kt-widget14__title">
-                                    Closing Dates Extended
+                                    Master of Education
                                 </h3>
 
 
-                                <p style="text-align: left; font-size: 15px;">Open University extends the closing date
-                                    for
-                                    Bachelor of Science degree.</p>
+                                <p style="text-align: left; font-size: 15px;">This is a 30-credit study programme. A candidate should acquire the 30 credits.</p>
 
                                 <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                      class="latest__blog__text">
@@ -148,12 +144,11 @@
 
                             <div class="kt-widget14__header">
                                 <h3 style="font-weight: 400;" class="kt-widget14__title">
-                                    Publication of SAARC
+                                    Diploma in Teaching English
                                 </h3>
 
 
-                                <p style="text-align: left; font-size: 15px;">Reopened schools after 4 months due to
-                                    lockdown in Sri Lanka.</p>
+                                <p style="text-align: left; font-size: 15px;">This courses are exclusively designed for currently in the teaching profession.</p>
 
                                 <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                      class="latest__blog__text">
@@ -186,13 +181,11 @@
 
                             <div class="kt-widget14__header">
                                 <h3 style="font-weight: 400;" class="kt-widget14__title">
-                                    ITESL : Teacher Education
+                                    Diploma in Sign Language
                                 </h3>
 
 
-                                <p style="text-align: left; font-size: 15px;">The Closing date for the post of lead
-                                    trainer
-                                    in ITESL project has been extended.</p>
+                                <p style="text-align: left; font-size: 15px;">Diploma Course in Sign Language – National Institute of Education (NIE) 2018.</p>
 
                                 <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                      class="latest__blog__text">
@@ -223,13 +216,11 @@
 
                             <div class="kt-widget14__header">
                                 <h3 style="font-weight: 400;" class="kt-widget14__title">
-                                    Preparation of Audio materials
+                                    Bachelor of Education Degree
                                 </h3>
 
 
-                                <p style="text-align: left; font-size: 15px;">Preparation of Audio materials for Primary
-                                    and
-                                    Secondary Levels in schools.</p>
+                                <p style="text-align: left; font-size: 15px;">The total number of course units for the BEd programme depends on the requirements.</p>
 
                                 <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                      class="latest__blog__text">
@@ -260,13 +251,11 @@
 
                             <div class="kt-widget14__header">
                                 <h3 style="font-weight: 400;" class="kt-widget14__title">
-                                    PRINSETT Final Certificates
+                                     Diploma in School Counselling
                                 </h3>
 
 
-                                <p style="text-align: left; font-size: 15px;"> Distributed by the Dept of English, NIE
-                                    will
-                                    now be handled by the Dept. of Examinations.</p>
+                                <p style="text-align: left; font-size: 15px;"> Post Graduate Diploma in School Counselling.Content consists of nine modules</p>
 
                                 <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                      class="latest__blog__text">

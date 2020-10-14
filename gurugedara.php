@@ -94,7 +94,7 @@
                             <img style="margin-left: 2.5%;" src="img/downloads/down.png" width="16%">
 
                             <h5 style="text-align: left; margin-left: 20%; margin-top: -11%;">
-                                Geograpy_Pastpaper_Questions_8.pdf
+                                Geograpy_Pastpaper_Questions_8.docx
                             </h5>
 
                         </div>
@@ -245,9 +245,14 @@
                                         <td>Lesson 08</td>
                                         <td>12</td>
                                         <td>Sinhala</td>
-                                        <td><img src="img/tv/play.png" width="28%"> <h3 style="font-size: 18px; color: #e42c24; font-weight: 500;">
-                                                Watch Now
-                                            </h3></td>
+                                        <td>
+
+                                            <a target="_blank" style="color: #e42c24;" href="https://www.youtube.com/watch?v=sDWXR_HprN4">
+                                                <img src="img/tv/play.png" width="28%"> <h3 style="font-size: 18px; color: #e42c24; font-weight: 500;">
+                                                    Watch Now
+                                                </h3></a>
+
+                                        </td>
                                         <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; padding-right: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Organic.pdf</a></td>
                                     </tr>
                                     <tr>
@@ -258,48 +263,68 @@
                                         <td>Lesson 11</td>
                                         <td>12</td>
                                         <td>Sinhala</td>
-                                        <td><img src="img/tv/play.png" width="28%"> <h3 style="font-size: 18px; color: #e42c24; font-weight: 500;">
-                                                Watch Now
-                                            </h3></td>
+                                        <td>
+
+                                            <a target="_blank" style="color: #e42c24;" href="https://www.youtube.com/watch?v=mIdNFvFSWwI">
+                                                <img src="img/tv/play.png" width="28%"> <h3 style="font-size: 18px; color: #e42c24; font-weight: 500;">
+                                                    Watch Now
+                                                </h3></a>
+
+                                        </td>
                                         <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; padding-right: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Micro.pdf</a></td>
                                     </tr>
                                     <tr>
-                                        <td>2</td>
+                                        <td>3</td>
                                         <td>2020/10/11</td>
                                         <td>05.00 A. M.</td>
                                         <td>Combine Mathematics</td>
                                         <td>Lesson 05</td>
                                         <td>13</td>
                                         <td>Sinhala</td>
-                                        <td><img src="img/tv/play.png" width="28%"> <h3 style="font-size: 18px; color: #e42c24; font-weight: 500;">
-                                                Watch Now
-                                            </h3></td>
+                                        <td>
+
+                                            <a target="_blank" style="color: #e42c24;" href="https://www.youtube.com/watch?v=l_xnHV3H9DU&list=RDCMUChr7K9dI0ZkPFm1AuXyXW-g&start_radio=1&t=0">
+                                                <img src="img/tv/play.png" width="28%"> <h3 style="font-size: 18px; color: #e42c24; font-weight: 500;">
+                                                    Watch Now
+                                                </h3></a>
+
+                                        </td>
                                         <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; padding-right: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Statics_PastPapers</a></td>
                                     </tr>
                                     <tr>
-                                        <td>2</td>
+                                        <td>4</td>
                                         <td>2020/10/11</td>
                                         <td>05.00 A. M.</td>
                                         <td>History</td>
                                         <td>Lesson 03</td>
                                         <td>10</td>
                                         <td>Sinhala</td>
-                                        <td><img src="img/tv/play.png" width="28%"> <h3 style="font-size: 18px; color: #e42c24; font-weight: 500;">
-                                                Watch Now
-                                            </h3></td>
+                                        <td>
+
+                                            <a target="_blank" style="color: #e42c24;" href="https://www.youtube.com/watch?v=0Kv7SjJSIy8">
+                                                <img src="img/tv/play.png" width="28%"> <h3 style="font-size: 18px; color: #e42c24; font-weight: 500;">
+                                                    Watch Now
+                                                </h3></a>
+
+                                        </td>
                                         <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; padding-right: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">2nd World War.pdf</a></td>
                                     </tr>
                                     <tr>
-                                        <td>2</td>
+                                        <td>5</td>
                                         <td>2020/10/15</td>
                                         <td>07.00 A. M.</td>
                                         <td>English</td>
                                         <td>Lesson 02</td>
                                         <td>07</td>
                                         <td>English</td>
-                                        <td><img src="img/tv/play.png" width="28%"> <h3 style="font-size: 18px; color: #e42c24; font-weight: 500;">
+                                        <td>
+
+                                            <a target="_blank" style="color: #e42c24;" href="https://www.youtube.com/watch?v=jXBYIuxI8nQ">
+                                                <img src="img/tv/play.png" width="28%"> <h3 style="font-size: 18px; color: #e42c24; font-weight: 500;">
                                                 Watch Now
-                                            </h3></td>
+                                            </h3></a>
+
+                                        </td>
                                         <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; padding-right: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Letter_Writting.pdf</a></td>
                                     </tr>
                                     </tbody>

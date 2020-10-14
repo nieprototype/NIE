@@ -28,15 +28,13 @@
 
                             <h2 style="color: #E9AD28;">Explore Additional Educational Materials.</h2>
                             <br>
-                            <h4 style="color: #4D5656; font-weight: 500;">Followings are the courses that are provided
-                                by
-                                National
-                                Institute of Education. You can download relevant
-                                application to your preferred course. Click on View Courses to get started.</h4>
+                            <h4 style="color: #4D5656; font-weight: 500;">Followings are the additional materials that can be used to
+                                explore the knowledge. You can view relavant educational resources using following
+                                web links that are provided by National Institute of Education.</h4>
                             <br><br>
                             <br>
                             <a href="#course1" style="font-family: 'Poppins',sans-serif; font-size: large;"
-                               class="primary-btn">View Courses</a>
+                               class="primary-btn">View Resources</a>
 
 
                         </div>
@@ -180,16 +178,14 @@
 
                     <div style="text-align: right;" class="col-6">
 
-                        <h2 style="color: #E9AD28;">PROGRAM GUIDE FOR GURUGEDARA</h2>
+                        <h2 style="color: #E9AD28;">Resources to explore the knowledge</h2>
 
                         <br>
 
-                        <h4 style="color: #4D5656; font-weight: 500;">Following table displays all the courses that are
-                            offered by
-                            National Institute of Education for all teachers and Teacher Educators. You can download
-                            relevant
-                            application to your preferred course by clicking <span style="color: #E9AD28;">Download Application </span>button
-                            right next to the particular corse.</h4>
+                        <h4 style="color: #4D5656; font-weight: 500;">Following table displays all the web links that are
+                            offered by National Institute of Education for all students and teachers. You can choose preferred
+                            web links according to different levels of school education.You can view relavant
+                            supportive materials by clicking <span style="color: #E9AD28;">Visit Website </span> button.</h4>
                         <br>
 
 
@@ -296,7 +292,10 @@
                                             </div>
 
                                             <div class="col-10">
-                                                <h5>The NASA Kids' Club is a games-based website that stimulates children's interest in science, technology, engineering and mathematics by incorporating five skill levels, national education standards and NASA content.</h5>
+                                                <h5>The NASA Kids' Club is a games-based website that stimulates
+                                                    children's interest in science, technology, engineering and
+                                                    mathematics by incorporating five skill levels, national education
+                                                    standards and NASA content.</h5>
                                                 <br>
                                                 <a target="_blank" href="https://www.nasa.gov/kidsclub/index.html"
                                                    style="font-family: 'Barlow Condensed',sans-serif; font-size: 18px; padding-left: 20px; color: #0f0f16; padding-right: 20px;"
@@ -320,7 +319,9 @@
                                             </div>
 
                                             <div class="col-10">
-                                                <h5>Delve into the Museum from home with a virtual self-guided tour of the galleries, an interactive experience about Hope the blue whale and audio guides narrated by Sir David Attenborough.</h5>
+                                                <h5>Delve into the Museum from home with a virtual self-guided tour of
+                                                    the galleries, an interactive experience about Hope the blue whale
+                                                    and audio guides narrated by Sir David Attenborough.</h5>
                                                 <br>
                                                 <a target="_blank" href="https://www.nhm.ac.uk/"
                                                    style="font-family: 'Barlow Condensed',sans-serif; font-size: 18px; padding-left: 20px; color: #0f0f16; padding-right: 20px;"
@@ -345,7 +346,9 @@
                                             </div>
 
                                             <div class="col-10">
-                                                <h5>Google Arts & Culture features content from over 1200 leading museums and archives who have partnered with the Google Cultural Institute to bring the world's treasures online.</h5>
+                                                <h5>Google Arts & Culture features content from over 1200 leading
+                                                    museums and archives who have partnered with the Google Cultural
+                                                    Institute to bring the world's treasures online.</h5>
                                                 <br>
                                                 <a target="_blank" href="https://artsandculture.google.com/"
                                                    style="font-family: 'Barlow Condensed',sans-serif; font-size: 18px; padding-left: 20px; color: #0f0f16; padding-right: 20px;"
@@ -371,7 +374,9 @@
                                             </div>
 
                                             <div class="col-10">
-                                                <h5>This is a platform that provides high quality curated STEM content for teachers and students. Its library has over 5000 math and science materials ideal to use in class</h5>
+                                                <h5>This is a platform that provides high quality curated STEM content
+                                                    for teachers and students. Its library has over 5000 math and
+                                                    science materials ideal to use in class</h5>
                                                 <br>
                                                 <a target="_blank" href="https://www.ck12.org/student/"
                                                    style="font-family: 'Barlow Condensed',sans-serif; font-size: 18px; padding-left: 20px; color: #0f0f16; padding-right: 20px;"
@@ -396,7 +401,12 @@
                                             </div>
 
                                             <div class="col-10">
-                                                <h5>Prodigy is a free, adaptive math game that integrates Common Core math (1st-7th grade) into a fantasy style game that students absolutely love playing. Prodigy takes game-based learning a step further and provides teachers with a powerful set of reporting and assessment tools that allow them to easily identify trouble spots, differentiate instruction, and better manage classroom time.</h5>
+                                                <h5>Prodigy is a free, adaptive math game that integrates Common Core
+                                                    math (1st-7th grade) into a fantasy style game that students
+                                                    absolutely love playing. Prodigy takes game-based learning a step
+                                                    further and provides teachers with a powerful set of reporting and
+                                                    assessment tools that allow them to easily identify trouble spots,
+                                                    differentiate instruction, and better manage classroom time.</h5>
                                                 <br>
                                                 <a target="_blank" href="https://www.prodigygame.com/main-en/"
                                                    style="font-family: 'Barlow Condensed',sans-serif; font-size: 18px; padding-left: 20px; color: #0f0f16; padding-right: 20px;"
@@ -421,7 +431,11 @@
                                             </div>
 
                                             <div class="col-10">
-                                                <h5>EdX offers free online courses from world’s top universities including ‘Harvard University, MIT, UC Berkeley, Tsinghua University, Microsoft, Linux, The Smithsonian and more. Courses cover different topics like computer science, engineering, history, psychology, nutrition, big data, statistics and hundreds more.’</h5>
+                                                <h5>EdX offers free online courses from world’s top universities
+                                                    including ‘Harvard University, MIT, UC Berkeley, Tsinghua
+                                                    University, Microsoft, Linux, The Smithsonian and more. Courses
+                                                    cover different topics like computer science, engineering, history,
+                                                    psychology, nutrition, big data, statistics and hundreds more.’</h5>
                                                 <br>
                                                 <a target="_blank" href="https://www.edx.org/"
                                                    style="font-family: 'Barlow Condensed',sans-serif; font-size: 18px; padding-left: 20px; color: #0f0f16; padding-right: 20px;"
@@ -434,9 +448,6 @@
                                         </div>
 
 
-
-
-
                                     </div>
                                     <div class="tab-pane" id="kt_portlet_tab_1_3">
                                         <h4 style="color: #4D5656; font-weight: 500;">1. HowStuffWorks</h4>
@@ -447,7 +458,12 @@
                                             </div>
 
                                             <div class="col-10">
-                                                <h5>HowStuffWorks is an American commercial infotainment website founded by professor and author Marshall Brain to provide its target audience an insight into the way many things work. The site uses various media to explain complex concepts, terminology, and mechanisms—including photographs, diagrams, videos, animations, and articles.</h5>  <br>
+                                                <h5>HowStuffWorks is an American commercial infotainment website founded
+                                                    by professor and author Marshall Brain to provide its target
+                                                    audience an insight into the way many things work. The site uses
+                                                    various media to explain complex concepts, terminology, and
+                                                    mechanisms—including photographs, diagrams, videos, animations, and
+                                                    articles.</h5>  <br>
                                                 <a target="_blank" href="https://www.howstuffworks.com/"
                                                    style="font-family: 'Barlow Condensed',sans-serif; font-size: 18px; padding-left: 20px; color: #0f0f16; padding-right: 20px;"
                                                    class="primary-btn">Visit Website &nbsp;<img
@@ -472,7 +488,12 @@
                                             </div>
 
                                             <div class="col-10">
-                                                <h5>Khan Academy is an American non-profit educational organization created in 2008 by Sal Khan, with the goal of creating a set of online tools that help educate students. The organization produces short lessons in the form of videos. Its website also includes supplementary practice exercises and materials for educators.</h5>   <br>
+                                                <h5>Khan Academy is an American non-profit educational organization
+                                                    created in 2008 by Sal Khan, with the goal of creating a set of
+                                                    online tools that help educate students. The organization produces
+                                                    short lessons in the form of videos. Its website also includes
+                                                    supplementary practice exercises and materials for educators.</h5>
+                                                <br>
                                                 <a target="_blank" href="https://www.khanacademy.org/"
                                                    style="font-family: 'Barlow Condensed',sans-serif; font-size: 18px; padding-left: 20px; color: #0f0f16; padding-right: 20px;"
                                                    class="primary-btn">Visit Website &nbsp;<img
@@ -496,7 +517,11 @@
                                             </div>
 
                                             <div class="col-10">
-                                                <h5>Gojimo is an education software company headquartered in London, United Kingdom, which produces a self-test exam preparation mobile app for the iPhone, iPad, Android and the web. The content spans mainly across the secondary school public exams syllabus in the UK and USA such as GCSE A Level and the SAT.
+                                                <h5>Gojimo is an education software company headquartered in London,
+                                                    United Kingdom, which produces a self-test exam preparation mobile
+                                                    app for the iPhone, iPad, Android and the web. The content spans
+                                                    mainly across the secondary school public exams syllabus in the UK
+                                                    and USA such as GCSE A Level and the SAT.
                                                 </h5><br>
                                                 <a target="_blank" href="http://www.gojimo.com/"
                                                    style="font-family: 'Barlow Condensed',sans-serif; font-size: 18px; padding-left: 20px; color: #0f0f16; padding-right: 20px;"
@@ -521,7 +546,11 @@
                                             </div>
 
                                             <div class="col-10">
-                                                <h5>Pick from 1000+ KS2, KS3, GCSE & A Level courses based on exam board specifications. We’ve condensed the content to what you actually need to know for your exams. Your teacher can also create classes and set homework for any revision topic on the study platform creating the perfect lesson plan.</h5>  <br>
+                                                <h5>Pick from 1000+ KS2, KS3, GCSE & A Level courses based on exam board
+                                                    specifications. We’ve condensed the content to what you actually
+                                                    need to know for your exams. Your teacher can also create classes
+                                                    and set homework for any revision topic on the study platform
+                                                    creating the perfect lesson plan.</h5>  <br>
                                                 <a target="_blank" href="https://senecalearning.com/en-GB/"
                                                    style="font-family: 'Barlow Condensed',sans-serif; font-size: 18px; padding-left: 20px; color: #0f0f16; padding-right: 20px;"
                                                    class="primary-btn">Visit Website &nbsp;<img
@@ -545,7 +574,13 @@
                                             </div>
 
                                             <div class="col-10">
-                                                <h5>Get Revising has been created to help students learn. Its aim is to involve students actively in their own learning and to provide an outlet for their creativity and helpfulness. It does this by providing interactive tools to plan revision and make revision notes. It also provides a resource bank where notes and resources can be shared. Get Revising is completely free to use for schools and individual students.</h5> <br>
+                                                <h5>Get Revising has been created to help students learn. Its aim is to
+                                                    involve students actively in their own learning and to provide an
+                                                    outlet for their creativity and helpfulness. It does this by
+                                                    providing interactive tools to plan revision and make revision
+                                                    notes. It also provides a resource bank where notes and resources
+                                                    can be shared. Get Revising is completely free to use for schools
+                                                    and individual students.</h5> <br>
                                                 <a target="_blank" href="https://getrevising.co.uk/resources/level/gcse"
                                                    style="font-family: 'Barlow Condensed',sans-serif; font-size: 18px; padding-left: 20px; color: #0f0f16; padding-right: 20px;"
                                                    class="primary-btn">Visit Website &nbsp;<img

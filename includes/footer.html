@@ -46,8 +46,8 @@
                     <div class="footer__newslatter">
                         <h4>Subscribe our newsletter</h4>
                         <form onsubmit="return false;">
-                            <input type="text" placeholder="Your E-mail Address">
-                            <button id="kt_sweetalert_demo_6">Subscribe</button>
+                            <input type="text" id="lettermail" placeholder="Your E-mail Address">
+                            <button onclick="lettersubmit1()">Subscribe</button>
                         </form>
                         <div class="footer__newslatter__find">
                             <h5>Find Us :</h5>
@@ -409,7 +409,7 @@
         var lan_d = document.getElementById('lan').value;
         var desc_d = document.getElementById('desc').value;
 
-        if (title_d == '' || desc_d ==''){
+        if (title_d == '' || desc_d == '') {
 
             swal.fire("All Fields Required !", "Please Fill All the Required Fields.", "warning");
             document.getElementById('title').className = 'form-control is-invalid';
@@ -452,7 +452,7 @@
 
         document.getElementById('submit_form').style.display = 'none';
 
-        if (clicked_id == 1){
+        if (clicked_id == 1) {
 
             document.getElementById('row1_edit').style.display = 'revert';
             document.getElementById('row2_edit').style.display = 'none';
@@ -467,7 +467,8 @@
             var d_lan_1 = document.getElementById('d_lan_1').innerHTML;
             var d_desc_1 = document.getElementById('d_desc_1').innerHTML;
 
-        }if (clicked_id == 2){
+        }
+        if (clicked_id == 2) {
 
             document.getElementById('row2_edit').style.display = 'revert';
             document.getElementById('row1_edit').style.display = 'none';
@@ -482,7 +483,8 @@
             var d_lan_1 = document.getElementById('d_lan_2').innerHTML;
             var d_desc_1 = document.getElementById('d_desc_2').innerHTML;
 
-        }if (clicked_id == 3){
+        }
+        if (clicked_id == 3) {
 
             document.getElementById('row3_edit').style.display = 'revert';
             document.getElementById('row1_edit').style.display = 'none';
@@ -497,7 +499,8 @@
             var d_lan_1 = document.getElementById('d_lan_3').innerHTML;
             var d_desc_1 = document.getElementById('d_desc_3').innerHTML;
 
-        }if (clicked_id == 4){
+        }
+        if (clicked_id == 4) {
 
             document.getElementById('row4_edit').style.display = 'revert';
             document.getElementById('row1_edit').style.display = 'none';
@@ -533,11 +536,11 @@
                 .addClass("quickFlash")
                 .on(
                     "webkitAnimationEnd oanimationend msAnimationEnd animationend",
-                    function() {
+                    function () {
                         console.log("animationend");
                         $(this)
                             .delay(500)// Wait for milliseconds.
-                            .queue(function() {
+                            .queue(function () {
                                 console.log("end of delay");
                                 $(this)
                                     .removeClass("quickFlash")
@@ -556,7 +559,7 @@
 
 <script>
 
-    function edit_row_1_submit() {
+    function edit_row_submit(clicked_id_edit) {
 
         var table = $('#kt_table_1').DataTable();
 
@@ -568,7 +571,7 @@
         var lan_d = document.getElementById('lan').value;
         var desc_d = document.getElementById('desc').value;
 
-        if (title_d == '' || desc_d ==''){
+        if (title_d == '' || desc_d == '') {
 
             swal.fire("All Fields Required !", "Please Fill All the Required Fields.", "warning");
             document.getElementById('title').className = 'form-control is-invalid';
@@ -577,13 +580,50 @@
 
         }
 
-        // Table Data
-        document.getElementById('d_title_1').innerHTML = title_d;
-        document.getElementById('d_type_1').innerHTML = type_d;
-        document.getElementById('d_grade_1').innerHTML = grade_d;
-        document.getElementById('d_subject_1').innerHTML = subject_d;
-        document.getElementById('d_lan_1').innerHTML = lan_d;
-        document.getElementById('d_desc_1').innerHTML = desc_d;
+        if (clicked_id_edit == "row1_edit") {
+
+            // Table Data
+            document.getElementById('d_title_1').innerHTML = title_d;
+            document.getElementById('d_type_1').innerHTML = type_d;
+            document.getElementById('d_grade_1').innerHTML = grade_d;
+            document.getElementById('d_subject_1').innerHTML = subject_d;
+            document.getElementById('d_lan_1').innerHTML = lan_d;
+            document.getElementById('d_desc_1').innerHTML = desc_d;
+
+        }
+        if (clicked_id_edit == "row2_edit") {
+
+            // Table Data
+            document.getElementById('d_title_2').innerHTML = title_d;
+            document.getElementById('d_type_2').innerHTML = type_d;
+            document.getElementById('d_grade_2').innerHTML = grade_d;
+            document.getElementById('d_subject_2').innerHTML = subject_d;
+            document.getElementById('d_lan_2').innerHTML = lan_d;
+            document.getElementById('d_desc_2').innerHTML = desc_d;
+
+        }
+        if (clicked_id_edit == "row3_edit") {
+
+            // Table Data
+            document.getElementById('d_title_3').innerHTML = title_d;
+            document.getElementById('d_type_3').innerHTML = type_d;
+            document.getElementById('d_grade_3').innerHTML = grade_d;
+            document.getElementById('d_subject_3').innerHTML = subject_d;
+            document.getElementById('d_lan_3').innerHTML = lan_d;
+            document.getElementById('d_desc_3').innerHTML = desc_d;
+
+        }
+        if (clicked_id_edit == "row4_edit") {
+
+            // Table Data
+            document.getElementById('d_title').innerHTML = title_d;
+            document.getElementById('d_type').innerHTML = type_d;
+            document.getElementById('d_grade').innerHTML = grade_d;
+            document.getElementById('d_subject').innerHTML = subject_d;
+            document.getElementById('d_lan').innerHTML = lan_d;
+            document.getElementById('d_desc').innerHTML = desc_d;
+
+        }
 
         table.draw();
 
@@ -597,12 +637,68 @@
         document.getElementById('form_title').innerHTML = 'Add a new downloadable material';
         document.getElementById('submit_form').style.display = 'revert';
         document.getElementById('row1_edit').style.display = 'none';
-
+        document.getElementById('row2_edit').style.display = 'none';
+        document.getElementById('row3_edit').style.display = 'none';
+        document.getElementById('row4_edit').style.display = 'none';
 
     }
 
 </script>
 
+<script>
+
+    function lettersubmit1(){
+
+        var nl = document.getElementById('lettermail').value;
+        var mailformat = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        if (nl.match(mailformat)){
+
+            swal.fire({
+                position: 'top-right',
+                type: 'success',
+                title: 'You have Successfully Subscribed to Our Newsletter',
+                showConfirmButton: false,
+                timer: 5000
+            });
+
+        }else if (nl == ''){
+
+            swal.fire("Enter an Email Address !", "Please Enter an Email.", "warning");
+            return false;
+
+        }else {
+
+            swal.fire("Enter an Email Address !", "Please Enter a Valid Email Address.", "warning");
+            return false;
+
+        }
+
+    }
+
+</script>
+
+<script>
+
+    function loginhandler(){
+
+        var mail = document.getElementById('loginmail').value;
+        var pw = document.getElementById('loginpassword').value;
+
+        if (mail !== '' && pw !== ''){
+
+            window.location.href = "forms.php";
+
+        }else {
+
+            swal.fire("Enter Credentials !", "Please Enter Your Login Credentials.", "warning");
+            return false;
+
+        }
+
+    }
+
+</script>
 
 </body>
 
