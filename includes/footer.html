@@ -46,8 +46,8 @@
                     <div class="footer__newslatter">
                         <h4>Subscribe our newsletter</h4>
                         <form onsubmit="return false;">
-                            <input type="text" placeholder="Your E-mail Address">
-                            <button id="kt_sweetalert_demo_6">Subscribe</button>
+                            <input type="text" id="lettermail" placeholder="Your E-mail Address">
+                            <button onclick="lettersubmit1()">Subscribe</button>
                         </form>
                         <div class="footer__newslatter__find">
                             <h5>Find Us :</h5>
@@ -645,6 +645,60 @@
 
 </script>
 
+<script>
+
+    function lettersubmit1(){
+
+        var nl = document.getElementById('lettermail').value;
+        var mailformat = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        if (nl.match(mailformat)){
+
+            swal.fire({
+                position: 'top-right',
+                type: 'success',
+                title: 'You have Successfully Subscribed to Our Newsletter',
+                showConfirmButton: false,
+                timer: 5000
+            });
+
+        }else if (nl == ''){
+
+            swal.fire("Enter an Email Address !", "Please Enter an Email.", "warning");
+            return false;
+
+        }else {
+
+            swal.fire("Enter an Email Address !", "Please Enter a Valid Email Address.", "warning");
+            return false;
+
+        }
+
+    }
+
+</script>
+
+<script>
+
+    function loginhandler(){
+
+        var mail = document.getElementById('loginmail').value;
+        var pw = document.getElementById('loginpassword').value;
+
+        if (mail !== '' && pw !== ''){
+
+            window.location.href = "forms.php";
+
+        }else {
+
+            swal.fire("Enter Credentials !", "Please Enter Your Login Credentials.", "warning");
+            return false;
+
+        }
+
+    }
+
+</script>
 
 </body>
 

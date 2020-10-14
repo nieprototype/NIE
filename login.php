@@ -19,23 +19,23 @@
                             <button style="font-family: 'Barlow Condensed', sans-serif">Register</button>
                         </div>
                         <div style="background-color: #1a1a1a;" class="wrapper">
-                            <form id="hid1"  autocomplete="off" style="background-color: transparent;" action="forms.php" method="POST">
+                            <form id="hid1"  autocomplete="off" style="background-color: transparent;">
                                 <h2 style="color: #fff; font-family: 'Barlow Condensed', sans-serif;">NIE STAFF</h2>
                                 
                                 <img width="70%" src="img/downloads/login.png">
                                 <h4 style="color: #fff; margin-bottom: 15px; margin-top: 10px; font-family: 'Barlow Condensed', sans-serif;">Login</h4>
                                 <div class="mail">
-                                    <input readonly type="text" onfocus="if (this.hasAttribute('readonly')) { this.removeAttribute('readonly');
+                                    <input id="loginmail" readonly type="text" onfocus="if (this.hasAttribute('readonly')) { this.removeAttribute('readonly');
     // fix for mobile safari to show virtual keyboard
     this.blur();    this.focus();  }" placeholder="Enter Username" name="roll_no" required>
                                 </div>
                                 <div class="passwd">
-                                    <input readonly onfocus="if (this.hasAttribute('readonly')) { this.removeAttribute('readonly');
+                                    <input id="loginpassword" readonly onfocus="if (this.hasAttribute('readonly')) { this.removeAttribute('readonly');
     // fix for mobile safari to show virtual keyboard
     this.blur();    this.focus();  }" type="password" placeholder="Enter Password" name="password" required>
                                 </div>
                                 <div class="submit">
-                                    <button type="submit" class="dark">Login</button>
+                                    <button onclick="loginhandler()" type="button" class="dark">Login</button>
                                 </div>
                             </form>
 
