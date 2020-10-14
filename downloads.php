@@ -38,17 +38,15 @@
 
                                 <div style="text-align: left; margin-left: -2%; margin-top: 1%;" class="col-7">
 
-
                                     <h3 onClick="alert('svgbs')" id="bl2" class="lat_a" style="font-size: large;">
                                         Biology Lesson 02</h3>
                                     ,
-                                    <h3 onClick="alert('svgbs')" id="bl2" class="lat_a" style="font-size: large;">
+                                    <h3 onClick="alert('svgbs')" id="tg" class="lat_a" style="font-size: large;">
                                         Teacher's Guide</h3>
                                     ,
 
-                                    <a onclick="tag_search(this.id)" class="lat_a" id="syl" style="font-size: large;"
-                                       href="javascript:void(0)">Syllabus</a>
-
+                                    <h3 onClick="alert()" id="syl" class="lat_a" style="font-size: large;">
+                                        Syllabus</h3>
 
                                 </div>
 
