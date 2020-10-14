@@ -11,7 +11,7 @@
             "port": 55019,
             "driver": "MSSQL",
             "name": "VI",
-            "database": "Contrinex_ERP",
+            "database": "Ceyoka_Test_1",
             "username": "sa",
             "password": "Victory@123#*"
         }

@@ -1,11 +1,12 @@
 <?php include "includes/header.html"; ?>
 
-    <link rel="stylesheet" href="css/educationalSoftware.css">
-    <script src="js/educationalSoftware.js"></script>
+<link rel="stylesheet" href="css/educationalSoftware.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/educationalSoftware.js"></script>
 
-    <div class="container-fluid" style="background-image: url('../NIE/img/SoftwarePackages/library.jpg'); background-size: cover; padding: 20px;">
+<div class="container-fluid" style="background-image: url('../NIE/img/SoftwarePackages/library.jpg'); background-size: cover; padding: 20px;">
     <div style="background-color: rgba(0, 0, 0, 0.8);">
-        <div class="topic" >
+        <div class="topic">
             <h1 style="color: white;">NIE Educational Software</h1>
         </div>
         <div class="intro">
@@ -44,63 +45,10 @@
                 </div>
             </div>
         </div>
-        <div class="download-container center">
-            <div class="row">
-                <div class="col-sm">
-                    <img src="img/SoftwarePackages/pack.png" alt="Software1"><br/>
-                    <div class="overlay">
-                        <div class="text">Education Software Package For Grade 6 Students<br/><a href="">more</a><br/><a href="">Download</a></div>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <img src="img/SoftwarePackages/pack.png" alt="Software1"><br/>
-                    <div class="overlay">
-                        <div class="text">Education Software Package For Grade 7 Students<br/><a href="">more</a><br/><a href="">Download</a></div>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <img src="img/SoftwarePackages/pack.png" alt="Software1"><br/>
-                    <div class="overlay">
-                        <div class="text">Education Software Package For Grade 8 Students<br/><a href="">more</a><br/><a href="">Download</a></div>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <img src="img/SoftwarePackages/pack.png" alt="Software1"><br/>
-                    <div class="overlay">
-                        <div class="text">Education Software Package For Grade 9 Students<br/><a href="">more</a><br/><a href="">Download</a></div>
-                    </div>
-                </div>
+        <div class="download-container center" id="download-container">
+            <div class="row" id="download-container-row">
             </div>
         </div>
-        <div class="download-container center">
-            <div class="row">
-                <div class="col-sm">
-                    <img src="img/SoftwarePackages/pack.png" alt="Software1"><br/>
-                    <div class="overlay">
-                        <div class="text">Education Software Package For Grade 10 Students<br/><a href="">more</a><br/><a href="">Download</a></div>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <img src="img/SoftwarePackages/pack.png" alt="Software1"><br/>
-                    <div class="overlay">
-                        <div class="text">Education Software Package For Grade 11 Students<br/><a href="">more</a><br/><a href="">Download</a></div>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <img src="img/SoftwarePackages/pack.png" alt="Software1"><br/>
-                    <div class="overlay">
-                        <div class="text">Education Software Package For Grade 12 Students<br/><a href="">Coming Soon</a></div>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <img src="img/SoftwarePackages/pack.png" alt="Software1"><br/>
-                    <div class="overlay">
-                        <div class="text">Education Software Package For Grade 13 Students<br/><a href="">Coming Soon</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     </div>
 
-<?php include "includes/footer.html"; ?>
+    <?php include "includes/footer.html"; ?>
