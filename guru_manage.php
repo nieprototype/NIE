@@ -1,4 +1,10 @@
-<?php include "includes/header.html"; ?>
+<?php
+
+include "includes/header.html";
+
+date_default_timezone_set("Asia/Colombo");
+
+?>
 
     <div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
         <div class="container">
@@ -36,25 +42,53 @@
                             <div class="kt-portlet__head-label">
 	<span class="kt-portlet__head-icon">
 											              <span style="color: #E9AD28; font-size: 18px;"
-                                                                class="icon_folder-add_alt"></span>
+                                                                class="icon_plus_alt2"></span>
 										</span>
 
                                 <h3 id="form_title" style="font-size: 18px; color: #E9AD28; font-weight: 500;">
-                                    Add a new supportive material </h3>
+                                    Add a New Supportive Material for a Gurugedara Video</h3>
                             </div>
                         </div>
 
                         <!--begin::Form-->
-                        <form id="down_materials" class="kt-form kt-form--label-right">
+                        <form id="guru_materials" class="kt-form kt-form--label-right">
                             <div class="kt-portlet__body">
                                 <div class="form-group row">
-                                    <label class="col-lg-3 col-form-label">Subject :</label>
-                                    <div class="col-lg-7">
-                                        <input type="text" name="subject" id="subject" class="form-control"
-                                               placeholder="Name of the subject">
-                                        <span class="form-text text-muted">Please enter the name of the subject</span>
-                                    </div>
+                                    <label class="col-lg-3 col-form-label" for="subject">Related Subject of the Material
+                                        :</label>
+                                    &nbsp; &nbsp;&nbsp;
+                                    <select class="col-4" id="subject">
+                                        <option value="Information and Communication Technology">Information and
+                                            Communication Technology
+                                        </option>
+                                        <option value="Sinhala">Sinhala</option>
+                                        <option value="English">English</option>
+                                        <option value="Tamil">Tamil</option>
+                                        <option value="Buddhism">Buddhism</option>
+                                        <option value="Islam">Islam</option>
+                                        <option value="Catholic">Catholic</option>
+                                        <option value="Science">Science</option>
+                                        <option value="Mathematics">Mathematics</option>
+                                        <option value="History">History</option>
+                                        <option value="Geography">Geography</option>
+                                        <option value="Health and Physical Education">Health and Physical Education
+                                        </option>
+                                        <option value="Music">Music</option>
+                                        <option value="Life Competencies and Citizenship Education">Life Competencies
+                                            and Citizenship Education
+                                        </option>
+                                        <option value="Biology">Biology</option>
+                                        <option value="Physics">Physics</option>
+                                        <option value="Chemistry">Chemistry</option>
+                                        <option value="Business Studies">Business Studies</option>
+                                        <option value="Accounting">Accounting</option>
+                                        <option value="IT (A/L)">IT (A/L)</option>
+                                        <option value="Economics">Economics</option>
+                                        <option value="Languages">Languages</option>
+                                        <option value="Mathematics (A/L)">Mathematics (A/L)</option>
+                                        <option value="English Literature">English Literature</option>
 
+                                    </select>
                                 </div>
 
                                 <div class="form-group row">
@@ -106,8 +140,10 @@
                                 <div class="form-group row">
                                     <label class="col-lg-3 col-form-label">Date & Time :</label>
                                     <div class="col-lg-7">
-                                        <input type="datetime-local" name="date" id="date" class="form-control"
+
+                                        <input type="datetime-local" name="datetime" id="datetime" class="form-control"
                                                placeholder="Date and time of the telecasting program">
+
                                         <span class="form-text text-muted">Please enter the date & time of the TV program</span>
                                     </div>
 
@@ -169,7 +205,7 @@
                                              class="col-lg-6">
                                             <button id="submit_form"
                                                     style="border-radius:0px; padding: 8px; width: 20%;"
-                                                    onclick="download_input()" type="button" class="btn primary-btn">
+                                                    onclick="gurugedara_input()" type="button" class="btn primary-btn">
                                                 Submit
                                             </button>
 
@@ -226,10 +262,10 @@
                             <div class="kt-portlet__head kt-portlet__head--lg">
                                 <div class="kt-portlet__head-label">
 										<span class="kt-portlet__head-icon">
-											              <span style="color: #E9AD28;" class="icon_folder-alt"></span>
+											              <span style="color: #E9AD28;" class="icon_desktop"></span>
 										</span>
                                     <h3 style="font-size: 18px; color: #E9AD28; font-weight: 500;">
-                                        List of TV programms that are offered for all teachers and students
+                                        List of Gurugedara TV programms with Materials
                                     </h3>
                                 </div>
                             </div>
@@ -258,8 +294,8 @@
                                         <td id="d_subject_1">Chemistry</td>
                                         <td id="d_lessonNo_1">Lesson 08</td>
                                         <td id="d_grade_1">Grade 12</td>
-                                        <td id="d_language_1">Sinhala</td>
-                                        <td id="d_dateTime_1">10/08/2020 08:00 AM</td>
+                                        <td id="d_lan_1">Sinhala</td>
+                                        <td id="d_dateTime_1">2020-10-08 17:00</td>
                                         <td id="d_link_1"><a class="gm_vl" style="text-decoration: none; color: #0288d1;" href="https://www.youtube.com/watch?v=sDWXR_HprN4" target="_blank">Gurugedara | AL Chemistry Sinhala Medium Part-03</a>
                                         </td>
                                         <td style="text-align: center;"><a
@@ -267,7 +303,7 @@
                                                     href="#course1"><img src="img/downloads/pdf2.png" width="50px"></a>
                                         </td>
                                         <td>
-                                            <button onclick="edit_d_r1(this.id)" id="1" name="1"
+                                            <button onclick="edit_g_r1(this.id)" id="1" name="1"
                                                     style="background-color: rgba(246,219,172,0.51);" type="submit"
                                                     class="btn btn-sm btn-clean btn-icon btn-icon-md kt-badge kt-badge--inline kt-badge--pill"
                                                     title="Update">
@@ -295,8 +331,8 @@
                                         <td id="d_subject_2">Biology</td>
                                         <td id="d_lessonNo_2">Lesson 11</td>
                                         <td id="d_grade_2">Grade 12</td>
-                                        <td id="d_language_2">Sinhala</td>
-                                        <td id="d_dateTime_2">10/10/2020 08:00 AM</td>
+                                        <td id="d_lan_2">Sinhala</td>
+                                        <td id="d_dateTime_2">2020-10-10 08:00</td>
                                         <td id="d_link_2"><a class="gm_vl" style="text-decoration: none; color: #0288d1;" href="https://www.youtube.com/watch?v=mIdNFvFSWwI" target="_blank">Biology A/L | Microbiology Part - 02</a>
                                         </td>
                                         <td style="text-align: center;"><a
@@ -304,7 +340,7 @@
                                                     href="#course1"><img src="img/downloads/pdf2.png" width="50px"></a>
                                         </td>
                                         <td>
-                                            <button onclick="edit_d_r1(this.id)" id="2" name="2"
+                                            <button onclick="edit_g_r1(this.id)" id="2" name="2"
                                                     style="background-color: rgba(246,219,172,0.51);" type="submit"
                                                     class="btn btn-sm btn-clean btn-icon btn-icon-md kt-badge kt-badge--inline kt-badge--pill"
                                                     title="Update">
@@ -332,19 +368,23 @@
                                         <td id="d_subject_3">English</td>
                                         <td id="d_lessonNo_3">Lesson 05</td>
                                         <td id="d_grade_3">Grade 13</td>
-                                        <td id="d_language_3">Sinhala</td>
-                                        <td id="d_dateTime_3">10/11/2020 05:00 AM</td>
-                                        <td id="d_link_3"><a class="gm_vl" style="text-decoration: none; color: #0288d1;" href="https://www.youtube.com/watch?v=jXBYIuxI8nQ" target="_blank">NIE Guru Gedara | O/L English - Lesson 03 (Part 01)</a>
+                                        <td id="d_lan_3">Sinhala</td>
+                                        <td id="d_dateTime_3">2020-10-11 05:00</td>
+                                        <td id="d_link_3">
+
+                                            <a class="gm_vl" style="text-decoration: none; color: #0288d1;" href="https://www.youtube.com/watch?v=jXBYIuxI8nQ" target="_blank">NIE Guru Gedara | O/L English - Lesson 03 (Part 01)</a>
+
                                         </td>
-                                        <td style="text-align: center;"><a
+                                        <td style="text-align: center;">
+                                            <a
                                                     style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;"
                                                     href="#course1"><img src="img/downloads/pdf2.png"
                                                                          width="50px"></a><a
                                                     style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;"
-                                                    href="#course1"><img src="img/downloads/pdf2.png" width="50px"></a>
+                                                    href="#course1"><img style="width: 70%; margin-left: 4%;" src="img/downloads/down.png" width="50px"></a>
                                         </td>
                                         <td>
-                                            <button onclick="edit_d_r1(this.id)" id="3" name="3"
+                                            <button onclick="edit_g_r1(this.id)" id="3" name="3"
                                                     style="background-color: rgba(246,219,172,0.51);" type="submit"
                                                     class="btn btn-sm btn-clean btn-icon btn-icon-md kt-badge kt-badge--inline kt-badge--pill"
                                                     title="Update">
@@ -353,7 +393,7 @@
                                             </button>
                                             <hr>
                                             <button onclick="
-                              if (confirm('Are you sure you want to delete this material ?')) {
+                              if (confirm('Are you sure you want to delete this Material ?')) {
                                    document.getElementById('row_3').style.display = 'none';
                                    var table = $('#kt_table_1').DataTable();
                                    table.draw();
@@ -368,21 +408,20 @@
                                         </td>
                                     </tr>
 
-                                    <tr id="downloads_upload" style="display:none;">
+                                    <tr id="gurugedara_upload" style="display:none;">
                                         <td>4</td>
-                                        <td id="d_subject_1">History</td>
-                                        <td id="d_lessonNo_1">Lesson 03</td>
-                                        <td id="d_grade_1">Grade 10</td>
-                                        <td id="d_language_1">Sinhala</td>
-                                        <td id="d_dateTime_1">10/11/2020 05:00 AM</td>
-                                        <td id="d_link_1">https://www.youtube.com/watch?v=0Kv7SjJSIy8
-                                        </td>
+                                        <td id="d_subject"></td>
+                                        <td id="d_lessonNo"></td>
+                                        <td id="d_grade"></td>
+                                        <td id="d_lan"></td>
+                                        <td id="d_dateTime"></td>
+                                        <td class="gm_vl" style="text-decoration: none; color: #0288d1;" id="d_link"></td>
                                         <td style="text-align: center;"><a
                                                     style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;"
                                                     href="#course1"><img src="img/downloads/pdf2.png" width="50px">
                                                 <span id="file_d"></span></a></td>
                                         <td>
-                                            <button onclick="edit_d_r1(this.id)" id="4" name="4"
+                                            <button onclick="edit_g_r1(this.id)" id="4" name="4"
                                                     style="background-color: rgba(246,219,172,0.51);" type="submit"
                                                     class="btn btn-sm btn-clean btn-icon btn-icon-md kt-badge kt-badge--inline kt-badge--pill"
                                                     title="Update">
@@ -392,7 +431,7 @@
                                             <hr>
                                             <button onclick="
                               if (confirm('Are you sure you want to delete this material ?')) {
-                                   document.getElementById('downloads_upload').style.display = 'none';
+                                   document.getElementById('gurugedara_upload').style.display = 'none';
                                    var table = $('#kt_table_1').DataTable();
                                    table.draw();
                               } else {
