@@ -11,11 +11,11 @@
                     <h5>WELCOME TO</h5>
                     <h2>NATIONAL INSTITUTE OF EDUCATION</h2>
                 </div>
-                <form action="#" class="filter__form">
+                <form action="down_search.php" method="get" class="filter__form">
                     <div class="filter__form__item filter__form__item--search">
                         <p>Search Materials</p>
                         <div class="filter__form__input">
-                            <input type="text" placeholder="Search Downloads">
+                            <input required name="name_search" type="text" placeholder="Search Downloads">
                             <span class="icon_search"></span>
                         </div>
                     </div>
@@ -23,10 +23,24 @@
                         <p>Grade</p>
                         <div class="filter__form__select">
                             <span class="icon_group"></span>
-                            <select>
+                            <select name="grade_search">
                                 <option value="">Select Grade</option>
-                                <option value="">2 Adult</option>
-                                <option value="">1 Adult</option>
+                                <?php
+
+                                $i = 1;
+                                while ($i < 14) {
+
+
+                                    ?>
+
+                                    <option value="<?php echo $i; ?>">Grade <?php echo $i;
+                                        $i++; ?></option>
+
+                                    <?php
+
+                                }
+
+                                ?>
                             </select>
                         </div>
                     </div>
@@ -34,10 +48,35 @@
                         <p>Subject</p>
                         <div class="filter__form__select">
                             <span class="icon_book"></span>
-                            <select>
+                            <select name="subject_search">
                                 <option value="">Select Subject</option>
-                                <option value="">2 Adult</option>
-                                <option value="">1 Adult</option>
+                                <option value="ICT">ICT</option>
+                                <option value="Sinhala">Sinhala</option>
+                                <option value="English">English</option>
+                                <option value="Tamil">Tamil</option>
+                                <option value="Buddhism">Buddhism</option>
+                                <option value="Islam">Islam</option>
+                                <option value="Catholic">Catholic</option>
+                                <option value="Science">Science</option>
+                                <option value="Mathematics">Mathematics</option>
+                                <option value="History">History</option>
+                                <option value="Geography">Geography</option>
+                                <option value="Health">Health
+                                </option>
+                                <option value="Music">Music</option>
+                                <option value="Citizenship Education">Citizenship Education
+                                </option>
+                                <option value="Biology">Biology</option>
+                                <option value="Physics">Physics</option>
+                                <option value="Chemistry">Chemistry</option>
+                                <option value="Business Studies">Business Studies</option>
+                                <option value="Accounting">Accounting</option>
+                                <option value="IT (A/L)">IT (A/L)</option>
+                                <option value="Economics">Economics</option>
+                                <option value="Languages">Languages</option>
+                                <option value="Mathematics (A/L)">Mathematics (A/L)</option>
+                                <option value="English Literature">English Literature</option>
+
                             </select>
                         </div>
                     </div>
@@ -45,10 +84,11 @@
                         <p>Language</p>
                         <div class="filter__form__select">
                             <span class="icon_globe-2"></span>
-                            <select>
+                            <select name="language_search">
                                 <option value="">Select Language</option>
-                                <option value="">2 Adult</option>
-                                <option value="">1 Adult</option>
+                                <option value="Sinhala">Sinhala</option>
+                                <option value="English">English</option>
+                                <option value="Tamil">Tamil</option>
                             </select>
                         </div>
                     </div>
