@@ -28,15 +28,13 @@
 
                             <h2 style="color: #E9AD28;">Explore Additional Educational Materials.</h2>
                             <br>
-                            <h4 style="color: #4D5656; font-weight: 500;">Followings are the courses that are provided
-                                by
-                                National
-                                Institute of Education. You can download relevant
-                                application to your preferred course. Click on View Courses to get started.</h4>
+                            <h4 style="color: #4D5656; font-weight: 500;">Followings are the additional materials that can be used to
+                                explore the knowledge. You can view relavant educational resources using following
+                                web links that are provided by National Institute of Education.</h4>
                             <br><br>
                             <br>
                             <a href="#course1" style="font-family: 'Poppins',sans-serif; font-size: large;"
-                               class="primary-btn">View Courses</a>
+                               class="primary-btn">View Resources</a>
 
 
                         </div>
@@ -180,16 +178,14 @@
 
                     <div style="text-align: right;" class="col-6">
 
-                        <h2 style="color: #E9AD28;">PROGRAM GUIDE FOR GURUGEDARA</h2>
+                        <h2 style="color: #E9AD28;">Resources to explore the knowledge</h2>
 
                         <br>
 
-                        <h4 style="color: #4D5656; font-weight: 500;">Following table displays all the courses that are
-                            offered by
-                            National Institute of Education for all teachers and Teacher Educators. You can download
-                            relevant
-                            application to your preferred course by clicking <span style="color: #E9AD28;">Download Application </span>button
-                            right next to the particular course.</h4>
+                        <h4 style="color: #4D5656; font-weight: 500;">Following table displays all the web links that are
+                            offered by National Institute of Education for all students and teachers. You can choose preferred
+                            web links according to different levels of school education.You can view relavant
+                            supportive materials by clicking <span style="color: #E9AD28;">Visit Website </span> button.</h4>
                         <br>
 
 

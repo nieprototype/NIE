@@ -40,7 +40,7 @@
 										</span>
 
                                 <h3 id="form_title" style="font-size: 18px; color: #E9AD28; font-weight: 500;">
-                                    Add a new downloadable material </h3>
+                                    Add a new supportive material </h3>
                             </div>
                         </div>
 
@@ -48,25 +48,27 @@
                         <form id="down_materials" class="kt-form kt-form--label-right">
                             <div class="kt-portlet__body">
                                 <div class="form-group row">
-                                    <label class="col-lg-3 col-form-label">Title of the Material :</label>
+                                    <label class="col-lg-3 col-form-label">Subject :</label>
                                     <div class="col-lg-7">
-                                        <input type="text" name="title" id="title" class="form-control"
-                                               placeholder="Name of the Downloadable Material">
-                                        <span class="form-text text-muted">Please enter the title of the material</span>
+                                        <input type="text" name="subject" id="subject" class="form-control"
+                                               placeholder="Name of the subject">
+                                        <span class="form-text text-muted">Please enter the name of the subject</span>
                                     </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label class="col-lg-3 col-form-label" for="type">Type of the Material :</label>
-                                    &nbsp; &nbsp;&nbsp;
-                                    <select class="col-2" id="type">
-                                        <option value="Syllabus">Syllabus</option>
-                                        <option value="Teacher's Guide">Teacher's Guide</option>
-                                        <option value="Other Material">Other Material</option>
-                                    </select>
+
                                 </div>
 
                                 <div class="form-group row">
-                                    <label class="col-lg-3 col-form-label" for="type">Related Grade of the Material
+                                    <label class="col-lg-3 col-form-label">Lesson No :</label>
+                                    <div class="col-lg-7">
+                                        <input type="text" name="lesson" id="lesson" class="form-control"
+                                               placeholder="Lesson number of the subject">
+                                        <span class="form-text text-muted">Please enter the lesson no of the subject</span>
+                                    </div>
+
+                                </div>
+
+                                <div class="form-group row">
+                                    <label class="col-lg-3 col-form-label" for="type">Related Grade of the Subject
                                         :</label>
                                     &nbsp; &nbsp;&nbsp;
                                     <select class="col-2" id="grade">
@@ -90,6 +92,41 @@
 
                                     </select>
                                 </div>
+
+                                <div class="form-group row">
+                                    <label class="col-lg-3 col-form-label" for="type">Language of the Subject :</label>
+                                    &nbsp; &nbsp;&nbsp;
+                                    <select class="col-2" id="lan">
+                                        <option value="Sinhala">Sinhala</option>
+                                        <option value="English">English</option>
+                                        <option value="Tamil">Tamil</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label class="col-lg-3 col-form-label">Date & Time :</label>
+                                    <div class="col-lg-7">
+                                        <input type="datetime-local" name="date" id="date" class="form-control"
+                                               placeholder="Date and time of the telecasting program">
+                                        <span class="form-text text-muted">Please enter the date & time of the TV program</span>
+                                    </div>
+
+                                </div>
+
+
+
+
+                                <!--<div class="form-group row">
+                                    <label class="col-lg-3 col-form-label" for="type">Type of the Material :</label>
+                                    &nbsp; &nbsp;&nbsp;
+                                    <select class="col-2" id="type">
+                                        <option value="Syllabus">Syllabus</option>
+                                        <option value="Teacher's Guide">Teacher's Guide</option>
+                                        <option value="Other Material">Other Material</option>
+                                    </select>
+                                </div>
+
+
 
                                 <div class="form-group row">
                                     <label class="col-lg-3 col-form-label" for="type">Related Subject of the Material
@@ -129,15 +166,7 @@
                                     </select>
                                 </div>
 
-                                <div class="form-group row">
-                                    <label class="col-lg-3 col-form-label" for="type">Language of the Material :</label>
-                                    &nbsp; &nbsp;&nbsp;
-                                    <select class="col-2" id="lan">
-                                        <option value="Sinhala">Sinhala</option>
-                                        <option value="English">English</option>
-                                        <option value="Tamil">Tamil</option>
-                                    </select>
-                                </div>
+
 
                                 <div class="form-group row">
                                     <label class="col-lg-3 col-form-label">Description :</label>
@@ -147,6 +176,20 @@
                                         <span class="form-text text-muted">Short description on the material</span>
                                     </div>
                                 </div>
+
+                                -->
+
+                                <div class="form-group row">
+                                    <label class="col-lg-3 col-form-label">Vedio Link of the TV Program :</label>
+                                    <div class="col-lg-7">
+                                        <input type="text" name="link" id="link" class="form-control"
+                                               placeholder="Vedio Link of the TV Program">
+                                        <span class="form-text text-muted">Please type the vedio link of the TV program</span>
+                                    </div>
+
+                                </div>
+
+
                                 <div class="form-group form-group-last row">
                                     <label class="col-lg-3 col-form-label">Upload Files:</label>
                                     <div class="col-lg-9">
@@ -252,7 +295,7 @@
 											              <span style="color: #E9AD28;" class="icon_folder-alt"></span>
 										</span>
                                     <h3 style="font-size: 18px; color: #E9AD28; font-weight: 500;">
-                                        List of courses that are offered for all teachers and Teacher Educators
+                                        List of TV programms that are offered for all teachers and students
                                     </h3>
                                 </div>
                             </div>
@@ -265,12 +308,12 @@
                                     <thead>
                                     <tr>
                                         <th>ID</th>
-                                        <th>Title</th>
-                                        <th>Type</th>
-                                        <th>Grade</th>
                                         <th>Subject</th>
+                                        <th>Lesson No</th>
+                                        <th>Grade</th>
                                         <th>Language</th>
-                                        <th>Description</th>
+                                        <th>Date & Time</th>
+                                        <th>Video Link</th>
                                         <th>Files</th>
                                         <th>Actions</th>
                                     </tr>
@@ -278,12 +321,12 @@
                                     <tbody>
                                     <tr id="row_1">
                                         <td>1</td>
-                                        <td id="d_title_1">Business Studies (2017)</td>
-                                        <td id="d_type_1">Syllabus</td>
+                                        <td id="d_subject_1">Chemistry</td>
+                                        <td id="d_lessonNo_1">Lesson 08</td>
                                         <td id="d_grade_1">Grade 12</td>
-                                        <td id="d_subject_1">Business Studies</td>
-                                        <td id="d_lan_1">Sinhala</td>
-                                        <td id="d_desc_1">Its study combines elements of accountancy, finance, marketing, organizational studies and operations.
+                                        <td id="d_language_1">Sinhala</td>
+                                        <td id="d_dateTime_1">10/08/2020 08:00 AM</td>
+                                        <td id="d_link_1"><a class="gm_vl" style="text-decoration: none; color: #0288d1;" href="https://www.youtube.com/watch?v=sDWXR_HprN4" target="_blank">Gurugedara | AL Chemistry Sinhala Medium Part-03</a>
                                         </td>
                                         <td style="text-align: center;"><a
                                                     style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;"
@@ -315,12 +358,12 @@
                                     </tr>
                                     <tr id="row_2">
                                         <td>2</td>
-                                        <td id="d_title_2">English (2017)</td>
-                                        <td id="d_type_2">Teacher's Guide</td>
-                                        <td id="d_grade_2">Grade 8</td>
-                                        <td id="d_subject_2">English</td>
-                                        <td id="d_lan_2">English</td>
-                                        <td id="d_desc_2">This Teachers' Guide consists of detailed syllabus of grade 09, instructions for... Competencies through teaching of English Language in Sri Lanka to ensure...
+                                        <td id="d_subject_2">Biology</td>
+                                        <td id="d_lessonNo_2">Lesson 11</td>
+                                        <td id="d_grade_2">Grade 12</td>
+                                        <td id="d_language_2">Sinhala</td>
+                                        <td id="d_dateTime_2">10/10/2020 08:00 AM</td>
+                                        <td id="d_link_2"><a class="gm_vl" style="text-decoration: none; color: #0288d1;" href="https://www.youtube.com/watch?v=mIdNFvFSWwI" target="_blank">Biology A/L | Microbiology Part - 02</a>
                                         </td>
                                         <td style="text-align: center;"><a
                                                     style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;"
@@ -352,12 +395,12 @@
                                     </tr>
                                     <tr id="row_3">
                                         <td>3</td>
-                                        <td id="d_title_3">Biology Practical Book for Teachers and Teachers Guide</td>
-                                        <td id="d_type_3">Teacher's Guide</td>
-                                        <td id="d_grade_3">Grade 12</td>
-                                        <td id="d_subject_3">Biology</td>
-                                        <td id="d_lan_3">English</td>
-                                        <td id="d_desc_3">Three aspects need to be taken into consideration by teachers when using this book. They are, the coherence of the Teacher's Instructional Manual and the...
+                                        <td id="d_subject_3">English</td>
+                                        <td id="d_lessonNo_3">Lesson 05</td>
+                                        <td id="d_grade_3">Grade 13</td>
+                                        <td id="d_language_3">Sinhala</td>
+                                        <td id="d_dateTime_3">10/11/2020 05:00 AM</td>
+                                        <td id="d_link_3"><a class="gm_vl" style="text-decoration: none; color: #0288d1;" href="https://www.youtube.com/watch?v=jXBYIuxI8nQ" target="_blank">NIE Guru Gedara | O/L English - Lesson 03 (Part 01)</a>
                                         </td>
                                         <td style="text-align: center;"><a
                                                     style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;"
@@ -393,12 +436,13 @@
 
                                     <tr id="downloads_upload" style="display:none;">
                                         <td>4</td>
-                                        <td id="d_title"></td>
-                                        <td id="d_type"></td>
-                                        <td id="d_grade"></td>
-                                        <td id="d_subject"></td>
-                                        <td id="d_lan"></td>
-                                        <td id="d_desc"></td>
+                                        <td id="d_subject_1">History</td>
+                                        <td id="d_lessonNo_1">Lesson 03</td>
+                                        <td id="d_grade_1">Grade 10</td>
+                                        <td id="d_language_1">Sinhala</td>
+                                        <td id="d_dateTime_1">10/11/2020 05:00 AM</td>
+                                        <td id="d_link_1">https://www.youtube.com/watch?v=0Kv7SjJSIy8
+                                        </td>
                                         <td style="text-align: center;"><a
                                                     style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;"
                                                     href="#course1"><img src="img/downloads/pdf2.png" width="50px">
