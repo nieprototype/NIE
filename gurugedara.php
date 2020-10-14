@@ -80,10 +80,10 @@
                         <br>
 
                         <div style="text-align: left;">
-                        <img src="img/downloads/pdf2.png" width="20%">
-
-                            <h5 style="text-align: left; margin-left: 20%; margin-top: -12.8%;">
-                                Geograpy_Lesson_8.pdf
+                            <a style="color: #1a1a1a;" class="news_link" target="_blank" href="img/doc/Geography.pdf" download>
+                            <img src="img/downloads/pdf2.png" width="20%">
+                                <h5 style="text-align: left; margin-left: 20%; margin-top: -12.8%;">
+                                    Geograpy_Lesson_8.pdf</a>
                             </h5>
 
                         </div>
@@ -91,10 +91,10 @@
                         <br><br>
 
                         <div style="text-align: left">
+                            <a style="color: #1a1a1a;" class="news_link" target="_blank" href="img/doc/Geograpy_Pastpaper_Questions_8.docx" download>
                             <img style="margin-left: 2.5%;" src="img/downloads/down.png" width="16%">
-
-                            <h5 style="text-align: left; margin-left: 20%; margin-top: -11%;">
-                                Geograpy_Pastpaper_Questions_8.docx
+                                <h5 style="text-align: left; margin-left: 20%; margin-top: -11%;">
+                                Geograpy_Pastpaper_Questions_8.docx</a>
                             </h5>
 
                         </div>
@@ -253,7 +253,7 @@
                                                 </h3></a>
 
                                         </td>
-                                        <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; padding-right: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Organic.pdf</a></td>
+                                        <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; padding-right: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="img/doc/Organic.pdf" download class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Organic.pdf</a></td>
                                     </tr>
                                     <tr>
                                         <td>2</td>
@@ -271,7 +271,7 @@
                                                 </h3></a>
 
                                         </td>
-                                        <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; padding-right: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Micro.pdf</a></td>
+                                        <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; padding-right: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="img/doc/micro.pdf" download " class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Micro.pdf</a></td>
                                     </tr>
                                     <tr>
                                         <td>3</td>
@@ -289,7 +289,7 @@
                                                 </h3></a>
 
                                         </td>
-                                        <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; padding-right: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Statics_PastPapers</a></td>
+                                        <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; padding-right: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="img/doc/Organic.pdf" download class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Statics_PastPapers</a></td>
                                     </tr>
                                     <tr>
                                         <td>4</td>
@@ -307,7 +307,7 @@
                                                 </h3></a>
 
                                         </td>
-                                        <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; padding-right: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">2nd World War.pdf</a></td>
+                                        <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; padding-right: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="img/doc/Organic.pdf" download " class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">2nd World War.pdf</a></td>
                                     </tr>
                                     <tr>
                                         <td>5</td>
@@ -325,7 +325,7 @@
                                             </h3></a>
 
                                         </td>
-                                        <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; padding-right: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Letter_Writting.pdf</a></td>
+                                        <td style="text-align: center;" width="300px"><a style="color: #343638; padding-top: 4px; padding-bottom: 4px; padding-right: 4px; width: 200px; letter-spacing: normal; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="img/doc/Organic.pdf" download " class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Letter_Writting.pdf</a></td>
                                     </tr>
                                     </tbody>
                                 </table>

@@ -25,11 +25,8 @@
 
                                 <h2 style="color: #E9AD28;">Manage. Everything.</h2>
                                 <br>
-                                <h4 style="color: #4D5656; font-weight: 500;">Followings are the courses that are
-                                    provided by
-                                    National
-                                    Institute of Education. You can download relevant
-                                    application to your preferred course. Click on View Courses to get started.</h4>
+                                <h4 style="color: #4D5656; font-weight: 500;">NIE administration has the priviledge to add new materials, view materials, update the materials or delete the materials.
+                                    Can manage the details by click on the button <span style="color: #E9AD28;">Get Started. </span></h4>
                                 <br><br>
                                 <br>
                                 <a href="#card" style="font-family: 'Barlow Condensed',sans-serif; font-size: 20px;"
