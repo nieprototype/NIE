@@ -211,22 +211,22 @@ date_default_timezone_set("Asia/Colombo");
 
                                             <button id="row1_edit"
                                                     style="border-radius:0px; display: none; padding: 8px; width: 20%;"
-                                                    onclick="edit_row_submit(this.id)" type="button" class="btn primary-btn">
+                                                    onclick="edit_g_submit(this.id)" type="button" class="btn primary-btn">
                                                 Update
                                             </button>
                                             <button id="row2_edit"
                                                     style="border-radius:0px; display: none; padding: 8px; width: 20%;"
-                                                    onclick="edit_row_submit(this.id)" type="button" class="btn primary-btn">
+                                                    onclick="edit_g_submit(this.id)" type="button" class="btn primary-btn">
                                                 Update
                                             </button>
                                             <button id="row3_edit"
                                                     style="border-radius:0px; display: none; padding: 8px; width: 20%;"
-                                                    onclick="edit_row_submit(this.id)" type="button" class="btn primary-btn">
+                                                    onclick="edit_g_submit(this.id)" type="button" class="btn primary-btn">
                                                 Update
                                             </button>
                                             <button id="row4_edit"
                                                     style="border-radius:0px; display: none; padding: 8px; width: 20%;"
-                                                    onclick="edit_row_submit(this.id)" type="button" class="btn primary-btn">
+                                                    onclick="edit_g_submit(this.id)" type="button" class="btn primary-btn">
                                                 Update
                                             </button>
                                             &nbsp;

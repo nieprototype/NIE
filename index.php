@@ -11,11 +11,11 @@
                     <h5>WELCOME TO</h5>
                     <h2>NATIONAL INSTITUTE OF EDUCATION</h2>
                 </div>
-                <form action="#" class="filter__form">
+                <form action="down_search.php" method="get" class="filter__form">
                     <div class="filter__form__item filter__form__item--search">
                         <p>Search Materials</p>
                         <div class="filter__form__input">
-                            <input type="text" placeholder="Search Downloads">
+                            <input required name="name_search" type="text" placeholder="Search Downloads">
                             <span class="icon_search"></span>
                         </div>
                     </div>
@@ -23,10 +23,23 @@
                         <p>Grade</p>
                         <div class="filter__form__select">
                             <span class="icon_group"></span>
-                            <select>
+                            <select name="grade_search">
                                 <option value="">Select Grade</option>
-                                <option value="">2 Adult</option>
-                                <option value="">1 Adult</option>
+                                <?php
+
+                                $i = 1;
+                                while ($i < 14) {
+
+                                    ?>
+
+                                    <option value="<?php echo $i; ?>">Grade <?php echo $i;
+                                        $i++; ?></option>
+
+                                    <?php
+
+                                }
+
+                                ?>
                             </select>
                         </div>
                     </div>
@@ -34,10 +47,35 @@
                         <p>Subject</p>
                         <div class="filter__form__select">
                             <span class="icon_book"></span>
-                            <select>
+                            <select name="subject_search">
                                 <option value="">Select Subject</option>
-                                <option value="">2 Adult</option>
-                                <option value="">1 Adult</option>
+                                <option value="ICT">ICT</option>
+                                <option value="Sinhala">Sinhala</option>
+                                <option value="English">English</option>
+                                <option value="Tamil">Tamil</option>
+                                <option value="Buddhism">Buddhism</option>
+                                <option value="Islam">Islam</option>
+                                <option value="Catholic">Catholic</option>
+                                <option value="Science">Science</option>
+                                <option value="Mathematics">Mathematics</option>
+                                <option value="History">History</option>
+                                <option value="Geography">Geography</option>
+                                <option value="Health">Health
+                                </option>
+                                <option value="Music">Music</option>
+                                <option value="Citizenship Education">Citizenship Education
+                                </option>
+                                <option value="Biology">Biology</option>
+                                <option value="Physics">Physics</option>
+                                <option value="Chemistry">Chemistry</option>
+                                <option value="Business Studies">Business Studies</option>
+                                <option value="Accounting">Accounting</option>
+                                <option value="IT (A/L)">IT (A/L)</option>
+                                <option value="Economics">Economics</option>
+                                <option value="Languages">Languages</option>
+                                <option value="Mathematics (A/L)">Mathematics (A/L)</option>
+                                <option value="English Literature">English Literature</option>
+
                             </select>
                         </div>
                     </div>
@@ -45,10 +83,11 @@
                         <p>Language</p>
                         <div class="filter__form__select">
                             <span class="icon_globe-2"></span>
-                            <select>
+                            <select name="language_search">
                                 <option value="">Select Language</option>
-                                <option value="">2 Adult</option>
-                                <option value="">1 Adult</option>
+                                <option value="Sinhala">Sinhala</option>
+                                <option value="English">English</option>
+                                <option value="Tamil">Tamil</option>
                             </select>
                         </div>
                     </div>
@@ -116,129 +155,125 @@
 
 
     <div class="col-12">
-    <div class="gallery__slider owl-carousel">
-        <div class="gallery__item small__item set-bg" data-setbg="img/gallery/sp1.jpg">
+        <div class="gallery__slider owl-carousel">
+            <div class="gallery__item small__item set-bg" data-setbg="img/gallery/sp1.jpg">
 
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-            <form action="#" class="filter__form">
+                <form action="#" class="filter__form">
 
-                <div style="text-align: center; width: 84%;" class="filter__form__item">
+                    <div style="text-align: center; width: 84%;" class="filter__form__item">
 
-                    <div class="kt-widget14__header">
-                        <hr class="new4">
-                        <h3 style="font-weight: 400;" class="kt-widget14__title">
+                        <div class="kt-widget14__header">
+                            <hr class="new4">
+                            <h3 style="font-weight: 400;" class="kt-widget14__title">
 
-                            Prevent Covid-19: Stay Healthy
-                        </h3>
+                                Prevent Covid-19: Stay Healthy
+                            </h3>
 
-                        <br>
-                        <p style="text-align: center; font-size: 15px;">Guidance of district leaders to best support their students, schools and communities.</p>
+                            <br>
+                            <p style="text-align: center; font-size: 15px;">Guidance of district leaders to best support
+                                their students, schools and communities.</p>
 
-                        <hr class="new4">
+                            <hr class="new4">
+                        </div>
                     </div>
-                </div>
 
-            </form>
-
-
-        </div>
-        <div class="gallery__item set-bg" data-setbg="img/gallery/sp2.jpg">
+                </form>
 
 
+            </div>
+            <div class="gallery__item set-bg" data-setbg="img/gallery/sp2.jpg">
 
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-            <form action="#" class="filter__form">
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-                <div style="text-align: center;width: 84%;" class="filter__form__item">
+                <form action="#" class="filter__form">
 
-                    <div class="kt-widget14__header">
-                        <hr class="new4">
-                        <h3 style="font-weight: 400;" class="kt-widget14__title">
+                    <div style="text-align: center;width: 84%;" class="filter__form__item">
 
-                            Greetings : Children's Day
-                        </h3>
+                        <div class="kt-widget14__header">
+                            <hr class="new4">
+                            <h3 style="font-weight: 400;" class="kt-widget14__title">
 
-                        <br>
-                        <p style="text-align: center; font-size: 15px;">Message by Prime Minister Mahinda on the World Children’s Day</p>
+                                Greetings : Children's Day
+                            </h3>
 
-                        <hr class="new4">
+                            <br>
+                            <p style="text-align: center; font-size: 15px;">Message by Prime Minister Mahinda on the
+                                World Children’s Day</p>
+
+                            <hr class="new4">
+                        </div>
                     </div>
-                </div>
 
-            </form>
-
+                </form>
 
 
-
-        </div>
-        <div class="gallery__item set-bg" data-setbg="img/gallery/sp4.jpg">
-
+            </div>
+            <div class="gallery__item set-bg" data-setbg="img/gallery/sp4.jpg">
 
 
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-            <form action="#" class="filter__form">
+                <form action="#" class="filter__form">
 
-                <div style="text-align: center; width: 84%;" class="filter__form__item">
+                    <div style="text-align: center; width: 84%;" class="filter__form__item">
 
-                    <div class="kt-widget14__header">
-                        <hr class="new4">
-                        <h3 style="font-weight: 400;" class="kt-widget14__title">
+                        <div class="kt-widget14__header">
+                            <hr class="new4">
+                            <h3 style="font-weight: 400;" class="kt-widget14__title">
 
-                            IDs for NCE professionals
-                        </h3>
+                                IDs for NCE professionals
+                            </h3>
 
-                        <br>
-                        <p style="text-align: center; font-size: 15px;">Issue Identity Cards to principals,lecturers and teachers in NCE</p>
+                            <br>
+                            <p style="text-align: center; font-size: 15px;">Issue Identity Cards to principals,lecturers
+                                and teachers in NCE</p>
 
-                        <hr class="new4">
+                            <hr class="new4">
+                        </div>
                     </div>
-                </div>
 
-            </form>
-
+                </form>
 
 
+            </div>
+            <div class="gallery__item set-bg">
+                <video style="position: absolute; z-index: -10000000000; width: 100%;" autoplay="autoplay" muted="muted"
+                       loop="loop">
+                    <source src="img/gallery/vd.mp4" type="video/mp4">
+                </video>
 
-        </div>
-        <div class="gallery__item set-bg">
-            <video style="position: absolute; z-index: -10000000000; width: 100%;" autoplay="autoplay" muted="muted" loop="loop">
-                <source src="img/gallery/vd.mp4" type="video/mp4">
-            </video>
-
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-
-            <form style="z-index: +100000000000000000;position: absolute; width: 100%" action="#" class="filter__form">
-
-                <div style="text-align: center; width: 84%;" class="filter__form__item">
-
-                    <div class="kt-widget14__header">
-                        <hr class="new4">
-                        <h3 style="font-weight: 400;" class="kt-widget14__title">
-
-                            Discussions : Raise on Forum
-                        </h3>
-
-                        <br>
-                        <p style="text-align: center; font-size: 15px;">Weekly discussion forum on curriculum reforms was held on 12/10/2020</p>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
+                <form style="z-index: +100000000000000000;position: absolute; width: 100%" action="#"
+                      class="filter__form">
+
+                    <div style="text-align: center; width: 84%;" class="filter__form__item">
+
+                        <div class="kt-widget14__header">
+                            <hr class="new4">
+                            <h3 style="font-weight: 400;" class="kt-widget14__title">
+
+                                Discussions : Raise on Forum
+                            </h3>
+
+                            <br>
+                            <p style="text-align: center; font-size: 15px;">Weekly discussion forum on curriculum
+                                reforms was held on 12/10/2020</p>
 
 
-
-                        <hr class="new4">
+                            <hr class="new4">
+                        </div>
                     </div>
-                </div>
 
-            </form>
-
+                </form>
 
 
+            </div>
         </div>
-    </div>
     </div>
 
 </section>
@@ -273,7 +308,7 @@
             <div class="col-lg-3 p-0 order-lg-4 col-md-6 order-md-3">
                 <div class="latest__blog__text">
                     <div class="label">Diploma Awards</div>
-                    <h5>Diploma Award Ceramony - NCOE  at Temple Trees</h5>
+                    <h5>Diploma Award Ceramony - NCOE at Temple Trees</h5>
                     <p><i class="fa fa-clock-o"></i> 20th August, 2019</p>
                     <a href="#">Read More</a>
                 </div>

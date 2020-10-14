@@ -822,7 +822,7 @@
 
 <script>
 
-    function edit_row_submit(clicked_id_edit) {
+    function edit_g_submit(clicked_id_edit) {
 
         var table = $('#kt_table_1').DataTable();
 
@@ -1022,6 +1022,44 @@
         }
 
     }
+
+</script>
+
+<script>
+
+    function change_text(id_change) {
+
+        if (id_change == "bl2") {
+
+            document.getElementById('d_input').value = "Biology Lesson 02";
+
+        }
+        if (id_change == "tg") {
+
+            document.getElementById('d_input').value = "Teacher's Guide";
+
+        }
+        if (id_change == "syl") {
+
+            document.getElementById('d_input').value = "Syllabus";
+
+        }
+
+    }
+
+</script>
+
+<script>
+
+    $(document).ready(function () {
+
+        var url_string = window.location.href;
+        var url = new URL(url_string);
+        var c = url.searchParams.get("name_search");
+
+        document.getElementById('st').innerHTML = c;
+
+    });
 
 </script>
 
