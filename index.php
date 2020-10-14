@@ -116,129 +116,125 @@
 
 
     <div class="col-12">
-    <div class="gallery__slider owl-carousel">
-        <div class="gallery__item small__item set-bg" data-setbg="img/gallery/sp1.jpg">
+        <div class="gallery__slider owl-carousel">
+            <div class="gallery__item small__item set-bg" data-setbg="img/gallery/sp1.jpg">
 
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-            <form action="#" class="filter__form">
+                <form action="#" class="filter__form">
 
-                <div style="text-align: center; width: 84%;" class="filter__form__item">
+                    <div style="text-align: center; width: 84%;" class="filter__form__item">
 
-                    <div class="kt-widget14__header">
-                        <hr class="new4">
-                        <h3 style="font-weight: 400;" class="kt-widget14__title">
+                        <div class="kt-widget14__header">
+                            <hr class="new4">
+                            <h3 style="font-weight: 400;" class="kt-widget14__title">
 
-                            Prevent Covid-19: Stay Healthy
-                        </h3>
+                                Prevent Covid-19: Stay Healthy
+                            </h3>
 
-                        <br>
-                        <p style="text-align: center; font-size: 15px;">Guidance of district leaders to best support their students, schools and communities.</p>
+                            <br>
+                            <p style="text-align: center; font-size: 15px;">Guidance of district leaders to best support
+                                their students, schools and communities.</p>
 
-                        <hr class="new4">
+                            <hr class="new4">
+                        </div>
                     </div>
-                </div>
 
-            </form>
-
-
-        </div>
-        <div class="gallery__item set-bg" data-setbg="img/gallery/sp2.jpg">
+                </form>
 
 
+            </div>
+            <div class="gallery__item set-bg" data-setbg="img/gallery/sp2.jpg">
 
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-            <form action="#" class="filter__form">
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-                <div style="text-align: center;width: 84%;" class="filter__form__item">
+                <form action="#" class="filter__form">
 
-                    <div class="kt-widget14__header">
-                        <hr class="new4">
-                        <h3 style="font-weight: 400;" class="kt-widget14__title">
+                    <div style="text-align: center;width: 84%;" class="filter__form__item">
 
-                            Greetings : Children's Day
-                        </h3>
+                        <div class="kt-widget14__header">
+                            <hr class="new4">
+                            <h3 style="font-weight: 400;" class="kt-widget14__title">
 
-                        <br>
-                        <p style="text-align: center; font-size: 15px;">Message by Prime Minister Mahinda on the World Children’s Day</p>
+                                Greetings : Children's Day
+                            </h3>
 
-                        <hr class="new4">
+                            <br>
+                            <p style="text-align: center; font-size: 15px;">Message by Prime Minister Mahinda on the
+                                World Children’s Day</p>
+
+                            <hr class="new4">
+                        </div>
                     </div>
-                </div>
 
-            </form>
-
+                </form>
 
 
-
-        </div>
-        <div class="gallery__item set-bg" data-setbg="img/gallery/sp4.jpg">
-
+            </div>
+            <div class="gallery__item set-bg" data-setbg="img/gallery/sp4.jpg">
 
 
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-            <form action="#" class="filter__form">
+                <form action="#" class="filter__form">
 
-                <div style="text-align: center; width: 84%;" class="filter__form__item">
+                    <div style="text-align: center; width: 84%;" class="filter__form__item">
 
-                    <div class="kt-widget14__header">
-                        <hr class="new4">
-                        <h3 style="font-weight: 400;" class="kt-widget14__title">
+                        <div class="kt-widget14__header">
+                            <hr class="new4">
+                            <h3 style="font-weight: 400;" class="kt-widget14__title">
 
-                            IDs for NCE professionals
-                        </h3>
+                                IDs for NCE professionals
+                            </h3>
 
-                        <br>
-                        <p style="text-align: center; font-size: 15px;">Issue Identity Cards to principals,lecturers and teachers in NCE</p>
+                            <br>
+                            <p style="text-align: center; font-size: 15px;">Issue Identity Cards to principals,lecturers
+                                and teachers in NCE</p>
 
-                        <hr class="new4">
+                            <hr class="new4">
+                        </div>
                     </div>
-                </div>
 
-            </form>
-
+                </form>
 
 
+            </div>
+            <div class="gallery__item set-bg">
+                <video style="position: absolute; z-index: -10000000000; width: 100%;" autoplay="autoplay" muted="muted"
+                       loop="loop">
+                    <source src="img/gallery/vd.mp4" type="video/mp4">
+                </video>
 
-        </div>
-        <div class="gallery__item set-bg">
-            <video style="position: absolute; z-index: -10000000000; width: 100%;" autoplay="autoplay" muted="muted" loop="loop">
-                <source src="img/gallery/vd.mp4" type="video/mp4">
-            </video>
-
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-
-            <form style="z-index: +100000000000000000;position: absolute; width: 100%" action="#" class="filter__form">
-
-                <div style="text-align: center; width: 84%;" class="filter__form__item">
-
-                    <div class="kt-widget14__header">
-                        <hr class="new4">
-                        <h3 style="font-weight: 400;" class="kt-widget14__title">
-
-                            Discussions : Raise on Forum
-                        </h3>
-
-                        <br>
-                        <p style="text-align: center; font-size: 15px;">Weekly discussion forum on curriculum reforms was held on 12/10/2020</p>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
+                <form style="z-index: +100000000000000000;position: absolute; width: 100%" action="#"
+                      class="filter__form">
+
+                    <div style="text-align: center; width: 84%;" class="filter__form__item">
+
+                        <div class="kt-widget14__header">
+                            <hr class="new4">
+                            <h3 style="font-weight: 400;" class="kt-widget14__title">
+
+                                Discussions : Raise on Forum
+                            </h3>
+
+                            <br>
+                            <p style="text-align: center; font-size: 15px;">Weekly discussion forum on curriculum
+                                reforms was held on 12/10/2020</p>
 
 
-
-                        <hr class="new4">
+                            <hr class="new4">
+                        </div>
                     </div>
-                </div>
 
-            </form>
-
+                </form>
 
 
+            </div>
         </div>
-    </div>
     </div>
 
 </section>
@@ -273,7 +269,7 @@
             <div class="col-lg-3 p-0 order-lg-4 col-md-6 order-md-3">
                 <div class="latest__blog__text">
                     <div class="label">Diploma Awards</div>
-                    <h5>Diploma Award Ceramony - NCOE  at Temple Trees</h5>
+                    <h5>Diploma Award Ceramony - NCOE at Temple Trees</h5>
                     <p><i class="fa fa-clock-o"></i> 20th August, 2019</p>
                     <a href="#">Read More</a>
                 </div>
