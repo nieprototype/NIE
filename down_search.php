@@ -241,7 +241,6 @@
 
 <br><br><br>
 
-
 <?php include "includes/footer.html"; ?>
 
 <script>
