@@ -246,6 +246,24 @@
 
     $(document).ready(function () {
 
+        function simulateKeyPress(character) {
+
+            jQuery.event.trigger({ type : 'keypress', which : character.charCodeAt(13) });
+
+        }
+
+        $(function() {
+
+            $('body').keypress(function(e) {
+
+                alert(e.which);
+
+            });
+
+            simulateKeyPress("e");
+
+        });
+
         var url_string = window.location.href;
         var url = new URL(url_string);
 
