@@ -220,7 +220,7 @@
                 <form style=" position:relative;
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
-            box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;" action="#" class="filter__form">
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;" id="syl_search" name="syl_search" method="get" action="down_search.php" class="filter__form">
 
                     <div class="col-11 filter__form__item filter__form__item--search">
 
@@ -237,7 +237,7 @@
                         </div>
 
 
-                        <form class="filter__form__input">
+                        <form id="syl_search" name="syl_search" method="get" action="down_search.php" class="filter__form__input">
                             <div style="width: 100%;" class="filter__form__item">
 
                                 <div class="kt-widget14__header">
@@ -249,10 +249,23 @@
                                 <div style="width: 50%; margin-top: -8%; margin-left: 50%;"
                                      class="filter__form__select">
                                     <span class="icon_group"></span>
-                                    <select>
+                                    <select id="grade_search_tg" name="grade_search">
                                         <option value="">Select Grade</option>
-                                        <option value="">Grade 12</option>
-                                        <option value="">Grade 09</option>
+                                        <?php
+
+                                        $i = 1;
+                                        while ($i < 14) {
+
+                                            ?>
+
+                                            <option value="<?php echo $i; ?>">Grade <?php echo $i;
+                                                $i++; ?></option>
+
+                                            <?php
+
+                                        }
+
+                                        ?>
                                     </select>
                                 </div>
                             </div>
@@ -268,10 +281,11 @@
                                 <div style="width: 50%; margin-top: -8%; margin-left: 50%;"
                                      class="filter__form__select">
                                     <span class="icon_globe-2"></span>
-                                    <select>
-                                        <option value="">Select Medium</option>
-                                        <option value="">English</option>
-                                        <option value="">Sinhala</option>
+                                    <select id="language_search_tg" name="language_search">
+                                        <option value="">Select Language</option>
+                                        <option value="Sinhala">Sinhala</option>
+                                        <option value="English">English</option>
+                                        <option value="Tamil">Tamil</option>
                                     </select>
                                 </div>
                             </div>
@@ -287,16 +301,43 @@
                                 <div style="width: 50%; margin-top: -8%; margin-left: 50%;"
                                      class="filter__form__select">
                                     <span class="icon_book"></span>
-                                    <select>
+
+                                    <select id="subject_search_tg" name="subject_search_cat">
+
                                         <option value="">Select Subject</option>
-                                        <option value="">Chemistry</option>
-                                        <option value="">English</option>
+                                        <option value="ICT">ICT</option>
+                                        <option value="Sinhala">Sinhala</option>
+                                        <option value="English">English</option>
+                                        <option value="Tamil">Tamil</option>
+                                        <option value="Buddhism">Buddhism</option>
+                                        <option value="Islam">Islam</option>
+                                        <option value="Catholic">Catholic</option>
+                                        <option value="Science">Science</option>
+                                        <option value="Mathematics">Mathematics</option>
+                                        <option value="History">History</option>
+                                        <option value="Geography">Geography</option>
+                                        <option value="Health">Health
+                                        </option>
+                                        <option value="Music">Music</option>
+                                        <option value="Citizenship Education">Citizenship Education
+                                        </option>
+                                        <option value="Biology">Biology</option>
+                                        <option value="Physics">Physics</option>
+                                        <option value="Chemistry">Chemistry</option>
+                                        <option value="Business Studies">Business Studies</option>
+                                        <option value="Accounting">Accounting</option>
+                                        <option value="IT (A/L)">IT (A/L)</option>
+                                        <option value="Economics">Economics</option>
+                                        <option value="Languages">Languages</option>
+                                        <option value="Mathematics (A/L)">Mathematics (A/L)</option>
+                                        <option value="English Literature">English Literature</option>
+
                                     </select>
                                 </div>
                             </div>
 
                             <p style="text-align: right; margin-bottom: -1%; ">
-                                <input value="Search" type="submit" onclick="search_syl()" style="font-family: 'Barlow Condensed',sans-serif; font-size: 20px; font-weight: 400; border: #E9AD28;" class="primary-btn">
+                                <input id="tg_search_submit" value="Search" type="button" onclick="search_tg()" style="font-family: 'Barlow Condensed',sans-serif; font-size: 20px; font-weight: 400; border: #E9AD28;" class="primary-btn">
                             </p>
                         </form>
                     </div>

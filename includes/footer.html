@@ -1081,6 +1081,30 @@
 
 </script>
 
+<script>
+
+    function search_tg() {
+
+        var grade = document.getElementById('grade_search_tg').value;
+        var language = document.getElementById('language_search_tg').value;
+        var subject = document.getElementById('subject_search_tg').value;
+
+        if (grade == '' || language == '' || subject == '') {
+
+            swal.fire("Select a Teacher's Guide !", "Please Select a Teacher's Guide Before Proceeding.", "warning");
+            return false;
+
+        } else {
+
+            document.getElementById('tg_search_submit').type = 'submit';
+            document.getElementById('tg_search_submit').click();
+
+        }
+
+    }
+
+</script>
+
 </body>
 
 </html>
