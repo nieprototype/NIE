@@ -70,7 +70,7 @@
                                     <td id="d_subject_1">Business Studies</td>
                                     <td id="d_lan_1">Sinhala</td>
 
-                                    <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Material</a></td>
+                                    <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="img/doc/practical.pdf" target="_blank" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Material</a></td>
 
 
                                 </tr>
@@ -82,7 +82,7 @@
                                     <td id="d_subject_2">English</td>
                                     <td id="d_lan_2">English</td>
 
-                                    <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Material</a></td>
+                                    <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="img/doc/practical.pdf" target="_blank" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Material</a></td>
 
 
                                 </tr>
@@ -94,22 +94,98 @@
                                     <td id="d_subject_3">Biology</td>
                                     <td id="d_lan_3">English</td>
 
-                                    <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Material</a></td>
+                                    <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="img/doc/practical.pdf" target="_blank" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Material</a></td>
 
 
                                 </tr>
 
-                                <tr id="downloads_upload" style="display:none;">
+                                <tr id="row_4">
                                     <td>4</td>
-                                    <td id="d_title"></td>
-                                    <td id="d_type"></td>
-                                    <td id="d_grade"></td>
-                                    <td id="d_subject"></td>
-                                    <td id="d_lan"></td>
+                                    <td id="d_title_4">Physical Education & Sport</td>
+                                    <td id="d_type_4">Teacher's Guide</td>
+                                    <td id="d_grade_4">Grade 10</td>
+                                    <td id="d_subject_4">Health</td>
+                                    <td id="d_lan_4">English</td>
 
-                                    <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Material</a></td>
+                                    <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="img/doc/practical.pdf" target="_blank" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Material</a></td>
+
 
                                 </tr>
+
+                                <tr id="row_5">
+                                    <td>5</td>
+                                    <td id="d_title_5">Biology Lesson 02</td>
+                                    <td id="d_type_5">Syllabus</td>
+                                    <td id="d_grade_5">Grade 09</td>
+                                    <td id="d_subject_5">Biology</td>
+                                    <td id="d_lan_5">English</td>
+
+                                    <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="img/doc/practical.pdf" target="_blank" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Material</a></td>
+
+
+                                </tr>
+
+                                <tr id="row_6">
+                                    <td>6</td>
+                                    <td id="d_title_6">Characteristics of Nelson Mandela</td>
+                                    <td id="d_type_6">Syllabus</td>
+                                    <td id="d_grade_6">Grade 10</td>
+                                    <td id="d_subject_6">Citizenship Education</td>
+                                    <td id="d_lan_6">Tamil</td>
+
+                                    <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="img/doc/practical.pdf" target="_blank" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Material</a></td>
+
+
+                                </tr>
+
+                                <tr id="row_7">
+                                    <td>7</td>
+                                    <td id="d_title_7">Village By the Sea</td>
+                                    <td id="d_type_7">Syllabus</td>
+                                    <td id="d_grade_7">Grade 11</td>
+                                    <td id="d_subject_7">English literature</td>
+                                    <td id="d_lan_7">English</td>
+
+                                    <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="img/doc/practical.pdf" target="_blank" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Material</a></td>
+
+
+                                </tr>
+
+                                <tr id="row_8">
+                                    <td>8</td>
+                                    <td id="d_title_8">Yapahuwa Kingdom</td>
+                                    <td id="d_type_8">Teacher's Guide</td>
+                                    <td id="d_grade_8">Grade 07</td>
+                                    <td id="d_subject_8">History</td>
+                                    <td id="d_lan_8">English</td>
+
+                                    <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="img/doc/practical.pdf" target="_blank" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Material</a></td>
+
+
+                                </tr>
+
+                                <tr id="row_9">
+                                    <td>9</td>
+                                    <td id="d_title_9">Characteristics of Nelson Mandela</td>
+                                    <td id="d_type_9">Syllabus</td>
+                                    <td id="d_grade_9">Grade 10</td>
+                                    <td id="d_subject_9">Citizenship Education</td>
+                                    <td id="d_lan_9">Tamil</td>
+
+                                    <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="img/doc/practical.pdf" target="_blank" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Material</a></td>
+                                </tr>
+
+                                <tr id="row_10">
+                                    <td>10</td>
+                                    <td id="d_title_10">Past Participle tense</td>
+                                    <td id="d_type_10">Syllabus</td>
+                                    <td id="d_grade_10">Grade 13</td>
+                                    <td id="d_subject_10">General English</td>
+                                    <td id="d_lan_10">English</td>
+
+                                    <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="img/doc/practical.pdf" target="_blank" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Material</a></td>
+                                </tr>
+
 
 
                                 </tbody>

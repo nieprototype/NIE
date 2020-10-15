@@ -30,7 +30,7 @@
                             application to your preferred course. Click on View Courses to get started.</h4>
                         <br><br>
                         <br>
-                        <a href="#course1" style="font-family: 'Poppins',sans-serif; font-size: large;"
+                        <a href="#co_table" style="font-family: 'Poppins',sans-serif; font-size: large;"
                            class="primary-btn">View Courses</a>
 
 
@@ -66,7 +66,7 @@
                           class="filter__form hover-div">
                         <div class="filter__form__item filter__form__item--search">
                             <div class="filter__form__input">
-                                <img width="120px" height="120px" class="" src="img/meeting11.jpg"
+                                <img width="120px" height="120px" class="" src="img/courses/c1.jpg"
                                      style="margin-left: -19px; margin-top: -4%; margin-bottom: -4%;">
                             </div>
                         </div>
@@ -100,7 +100,7 @@
                           class="filter__form hover-div">
                         <div class="filter__form__item filter__form__item--search">
                             <div class="filter__form__input">
-                                <img width="120px" height="120px" class="" src="img/deg.jpg"
+                                <img width="120px" height="120px" class="" src="img/courses/mba.jpg"
                                      style="margin-left: -19px; margin-top: -4%; margin-bottom: -4%;">
                             </div>
                         </div>
@@ -135,7 +135,7 @@
                           class="filter__form hover-div">
                         <div class="filter__form__item filter__form__item--search">
                             <div class="filter__form__input">
-                                <img width="120px" height="120px" class="" src="img/res.jpg"
+                                <img width="120px" height="120px" class="" src="img/courses/eg.jpg"
                                      style="margin-left: -19px; margin-top: -4%; margin-bottom: -4%;">
                             </div>
                         </div>
@@ -172,7 +172,7 @@
                           class="filter__form hover-div">
                         <div class="filter__form__item filter__form__item--search">
                             <div class="filter__form__input">
-                                <img width="120px" height="120px" class="" src="img/train.jpg"
+                                <img width="120px" height="120px" class="" src="img/courses/s.jpg"
                                      style="margin-left: -19px; margin-top: -4%; margin-bottom: -4%;">
                             </div>
                         </div>
@@ -207,7 +207,7 @@
                           class="filter__form hover-div">
                         <div class="filter__form__item filter__form__item--search">
                             <div class="filter__form__input">
-                                <img width="120px" height="120px" class="" src="img/prize.jpg"
+                                <img width="120px" height="120px" class="" src="img/courses/ed.jpg"
                                      style="margin-left: -19px; margin-top: -4%; margin-bottom: -4%;">
                             </div>
                         </div>
@@ -242,7 +242,7 @@
                           class="filter__form hover-div">
                         <div class="filter__form__item filter__form__item--search">
                             <div class="filter__form__input">
-                                <img width="120px" height="120px" class="" src="img/cert.jpg"
+                                <img width="120px" height="120px" class="" src="img/courses/ss.jpg"
                                      style="margin-left: -19px; margin-top: -4%; margin-bottom: -4%;">
                             </div>
                         </div>
@@ -272,7 +272,7 @@
 
             </div>
             <br><br>
-            <center><img src="img/notices/arr.gif" width="6%;"></center>
+
 
             <br><br>
         </section>
@@ -320,7 +320,7 @@
                     <br><br><br>
 
                 <!-- begin:: Content -->
-                <div style="width: 100%;
+                <div id="co_table" style="width: 100%;
                 position:relative;
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
@@ -370,6 +370,42 @@
                                     <td>1 Year</td>
                                     <td>English / Sinhala / Tamil</td>
                                     <td>This is a 30-credit study programme. A candidate should acquire the 30 credits within a minimum of 1 year, not necessarily consecutive, provided the student maintains registration throughout.</td>
+                                    <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="img/doc/practical.pdf" download class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Application</a></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>P32456</td>
+                                    <td>Post Graduate Diploma in School Counselling</td>
+                                    <td>2 Years</td>
+                                    <td>English / Sinhala / Tamil</td>
+                                    <td>The course content consists of nine modules. Module 1 to 5 mainly focus on the theory while modules 6 to 9 focus on skill and techniques development relevant to the guidance and counseling. </td>
+                                    <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="img/doc/practical.pdf" download class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Application</a></td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>C84356</td>
+                                    <td>Diploma in Teaching English</td>
+                                    <td>1 Year</td>
+                                    <td>English / Sinhala / Tamil</td>
+                                    <td>Postgraduate Diploma in Education ( Teaching of English as a Second Language) – Full Time Course. Duration: The course is of 12 months duration conducted on weekdays, Monday to Friday. </td>
+                                    <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="img/doc/practical.pdf" download class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Application</a></td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>S44153</td>
+                                    <td>Diploma in Sign Language</td>
+                                    <td>2 Years</td>
+                                    <td>English / Sinhala / Tamil</td>
+                                    <td>Georgetown University offers a full certification course in ASL designed to introduce students to the history of the language and its development.</td>
+                                    <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="img/doc/practical.pdf" download class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Application</a></td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>C55556</td>
+                                    <td>Diploma in Early Childhood</td>
+                                    <td>6 month</td>
+                                    <td>English / Sinhala / Tamil</td>
+                                    <td> The goal of this programme is to improve the quality of early childhood education and primary education in Sri Lanka.</td>
                                     <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="img/doc/practical.pdf" download class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Application</a></td>
                                 </tr>
                                 </tbody>
