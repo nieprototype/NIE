@@ -168,17 +168,13 @@
                         <input class="form-control" id="unit/pageNo" type="email" placeholder="Unit/Page No" required="required" data-validation-required-message="Please enter your email address." />
                         <p class="help-block text-danger"></p>
                     </div>
-                    <div class="form-group">
-                        <input class="form-control" id="name" type="text" placeholder="Name " required="required" data-validation-required-message="Please enter your name." />
-                        <p class="help-block text-danger"></p>
-                    </div>
 
-                    <div class="form-group">
-                        <input class="form-control" id="email" type="email" placeholder=" Email "  data-validation-required-message="Please enter your email address." />
-                        <p class="help-block text-danger"></p>
-                    </div>
                     <div class="form-group mb-md-0">
                         <input class="form-control" id="phone" type="tel" placeholder="Telephone Number " required="required" data-validation-required-message="Please enter your phone number." />
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" maxlength="200" style="margin-top: 22px;width: 575px" id="name" type="text" placeholder="Suggestions " required="required" data-validation-required-message="Please enter a message."></textarea>
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
@@ -210,11 +206,21 @@
                             </select>
                         </div>
 
+
                         <div class="form-group">
-                            <textarea class="form-control" maxlength="200" style="margin-top: 22px" id="name" type="text" placeholder="Suggestions " required="required" data-validation-required-message="Please enter a message."></textarea>
+                            <input class="form-control" id="name" type="text" placeholder="Name " required="required" data-validation-required-message="Please enter your name." />
                             <p class="help-block text-danger"></p>
                         </div>
+
+                        <div class="form-group">
+                            <input class="form-control" id="email" type="email" placeholder=" Email "  data-validation-required-message="Please enter your email address." />
+                            <p class="help-block text-danger"></p>
+                        </div>
+
+                        <br>
+
                         <div class="float-right">
+
                             <div id="success"></div>
                             <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">SUBMIT</button>
                         </div>
