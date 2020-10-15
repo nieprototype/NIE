@@ -56,9 +56,9 @@
                                     <th>Grade</th>
                                     <th>Subject</th>
                                     <th>Language</th>
-                                    <th>Description</th>
+
                                     <th>Files</th>
-                                    <th>Actions</th>
+
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -69,36 +69,10 @@
                                     <td id="d_grade_1">Grade 12</td>
                                     <td id="d_subject_1">Business Studies</td>
                                     <td id="d_lan_1">Sinhala</td>
-                                    <td id="d_desc_1">Its study combines elements of accountancy, finance, marketing,
-                                        organizational studies and operations.
-                                    </td>
-                                    <td style="text-align: center;"><a
-                                                style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;"
-                                                href="#course1"><img src="img/downloads/pdf2.png" width="50px"></a>
-                                    </td>
-                                    <td>
-                                        <button onclick="edit_d_r1(this.id)" id="1" name="1"
-                                                style="background-color: rgba(246,219,172,0.51);" type="submit"
-                                                class="btn btn-sm btn-clean btn-icon btn-icon-md kt-badge kt-badge--inline kt-badge--pill"
-                                                title="Update">
-                                            <i style="font-size: 18px; color: #E9AD28; font-weight: 800;"
-                                               class="icon_pencil"></i>
-                                        </button>
-                                        <hr>
-                                        <button onclick="
-                              if (confirm('Are you sure you want to delete this material ?')) {
-                                   document.getElementById('row_1').style.display = 'none';
-                                   var table = $('#kt_table_1').DataTable();
-                                   table.draw();
-                              } else {
-                                  return false;
-                              }" type="submit" id="submit_remove" name="submit_remove"
-                                                class="btn btn-sm btn-clean btn-icon btn-icon-md kt-badge kt-badge--33 kt-badge--inline kt-badge--pill"
-                                                title="Delete">
-                                            <i style="font-size: 26px; color: #dc3545; font-weight: 800;"
-                                               class="icon_close"></i>
-                                        </button>
-                                    </td>
+
+                                    <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Material</a></td>
+
+
                                 </tr>
                                 <tr id="row_2">
                                     <td>2</td>
@@ -107,37 +81,10 @@
                                     <td id="d_grade_2">Grade 8</td>
                                     <td id="d_subject_2">English</td>
                                     <td id="d_lan_2">English</td>
-                                    <td id="d_desc_2">This Teachers' Guide consists of detailed syllabus of grade 09,
-                                        instructions for... Competencies through teaching of English Language in Sri
-                                        Lanka to ensure...
-                                    </td>
-                                    <td style="text-align: center;"><a
-                                                style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;"
-                                                href="#course1"><img src="img/downloads/pdf2.png" width="50px"></a>
-                                    </td>
-                                    <td>
-                                        <button onclick="edit_d_r1(this.id)" id="2" name="2"
-                                                style="background-color: rgba(246,219,172,0.51);" type="submit"
-                                                class="btn btn-sm btn-clean btn-icon btn-icon-md kt-badge kt-badge--inline kt-badge--pill"
-                                                title="Update">
-                                            <i style="font-size: 18px; color: #E9AD28; font-weight: 800;"
-                                               class="icon_pencil"></i>
-                                        </button>
-                                        <hr>
-                                        <button onclick="
-                              if (confirm('Are you sure you want to delete this material ?')) {
-                                   document.getElementById('row_2').style.display = 'none';
-                                   var table = $('#kt_table_1').DataTable();
-                                   table.draw();
-                              } else {
-                                  return false;
-                              }" type="submit" id="submit_remove" name="submit_remove"
-                                                class="btn btn-sm btn-clean btn-icon btn-icon-md kt-badge kt-badge--33 kt-badge--inline kt-badge--pill"
-                                                title="Delete">
-                                            <i style="font-size: 26px; color: #dc3545; font-weight: 800;"
-                                               class="icon_close"></i>
-                                        </button>
-                                    </td>
+
+                                    <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Material</a></td>
+
+
                                 </tr>
                                 <tr id="row_3">
                                     <td>3</td>
@@ -146,40 +93,10 @@
                                     <td id="d_grade_3">Grade 12</td>
                                     <td id="d_subject_3">Biology</td>
                                     <td id="d_lan_3">English</td>
-                                    <td id="d_desc_3">Three aspects need to be taken into consideration by teachers when
-                                        using this book. They are, the coherence of the Teacher's Instructional Manual
-                                        and the...
-                                    </td>
-                                    <td style="text-align: center;"><a
-                                                style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;"
-                                                href="#course1"><img src="img/downloads/pdf2.png"
-                                                                     width="50px"></a><a
-                                                style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;"
-                                                href="#course1"><img src="img/downloads/pdf2.png" width="50px"></a>
-                                    </td>
-                                    <td>
-                                        <button onclick="edit_d_r1(this.id)" id="3" name="3"
-                                                style="background-color: rgba(246,219,172,0.51);" type="submit"
-                                                class="btn btn-sm btn-clean btn-icon btn-icon-md kt-badge kt-badge--inline kt-badge--pill"
-                                                title="Update">
-                                            <i style="font-size: 18px; color: #E9AD28; font-weight: 800;"
-                                               class="icon_pencil"></i>
-                                        </button>
-                                        <hr>
-                                        <button onclick="
-                              if (confirm('Are you sure you want to delete this material ?')) {
-                                   document.getElementById('row_3').style.display = 'none';
-                                   var table = $('#kt_table_1').DataTable();
-                                   table.draw();
-                              } else {
-                                  return false;
-                              }" type="submit" id="submit_remove" name="submit_remove"
-                                                class="btn btn-sm btn-clean btn-icon btn-icon-md kt-badge kt-badge--33 kt-badge--inline kt-badge--pill"
-                                                title="Delete">
-                                            <i style="font-size: 26px; color: #dc3545; font-weight: 800;"
-                                               class="icon_close"></i>
-                                        </button>
-                                    </td>
+
+                                    <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Material</a></td>
+
+
                                 </tr>
 
                                 <tr id="downloads_upload" style="display:none;">
@@ -189,34 +106,9 @@
                                     <td id="d_grade"></td>
                                     <td id="d_subject"></td>
                                     <td id="d_lan"></td>
-                                    <td id="d_desc"></td>
-                                    <td style="text-align: center;"><a
-                                                style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;"
-                                                href="#course1"><img src="img/downloads/pdf2.png" width="50px">
-                                            <span id="file_d"></span></a></td>
-                                    <td>
-                                        <button onclick="edit_d_r1(this.id)" id="4" name="4"
-                                                style="background-color: rgba(246,219,172,0.51);" type="submit"
-                                                class="btn btn-sm btn-clean btn-icon btn-icon-md kt-badge kt-badge--inline kt-badge--pill"
-                                                title="Update">
-                                            <i style="font-size: 18px; color: #E9AD28; font-weight: 800;"
-                                               class="icon_pencil"></i>
-                                        </button>
-                                        <hr>
-                                        <button onclick="
-                              if (confirm('Are you sure you want to delete this material ?')) {
-                                   document.getElementById('downloads_upload').style.display = 'none';
-                                   var table = $('#kt_table_1').DataTable();
-                                   table.draw();
-                              } else {
-                                  return false;
-                              }" type="submit" id="submit_remove" name="submit_remove"
-                                                class="btn btn-sm btn-clean btn-icon btn-icon-md kt-badge kt-badge--33 kt-badge--inline kt-badge--pill"
-                                                title="Delete">
-                                            <i style="font-size: 26px; color: #dc3545; font-weight: 800;"
-                                               class="icon_close"></i>
-                                        </button>
-                                    </td>
+
+                                    <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Material</a></td>
+
                                 </tr>
 
 
