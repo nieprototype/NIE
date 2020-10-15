@@ -48,7 +48,14 @@
                     </div>
                     <div class="room__details__desc">
                         <h2>Course Details:</h2>
-                        <p>The programme consists of course work only. The course work comprises 3 compulsory courses and one optional course. This programme will be conducted in Colombo (Sinhala, Tamil & English), Kandy (Sinhala medium only) and Jaffna (Tamil medium only) regional centers.This is a 30-credit study programme. A candidate should acquire the 30credits within a minimum of 1 year, not necessarily consecutive, provided the student maintains registration throughout.This Post Graduate Degree programme is conducted by the Department of Secondary and Tertiary, Faculty of Education. Contact the Programme Coordinator, Dr. F.M. Nawastheen for further details.</p>
+                        <p>The programme consists of course work only. The course work comprises 3 compulsory courses
+                            and one optional course. This programme will be conducted in Colombo (Sinhala, Tamil &
+                            English), Kandy (Sinhala medium only) and Jaffna (Tamil medium only) regional centers.This
+                            is a 30-credit study programme. A candidate should acquire the 30credits within a minimum of
+                            1 year, not necessarily consecutive, provided the student maintains registration
+                            throughout.This Post Graduate Degree programme is conducted by the Department of Secondary
+                            and Tertiary, Faculty of Education. Contact the Programme Coordinator, Dr. F.M. Nawastheen
+                            for further details.</p>
 
                         <p>
                             Programme Code : MH <br>
@@ -61,8 +68,11 @@
 
                         <h2>Course Objectives:</h2>
                         <p>
-                            To expand the opportunities for higher studies in Education for those who are already serving in the field.<br>
-                            To enable personnel already serving in higher educational institutions to obtain specialized knowledge in fields relevant to their professions by offering a variety of new subjects. <br>
+                            To expand the opportunities for higher studies in Education for those who are already
+                            serving in the field.<br>
+                            To enable personnel already serving in higher educational institutions to obtain specialized
+                            knowledge in fields relevant to their professions by offering a variety of new subjects.
+                            <br>
                             To promote research in areas relevant to the development of Education. <br>
                         </p>
 
