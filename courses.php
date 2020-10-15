@@ -372,6 +372,42 @@
                                     <td>This is a 30-credit study programme. A candidate should acquire the 30 credits within a minimum of 1 year, not necessarily consecutive, provided the student maintains registration throughout.</td>
                                     <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="img/doc/practical.pdf" download class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Application</a></td>
                                 </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>P32456</td>
+                                    <td>Post Graduate Diploma in School Counselling</td>
+                                    <td>2 Years</td>
+                                    <td>English / Sinhala / Tamil</td>
+                                    <td>The course content consists of nine modules. Module 1 to 5 mainly focus on the theory while modules 6 to 9 focus on skill and techniques development relevant to the guidance and counseling. </td>
+                                    <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="img/doc/practical.pdf" download class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Application</a></td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>C84356</td>
+                                    <td>Diploma in Teaching English</td>
+                                    <td>1 Year</td>
+                                    <td>English / Sinhala / Tamil</td>
+                                    <td>Postgraduate Diploma in Education ( Teaching of English as a Second Language) – Full Time Course. Duration: The course is of 12 months duration conducted on weekdays, Monday to Friday. </td>
+                                    <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="img/doc/practical.pdf" download class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Application</a></td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>S44153</td>
+                                    <td>Diploma in Sign Language</td>
+                                    <td>2 Years</td>
+                                    <td>English / Sinhala / Tamil</td>
+                                    <td>Georgetown University offers a full certification course in ASL designed to introduce students to the history of the language and its development.</td>
+                                    <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="img/doc/practical.pdf" download class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Application</a></td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>C55556</td>
+                                    <td>Diploma in Early Childhood</td>
+                                    <td>6 month</td>
+                                    <td>English / Sinhala / Tamil</td>
+                                    <td> The goal of this programme is to improve the quality of early childhood education and primary education in Sri Lanka.</td>
+                                    <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="img/doc/practical.pdf" download class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Application</a></td>
+                                </tr>
                                 </tbody>
                             </table>
 
