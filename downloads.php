@@ -344,7 +344,7 @@
 
                             <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                  class="latest__blog__text">
-                                <a style="font-size: large;" href="#">Download PDF</a>
+                                <a style="font-size: large;" href="img/doc/practical.pdf" download>Download PDF</a>
                             </div>
                         </div>
                     </div>
@@ -384,7 +384,7 @@
 
                             <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                  class="latest__blog__text">
-                                <a style="font-size: large;" href="#">Download PDF</a>
+                                <a style="font-size: large;" href="img/doc/practical.pdf" download>Download PDF</a>
                             </div>
                         </div>
                     </div>
@@ -428,7 +428,7 @@
 
                             <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                  class="latest__blog__text">
-                                <a style="font-size: large;" href="#">Download PDF</a>
+                                <a style="font-size: large;" href="img/doc/practical.pdf" download>Download PDF</a>
                             </div>
                         </div>
                     </div>
@@ -467,7 +467,7 @@
 
                             <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                  class="latest__blog__text">
-                                <a style="font-size: large;" href="#">Download PDF</a>
+                                <a style="font-size: large;" href="img/doc/practical.pdf" download>Download PDF</a>
                             </div>
                         </div>
                     </div>
@@ -512,7 +512,7 @@
 
                             <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                  class="latest__blog__text">
-                                <a style="font-size: large;" href="#">Download PDF</a>
+                                <a style="font-size: large;" href="img/doc/practical.pdf" download>Download PDF</a>
                             </div>
                         </div>
                     </div>
@@ -551,7 +551,7 @@
 
                             <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                  class="latest__blog__text">
-                                <a style="font-size: large;" href="#">Download PDF</a>
+                                <a style="font-size: large;" href="img/doc/practical.pdf" download >Download PDF</a>
                             </div>
                         </div>
                     </div>
