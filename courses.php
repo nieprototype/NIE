@@ -83,7 +83,7 @@
 
                                 <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                      class="latest__blog__text">
-                                    <a style="font-size: large;" href="#">Read More</a>
+                                    <a style="font-size: large;" href="course_details.php">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -117,7 +117,7 @@
 
                                 <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                      class="latest__blog__text">
-                                    <a style="font-size: large;" href="#">Read More</a>
+                                    <a style="font-size: large;" href="course_details.php">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -152,7 +152,7 @@
 
                                 <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                      class="latest__blog__text">
-                                    <a style="font-size: large;" href="#">Read More</a>
+                                    <a style="font-size: large;" href="course_details.php">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -189,7 +189,7 @@
 
                                 <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                      class="latest__blog__text">
-                                    <a style="font-size: large;" href="#">Read More</a>
+                                    <a style="font-size: large;" href="course_details.php">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -224,7 +224,7 @@
 
                                 <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                      class="latest__blog__text">
-                                    <a style="font-size: large;" href="#">Read More</a>
+                                    <a style="font-size: large;" href="course_details.php">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -259,7 +259,7 @@
 
                                 <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                      class="latest__blog__text">
-                                    <a style="font-size: large;" href="#">Read More</a>
+                                    <a style="font-size: large;" href="course_details.php">Read More</a>
                                 </div>
                             </div>
                         </div>
