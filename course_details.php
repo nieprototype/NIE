@@ -125,7 +125,6 @@
                                                                    alt=""></div>
                                             <h6>Air Conditioning</h6>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
