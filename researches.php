@@ -85,7 +85,8 @@
                             <div class="custom-file">
                                 <input type="file" class="custom-file-input" id="filePath"
                                     aria-describedby="inputGroupFileAddon01">
-                                <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                                <label class="custom-file-label" for="inputGroupFile01" id="fileName">Choose
+                                    file</label>
                             </div>
                         </div>
                         <br />
@@ -98,7 +99,8 @@
                             <div class="custom-file">
                                 <input type="file" class="custom-file-input" id="thumbnailPath" accept="image/*"
                                     name="image" aria-describedby="inputGroupFileAddon01">
-                                <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                                <label class="custom-file-label" for="inputGroupFile01" id="imageName">Choose
+                                    file</label>
                             </div>
                         </div>
                         <input type="hidden" name="imagePath" id="imagePath" />

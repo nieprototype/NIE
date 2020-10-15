@@ -5,7 +5,8 @@ document.querySelector("#filePath").addEventListener("change", function() {
     const reader = new FileReader();
     reader.addEventListener("load", () => {
         filePath = reader.result
-        console.log(filePath);
+            //console.log(filePath);
+        document.getElementById("fileName").innerHTML = this.files[0].name;
     });
     reader.readAsDataURL(this.files[0]);
 
@@ -15,7 +16,8 @@ document.querySelector("#thumbnailPath").addEventListener("change", function() {
     const reader = new FileReader();
     reader.addEventListener("load", () => {
         imagePath = reader.result
-        console.log(imagePath);
+            //console.log(imagePath);
+        document.getElementById("imageName").innerHTML = this.files[0].name;
     });
     reader.readAsDataURL(this.files[0]);
 
@@ -126,6 +128,9 @@ $(document).ready(function() {
     }
 
     $('#uploadbtn').click(function() {
+        if (imagePath == null) {
+            imagePath = "default/pngegg.png";
+        }
         if (filePath != null) {
             var obj = {
                 'name': $('#FileName').val(),
