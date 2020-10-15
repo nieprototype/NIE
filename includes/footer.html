@@ -915,12 +915,12 @@
 
 <script>
 
-    function lettersubmit1(){
+    function lettersubmit1() {
 
         var nl = document.getElementById('lettermail').value;
         var mailformat = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-        if (nl.match(mailformat)){
+        if (nl.match(mailformat)) {
 
             swal.fire({
                 position: 'top-right',
@@ -930,12 +930,12 @@
                 timer: 5000
             });
 
-        }else if (nl == ''){
+        } else if (nl == '') {
 
             swal.fire("Enter an Email Address !", "Please Enter an Email.", "warning");
             return false;
 
-        }else {
+        } else {
 
             swal.fire("Enter an Email Address !", "Please Enter a Valid Email Address.", "warning");
             return false;
@@ -948,16 +948,16 @@
 
 <script>
 
-    function loginhandler(){
+    function loginhandler() {
 
         var mail = document.getElementById('loginmail').value;
         var pw = document.getElementById('loginpassword').value;
 
-        if (mail !== '' && pw !== ''){
+        if (mail !== '' && pw !== '') {
 
             window.location.href = "forms.php";
 
-        }else {
+        } else {
 
             swal.fire("Enter Credentials !", "Please Enter Your Login Credentials.", "warning");
             return false;
@@ -978,52 +978,6 @@
 
 </script>
 
-<script>
-
-    function post_comment(){
-
-        var name = document.getElementById('name_comment').value;
-        var email = document.getElementById('email_comment').value;
-        var message = document.getElementById('message_comment').value;
-
-        var mailformat = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-        if (name !== '' && email !== '' && email.match(mailformat) && message !== ''){
-
-            document.getElementById('comment_c').style.display = 'revert';
-
-            document.getElementById('name_c').innerHTML = name;
-            document.getElementById('message_c').innerHTML = message;
-
-            document.getElementById("com_form").reset();
-
-            var sc = document.getElementById('scroll_c');
-            sc.scrollIntoView();
-
-            swal.fire({
-                position: 'top-right',
-                type: 'success',
-                title: 'Your Comment Posted Successfully.',
-                showConfirmButton: false,
-                timer: 5000
-            });
-
-
-        }else if (!email.match(mailformat)) {
-
-            swal.fire("Invalid Email !", "Please Enter a Valid Email", "warning");
-            return false;
-
-        }else {
-
-            swal.fire("Fill all the Fields !", "Please Fill all the Fields before Posting the Comment", "warning");
-            return false;
-
-        }
-
-    }
-
-</script>
 
 <script>
 
@@ -1058,6 +1012,59 @@
         var c = url.searchParams.get("name_search");
 
         document.getElementById('st').innerHTML = c;
+
+    });
+
+</script>
+<script>
+
+    function post_comment1() {
+
+        var name = document.getElementById('name_comment').value;
+        var email = document.getElementById('email_comment').value;
+        var message = document.getElementById('message_comment').value;
+
+        var mailformat = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        if (name !== '' && email !== '' && email.match(mailformat) && message !== '') {
+
+            document.getElementById('comment_c').style.display = 'revert';
+
+            document.getElementById('name_c').innerHTML = name;
+            document.getElementById('message_c').innerHTML = message;
+
+            document.getElementById("com_form").reset();
+
+            swal.fire({
+                position: 'top-right',
+                type: 'success',
+                title: 'Your Comment Posted Successfully.',
+                showConfirmButton: false,
+                timer: 5000
+            });
+
+
+        } else if (!email.match(mailformat)) {
+
+            swal.fire("Invalid Email !", "Please Enter a Valid Email", "warning");
+            return false;
+
+        } else {
+
+            swal.fire("Fill all the Fields !", "Please Fill all the Fields before Posting the Comment", "warning");
+            return false;
+
+        }
+
+    }
+
+</script>
+
+<script>
+
+    $('#post_a').click(function (e) {
+
+        e.preventDefault();
 
     });
 
