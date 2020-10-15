@@ -4,7 +4,7 @@
 <div class="room-details-slider">
     <div class="container">
         <div class="room__details__pic__slider owl-carousel">
-            <div class="room__details__pic__slider__item set-bg" data-setbg="img/rooms/details/rd-1.jpg"></div>
+            <div class="room__details__pic__slider__item set-bg" data-setbg="img/slider/1.png"></div>
             <div class="room__details__pic__slider__item set-bg" data-setbg="img/rooms/details/rd-2.jpg"></div>
             <div class="room__details__pic__slider__item set-bg" data-setbg="img/rooms/details/rd-3.jpg"></div>
             <div class="room__details__pic__slider__item set-bg" data-setbg="img/rooms/details/rd-4.jpg"></div>
