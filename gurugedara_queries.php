@@ -97,6 +97,23 @@
         </div>
     </div>
 </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br><br><br><br><br><br><br><br>
+
 
 <!-- Jquery JS-->
 <script src="vendor_queries/jquery/jquery.min.js"></script>
@@ -114,10 +131,11 @@
 </html>
 <!-- end document-->
 
-<?php include 'includes/footer.html' ?>
+
 
 <script>
     function SubmitForm() {
         alert("Form Submitted Successfully!")
     }
 </script>
+<?php include 'includes/footer.html' ?>
