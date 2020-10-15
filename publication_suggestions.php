@@ -222,7 +222,7 @@
                         <div class="float-right">
 
                             <div id="success"></div>
-                            <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">SUBMIT</button>
+                            <button class="btn btn-primary btn-xl text-uppercase" style="width: 200px" id="sendMessageButton" type="submit">SUBMIT</button>
                         </div>
                     </div>
 
