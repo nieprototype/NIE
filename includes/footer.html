@@ -1005,19 +1005,6 @@
 
 <script>
 
-    $(document).ready(function () {
-
-        var url_string = window.location.href;
-        var url = new URL(url_string);
-        var c = url.searchParams.get("name_search");
-
-        document.getElementById('st').innerHTML = c;
-
-    });
-
-</script>
-<script>
-
     function post_comment1() {
 
         var name = document.getElementById('name_comment').value;
@@ -1062,11 +1049,35 @@
 
 <script>
 
-    $('#post_a').click(function (e) {
+    $('#post_a').click(function (f) {
 
-        e.preventDefault();
+        f.preventDefault();
 
     });
+
+</script>
+
+<script>
+
+    function search_syl() {
+
+        var grade = document.getElementById('grade_search').value;
+        var language = document.getElementById('language_search').value;
+        var subject = document.getElementById('subject_search').value;
+
+        if (grade == '' || language == '' || subject == '') {
+
+            swal.fire("Select a Syllabus !", "Please Select a Syllabus Before Proceeding.", "warning");
+            return false;
+
+        } else {
+
+            document.getElementById('syl_search_submit').type = 'submit';
+            document.getElementById('syl_search_submit').click();
+
+        }
+
+    }
 
 </script>
 

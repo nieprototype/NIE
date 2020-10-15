@@ -241,3 +241,38 @@
 
 
 <?php include "includes/footer.html"; ?>
+
+<script>
+
+    $(document).ready(function () {
+
+        var url_string = window.location.href;
+        var url = new URL(url_string);
+
+        var c = url.searchParams.get("name_search");
+        document.getElementById('st').innerHTML = c;
+
+        var inpObj = document.getElementsByTagName('input');
+        for(var i in inpObj){
+            if(inpObj[i].type == "search"){
+                inpObj[i].value = c;
+            }
+        }
+
+        if (url.searchParams.get("subject_search_cat").value !== 'null') {
+
+            var d = url.searchParams.get("subject_search_cat");
+            document.getElementById('st').innerHTML = d;
+
+            var inpObj = document.getElementsByTagName('input');
+            for(var i in inpObj){
+                if(inpObj[i].type == "search"){
+                    inpObj[i].value = d;
+                }
+            }
+
+        }
+
+    });
+
+</script>
