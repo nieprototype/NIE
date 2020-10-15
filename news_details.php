@@ -1,5 +1,8 @@
-<?php include "includes/header.html";
+<?php
+
+include "includes/header.html";
 date_default_timezone_set("Asia/Colombo");
+
 ?>
 
     <!-- Blog Hero Begin -->
@@ -155,7 +158,7 @@ date_default_timezone_set("Asia/Colombo");
                                     </div>
                                 </div>
                                 <textarea id="message_comment" placeholder="Leave your Comment"></textarea>
-                                <button id="post" onclick="post_comment()" type="submit">Post a Comment</button>
+                                <button id="post_a" onclick="post_comment1()" type="submit">Post a Comment</button>
                             </form>
                         </div>
                     </div>
