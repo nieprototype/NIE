@@ -30,7 +30,7 @@
                             application to your preferred course. Click on View Courses to get started.</h4>
                         <br><br>
                         <br>
-                        <a href="#course1" style="font-family: 'Poppins',sans-serif; font-size: large;"
+                        <a href="#co_table" style="font-family: 'Poppins',sans-serif; font-size: large;"
                            class="primary-btn">View Courses</a>
 
 
@@ -66,7 +66,7 @@
                           class="filter__form hover-div">
                         <div class="filter__form__item filter__form__item--search">
                             <div class="filter__form__input">
-                                <img width="120px" height="120px" class="" src="img/meeting11.jpg"
+                                <img width="120px" height="120px" class="" src="img/courses/c1.jpg"
                                      style="margin-left: -19px; margin-top: -4%; margin-bottom: -4%;">
                             </div>
                         </div>
@@ -100,7 +100,7 @@
                           class="filter__form hover-div">
                         <div class="filter__form__item filter__form__item--search">
                             <div class="filter__form__input">
-                                <img width="120px" height="120px" class="" src="img/deg.jpg"
+                                <img width="120px" height="120px" class="" src="img/courses/mba.jpg"
                                      style="margin-left: -19px; margin-top: -4%; margin-bottom: -4%;">
                             </div>
                         </div>
@@ -135,7 +135,7 @@
                           class="filter__form hover-div">
                         <div class="filter__form__item filter__form__item--search">
                             <div class="filter__form__input">
-                                <img width="120px" height="120px" class="" src="img/res.jpg"
+                                <img width="120px" height="120px" class="" src="img/courses/eg.jpg"
                                      style="margin-left: -19px; margin-top: -4%; margin-bottom: -4%;">
                             </div>
                         </div>
@@ -172,7 +172,7 @@
                           class="filter__form hover-div">
                         <div class="filter__form__item filter__form__item--search">
                             <div class="filter__form__input">
-                                <img width="120px" height="120px" class="" src="img/train.jpg"
+                                <img width="120px" height="120px" class="" src="img/courses/s.jpg"
                                      style="margin-left: -19px; margin-top: -4%; margin-bottom: -4%;">
                             </div>
                         </div>
@@ -207,7 +207,7 @@
                           class="filter__form hover-div">
                         <div class="filter__form__item filter__form__item--search">
                             <div class="filter__form__input">
-                                <img width="120px" height="120px" class="" src="img/prize.jpg"
+                                <img width="120px" height="120px" class="" src="img/courses/ed.jpg"
                                      style="margin-left: -19px; margin-top: -4%; margin-bottom: -4%;">
                             </div>
                         </div>
@@ -242,7 +242,7 @@
                           class="filter__form hover-div">
                         <div class="filter__form__item filter__form__item--search">
                             <div class="filter__form__input">
-                                <img width="120px" height="120px" class="" src="img/cert.jpg"
+                                <img width="120px" height="120px" class="" src="img/courses/ss.jpg"
                                      style="margin-left: -19px; margin-top: -4%; margin-bottom: -4%;">
                             </div>
                         </div>
@@ -272,7 +272,7 @@
 
             </div>
             <br><br>
-            <center><img src="img/notices/arr.gif" width="6%;"></center>
+
 
             <br><br>
         </section>
@@ -320,7 +320,7 @@
                     <br><br><br>
 
                 <!-- begin:: Content -->
-                <div style="width: 100%;
+                <div id="co_table" style="width: 100%;
                 position:relative;
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
