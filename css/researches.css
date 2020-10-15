@@ -14,11 +14,11 @@ h2 {
 }
 
 .container-fluid .row .col {
-    padding: 2%;
+    padding: 4%;
 }
 
 .rjcontainer .topics {
-    padding: 2% 0 2% 7%;
+    padding: 2% 0 2% 2%;
 }
 
 .rjcontainer .row .col-sm img {
@@ -36,7 +36,7 @@ h2 {
     left: 0;
     right: 0;
     height: 100%;
-    width: 66%;
+    width: 91%;
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(0, 0, 0, 0.8);

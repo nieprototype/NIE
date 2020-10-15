@@ -1,9 +1,8 @@
 <?php include "includes/header.html"; ?>
 
 <link rel="stylesheet" href="css/researches.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="js/researches.js"></script>
-
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+<script src="js/jquery-3.3.1.min.js"></script>
 
 <div class="container-fluid"
     style="background-image: url('../NIE/img/researches/geometric-2880x1800-shapes-dark-background-black-yellow-gradient-hd-4k-14372.png'); background-size: cover; padding: 20px;">
@@ -17,34 +16,6 @@
                     <div class="topics">
                         <h2>Researches</h2>
                     </div>
-                    <!--<div class="row">
-                        <div class="col-sm">
-                            <img src="img/SoftwarePackages/pack.png" alt="Software1"><br />
-                            <div class="overlay">
-                                <div class="text">Education Software Package For Grade 6 Students<br /><br /><a href="">more</a></div>
-                            </div>
-                        </div>
-                        <div class="col-sm">
-                            <img src="img/SoftwarePackages/pack.png" alt="Software1"><br />
-                            <div class="overlay">
-                                <div class="text">Education Software Package For Grade 6 Students<br /><br /><a href="">more</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm">
-                            <img src="img/SoftwarePackages/pack.png" alt="Software1"><br />
-                            <div class="overlay">
-                                <div class="text">Education Software Package For Grade 6 Students<br /><br /><a href="">more</a></div>
-                            </div>
-                        </div>
-                        <div class="col-sm">
-                            <img src="img/SoftwarePackages/pack.png" alt="Software1"><br />
-                            <div class="overlay">
-                                <div class="text">Education Software Package For Grade 6 Students<br /><br /><a href="">more</a></div>
-                            </div>
-                        </div>
-                    </div>-->
                 </div>
             </div>
             <div class="col" style="border-left: lightgray solid 1px;">
@@ -52,34 +23,6 @@
                     <div class="topics">
                         <h2>Journals</h2>
                     </div>
-                    <!--<div class="row">
-                        <div class="col-sm">
-                            <img src="img/SoftwarePackages/pack.png" alt="Software1"><br />
-                            <div class="overlay">
-                                <div class="text">Education Software Package For Grade 6 Students<br /><br /><a href="">more</a></div>
-                            </div>
-                        </div>
-                        <div class="col-sm">
-                            <img src="img/SoftwarePackages/pack.png" alt="Software1"><br />
-                            <div class="overlay">
-                                <div class="text">Education Software Package For Grade 6 Students<br /><br /><a href="">more</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm">
-                            <img src="img/SoftwarePackages/pack.png" alt="Software1"><br />
-                            <div class="overlay">
-                                <div class="text">Education Software Package For Grade 6 Students<br /><br /><a href="">more</a></div>
-                            </div>
-                        </div>
-                        <div class="col-sm">
-                            <img src="img/SoftwarePackages/pack.png" alt="Software1"><br />
-                            <div class="overlay">
-                                <div class="text">Education Software Package For Grade 6 Students<br /><br /><a href="">more</a></div>
-                            </div>
-                        </div>
-                    </div>-->
                 </div>
             </div>
         </div>
@@ -130,33 +73,48 @@
                                 </div>
                             </div>
                             <label type="text" class="form-control"
-                                aria-label="Text input with radio button">Research</label>
+                                aria-label="Text input with radio button">Journal</label>
                         </div>
+                        <br />
+                        <label for="inputGroupFileAddon01">Select File</label>
                         <br />
                         <div class="input-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
                             </div>
                             <div class="custom-file">
-                                <input type="file" class="custom-file-input" id="inputGroupFile01"
+                                <input type="file" class="custom-file-input" id="filePath"
                                     aria-describedby="inputGroupFileAddon01">
                                 <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
                             </div>
                         </div>
+                        <br />
+                        <label for="inputGroupFileAddon01">Select A Thumbnail</label>
+                        <br />
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+                            </div>
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input" id="thumbnailPath" accept="image/*"
+                                    name="image" aria-describedby="inputGroupFileAddon01">
+                                <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                            </div>
+                        </div>
+                        <input type="hidden" name="imagePath" id="imagePath" />
+                        <input type="hidden" name="filePath" id="filePath" />
                     </form>
                 </div>
 
                 <!-- Modal footer -->
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary">Upload</button>
+                    <button type="submit" id="uploadbtn" class="btn btn-primary">Upload</button>
                 </div>
 
             </div>
         </div>
     </div>
-
+    <script src="js/researches.js"></script>
 </div>
-
-
 <?php include "includes/footer.html"; ?>
