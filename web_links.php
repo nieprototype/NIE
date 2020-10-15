@@ -33,7 +33,7 @@
                                 web links that are provided by National Institute of Education.</h4>
                             <br><br>
                             <br>
-                            <a href="#course1" style="font-family: 'Poppins',sans-serif; font-size: large;"
+                            <a href="#table_we" style="font-family: 'Poppins',sans-serif; font-size: large;"
                                class="primary-btn">View Resources</a>
 
 
@@ -199,7 +199,7 @@
 
 
             <!-- begin:: Content -->
-            <div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
+            <div id="table_we" class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
                 <div class="row">
                     <div class="col-12">
                         <br><br>

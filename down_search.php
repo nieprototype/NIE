@@ -186,17 +186,6 @@
                                     <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="img/doc/practical.pdf" target="_blank" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Material</a></td>
                                 </tr>
 
-                                <tr id="downloads_upload" style="display:none;">
-                                    <td>4</td>
-                                    <td id="d_title"></td>
-                                    <td id="d_type"></td>
-                                    <td id="d_grade"></td>
-                                    <td id="d_subject"></td>
-                                    <td id="d_lan"></td>
-
-                                    <td style="text-align: center;" width="300px"><a style="color: #343638; font-size: 14px; font-weight: 500; font-family: 'Poppins', sans-serif;" href="#course1" class="primary-btn-tbl hover-div-tbl"><img src="img/downloads/pdf2.png" width="18%">Download Material</a></td>
-
-                                </tr>
 
 
                                 </tbody>
