@@ -22,7 +22,6 @@ document.querySelector("#thumbnailPath").addEventListener("change", function() {
     reader.readAsDataURL(this.files[0]);
 
 });
-
 $(document).ready(function() {
     var ResearchAndJournals = {
         'researches': [{
@@ -82,7 +81,7 @@ $(document).ready(function() {
             }
         ],
     };
-    //localStorage.clear();
+    localStorage.clear();
     if (localStorage.getItem("ResearchAndJournals") == null) {
         localStorage.setItem("ResearchAndJournals", JSON.stringify(ResearchAndJournals));
     }
@@ -98,11 +97,11 @@ $(document).ready(function() {
         }
         if (count == 1) {
             $('#researches').append(
-                '<div class="col-sm" style="width: 40%;display: inline-block; float: right;"><img src="' + RNJLocal.researches[i].thumbnail + '" alt="Software1"><br/><div class="overlay"><div class="text">' + RNJLocal.researches[i].name + '<br/><a href="">more</a><br/><a href="">Download</a></div></div></div>'
+                '<div class="col-sm" style="width: 40%;display: inline-block; float: right;"><img src="' + RNJLocal.researches[i].thumbnail + '" alt="Software1"><br/><div class="overlay"><div class="text">' + RNJLocal.researches[i].name + '<br/><a onclick="on(\'' + RNJLocal.researches[i].name + '\', \'' + RNJLocal.researches[i].description + '\', \'' + RNJLocal.researches[i].thumbnail + '\', \'' + RNJLocal.researches[i].filePath + '\');">more</a><br/><a href="">Download</a></div></div></div>'
             );
         } else if (count == 0) {
             $('#researches').append(
-                '<div class="col-sm" style="width: 40%;display: inline-block;float: left;"><img src="' + RNJLocal.researches[i].thumbnail + '" alt="Software1"><br/><div class="overlay"><div class="text">' + RNJLocal.researches[i].name + '<br/><a href="">more</a><br/><a href="">Download</a></div></div></div>'
+                '<div class="col-sm" style="width: 40%;display: inline-block;float: left;"><img src="' + RNJLocal.researches[i].thumbnail + '" alt="Software1"><br/><div class="overlay"><div class="text">' + RNJLocal.researches[i].name + '<br/><a onclick="on(\'' + RNJLocal.researches[i].name + '\', \'' + RNJLocal.researches[i].description + '\', \'' + RNJLocal.researches[i].thumbnail + '\', \'' + RNJLocal.researches[i].filePath + '\');">more</a><br/><a href="">Download</a></div></div></div>'
             );
         }
 
@@ -116,11 +115,11 @@ $(document).ready(function() {
         }
         if (count == 1) {
             $('#journals').append(
-                '<div class="col-sm" style="width: 40%;display: inline-block; float: left;"><img src="' + RNJLocal.journals[i].thumbnail + '" alt="Software1"><br/><div class="overlay"><div class="text">' + RNJLocal.journals[i].name + '<br/><a href="">more</a><br/><a href="">Download</a></div></div></div>'
+                '<div class="col-sm" style="width: 40%;display: inline-block; float: left;"><img src="' + RNJLocal.journals[i].thumbnail + '" alt="Software1"><br/><div class="overlay"><div class="text">' + RNJLocal.journals[i].name + '<br/><a onclick="on(\'' + RNJLocal.journals[i].name + '\', \'' + RNJLocal.journals[i].description + '\', \'' + RNJLocal.journals[i].thumbnail + '\', \'' + RNJLocal.journals[i].filePath + '\');">more</a><br/><a href="">Download</a></div></div></div>'
             );
         } else if (count == 0) {
             $('#journals').append(
-                '<div class="col-sm" style="width: 40%;display: inline-block;float: right;"><img src="' + RNJLocal.journals[i].thumbnail + '" alt="Software1"><br/><div class="overlay"><div class="text">' + RNJLocal.journals[i].name + '<br/><a href="">more</a><br/><a href="">Download</a></div></div></div>'
+                '<div class="col-sm" style="width: 40%;display: inline-block;float: right;"><img src="' + RNJLocal.journals[i].thumbnail + '" alt="Software1"><br/><div class="overlay"><div class="text">' + RNJLocal.journals[i].name + '<br/><a onclick="on(\'' + RNJLocal.journals[i].name + '\', \'' + RNJLocal.journals[i].description + '\', \'' + RNJLocal.journals[i].thumbnail + '\', \'' + RNJLocal.journals[i].filePath + '\');">more</a><br/><a href="">Download</a></div></div></div>'
             );
         }
 
