@@ -180,7 +180,6 @@
             <div class="gallery__item set-bg" data-setbg="img/gallery/sp2.jpg">
 
                 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
                 <form action="#" class="filter__form">
 
                     <div style="text-align: center;width: 84%;" class="filter__form__item">
@@ -216,7 +215,6 @@
                         <div class="kt-widget14__header">
                             <hr class="new4">
                             <h3 style="font-weight: 400;" class="kt-widget14__title">
-
                                 IDs for NCE professionals
                             </h3>
 
