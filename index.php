@@ -176,10 +176,8 @@
 
                 </form>
 
-
             </div>
             <div class="gallery__item set-bg" data-setbg="img/gallery/sp2.jpg">
-
 
                 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
