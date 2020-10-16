@@ -116,7 +116,6 @@
                         - &nbsp; Design and develop curricula for general and teacher education.<br>
                         - &nbsp; Provide professional development of educational community.<br>
                         - &nbsp; Spearhead change through research and innovation.</p>
-
                     <img src="img/home-about/sign.png" alt="">
                 </div>
             </div>
@@ -144,9 +143,8 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="gallery__title">
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                            nulla pariatur. Sunt in culpa qui officia deserunt mollit anim.</p>
-                        <a href="#" class="primary-btn">View Events <span class="arrow_right"></span></a>
+                        <p>Few moments are so special that they should be recognized by special expressions.</p>
+                        <a href="notices.php" class="primary-btn">View Events <span class="arrow_right"></span></a>
                     </div>
                 </div>
             </div>
