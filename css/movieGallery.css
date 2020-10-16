@@ -1,0 +1,211 @@
+.containr {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+    color: white;
+}
+
+.leftCol h4 {
+    margin-left: 20%;
+    color: white;
+}
+
+.leftCol img {
+    height: 250px;
+    border: 1px black solid;
+}
+
+.topic {
+    margin-bottom: 20px;
+}
+
+.videoUploadForm {
+    /*border: 1px solid black;*/
+    padding: 2%;
+}
+
+.videoUploadFormfrm {
+    padding: 2%;
+}
+
+.videoUploadForm input[type="text"],
+.selectCat,
+.nice-select.open .list {
+    width: 100%;
+}
+
+.videoUploadForm input[type="text"] {
+    -webkit-tap-highlight-color: transparent;
+    background-color: #fff;
+    border-radius: 5px;
+    border: solid 1px grey;
+    box-sizing: border-box;
+    clear: both;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: normal;
+    height: 42px;
+    line-height: 40px;
+    outline: none;
+    padding-left: 18px;
+    padding-right: 30px;
+    position: relative;
+    text-align: left !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+}
+
+.button {
+    height: 42px;
+    width: 45%;
+}
+
+.recentUploads {
+    /*border: 1px solid black;*/
+    padding: 2%;
+    height: 65%;
+}
+
+.col-sm img {
+    width: 80%;
+}
+
+.overlay {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 66%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.overlay:hover {
+    cursor: pointer;
+}
+
+.col-sm:hover .overlay {
+    opacity: 1;
+}
+
+.col-sm {
+    margin-bottom: 40px;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text a {
+    color: gold;
+}
+
+.text a:hover {
+    color: white;
+    transition: .5s ease;
+}
+
+.nice-select {
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: white 1px solid;
+    font-weight: bold;
+}
+
+.nice-select:hover {
+    border-color: gold;
+    color: gold;
+}
+
+.selectCat,
+.nice-select.open .list {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.nice-select .option:hover,
+.nice-select .option.focus {
+    color: white;
+}
+
+.nice-select .option.selected {
+    color: black;
+}
+
+.nice-select .option.selected.focus {
+    color: white;
+    background-color: black;
+}
+
+.nice-select .option.selected.focus:hover {
+    color: black;
+    background-color: gold;
+}
+
+.nice-select .option:hover {
+    color: black;
+}
+
+#videotopic {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+#videotopic:hover {
+    color: gold;
+    font-weight: bold;
+    border: 1px solid gold;
+}
+
+#filename {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+#filename:hover {
+    color: gold;
+    font-weight: bold;
+    border: 1px solid gold;
+}
+
+#videoUploadForm .row {
+    margin-bottom: 15px;
+}
