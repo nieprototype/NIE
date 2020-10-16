@@ -729,187 +729,196 @@
 
         <div style="display: none" id="dexp">
 
-        <div class="row">
-            <a href="img/doc/practical.pdf" target="_blank">
-                <div class="col-6">
+            <div class="row">
+                <a href="img/doc/practical.pdf" target="_blank">
+                    <div class="col-6">
 
-                    <form style="position:relative;
+                        <form style="position:relative;
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
             box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;" action="#"
-                          class="filter__form hover-div">
+                              class="filter__form hover-div">
 
 
-                        <div style="margin-top: -2%;" class="filter__form__item col-8">
+                            <div style="margin-top: -2%;" class="filter__form__item col-8">
 
-                            <div class="kt-widget14__header">
-                                <h3 style="font-weight: 400;" class="kt-widget14__title">
-                                    Electrical, Electronic Reference
-                                </h3>
+                                <div class="kt-widget14__header">
+                                    <h3 style="font-weight: 400;" class="kt-widget14__title">
+                                        Electrical, Electronic Reference
+                                    </h3>
 
 
-                                <p style="text-align: left; font-size: 15px;">Electrical, Electronic & IT Reference book
-                                    for
-                                    technology
-                                    stream students.</p>
+                                    <p style="text-align: left; font-size: 15px;">Electrical, Electronic & IT Reference
+                                        book
+                                        for
+                                        technology
+                                        stream students.</p>
 
-                                <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
-                                     class="latest__blog__text">
-                                    <a style="font-size: large;" href="img/doc/practical.pdf" download>Download PDF</a>
+                                    <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
+                                         class="latest__blog__text">
+                                        <a style="font-size: large;" href="img/doc/practical.pdf" download>Download
+                                            PDF</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="filter__form__item filter__form__item--search">
-                            <div class="filter__form__input">
-                                <a href="img/doc/practical.pdf" target="_blank"><img height="120px" class=""
-                                                                                     src="img/downloads/pdf2.png"
-                                                                                     style=" margin-top: -2%; margin-bottom: -4%;">
-                                </a>
+                            <div class="filter__form__item filter__form__item--search">
+                                <div class="filter__form__input">
+                                    <a href="img/doc/practical.pdf" target="_blank"><img height="120px" class=""
+                                                                                         src="img/downloads/pdf2.png"
+                                                                                         style=" margin-top: -2%; margin-bottom: -4%;">
+                                    </a>
+                                </div>
                             </div>
-                        </div>
 
-                    </form>
+                        </form>
 
-                </div>
-            </a>
+                    </div>
+                </a>
 
-            <a href="img/doc/practical.pdf" target="_blank">
-                <div class="col-6">
+                <a href="img/doc/practical.pdf" target="_blank">
+                    <div class="col-6">
 
-                    <form style="position:relative;
+                        <form style="position:relative;
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
             box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;" action="#"
-                          class="filter__form hover-div">
+                              class="filter__form hover-div">
 
 
-                        <div style="margin-top: -2%;" class="filter__form__item col-8">
+                            <div style="margin-top: -2%;" class="filter__form__item col-8">
 
-                            <div class="kt-widget14__header">
-                                <h3 style="font-weight: 400;" class="kt-widget14__title">
-                                    Geometry - I
-                                </h3>
+                                <div class="kt-widget14__header">
+                                    <h3 style="font-weight: 400;" class="kt-widget14__title">
+                                        Geometry - I
+                                    </h3>
 
 
-                                <p style="text-align: left; font-size: 15px;">Geometry - I (Resource Book)-Sinhala for
-                                    Advanced level.</p>
+                                    <p style="text-align: left; font-size: 15px;">Geometry - I (Resource Book)-Sinhala
+                                        for
+                                        Advanced level.</p>
 
-                                <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
-                                     class="latest__blog__text">
-                                    <a style="font-size: large;" href="img/doc/practical.pdf" download>Download PDF</a>
+                                    <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
+                                         class="latest__blog__text">
+                                        <a style="font-size: large;" href="img/doc/practical.pdf" download>Download
+                                            PDF</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="filter__form__item filter__form__item--search">
-                            <div class="filter__form__input">
-                                <a href="img/doc/practical.pdf" target="_blank"><img height="120px" class=""
-                                                                                     src="img/downloads/pdf2.png"
-                                                                                     style=" margin-top: -2%; margin-bottom: -4%;"></a>
+                            <div class="filter__form__item filter__form__item--search">
+                                <div class="filter__form__input">
+                                    <a href="img/doc/practical.pdf" target="_blank"><img height="120px" class=""
+                                                                                         src="img/downloads/pdf2.png"
+                                                                                         style=" margin-top: -2%; margin-bottom: -4%;"></a>
+                                </div>
                             </div>
-                        </div>
 
-                    </form>
+                        </form>
 
-                </div>
-            </a>
+                    </div>
+                </a>
+
+            </div>
+            <br><br>
+
+            <div class="row">
+                <a href="img/doc/practical.pdf" target="_blank">
+                    <div class="col-6">
+
+                        <form style="position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;" action="#"
+                              class="filter__form hover-div">
+
+
+                            <div style="margin-top: -2%;" class="filter__form__item col-8">
+
+                                <div class="kt-widget14__header">
+                                    <h3 style="font-weight: 400;" class="kt-widget14__title">
+                                        Electrical, Electronic Reference
+                                    </h3>
+
+
+                                    <p style="text-align: left; font-size: 15px;">Electrical, Electronic & IT Reference
+                                        book
+                                        for
+                                        technology
+                                        stream students.</p>
+
+                                    <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
+                                         class="latest__blog__text">
+                                        <a style="font-size: large;" href="img/doc/practical.pdf" download>Download
+                                            PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="filter__form__item filter__form__item--search">
+                                <div class="filter__form__input">
+                                    <a href="img/doc/practical.pdf" target="_blank"><img height="120px" class=""
+                                                                                         src="img/downloads/pdf2.png"
+                                                                                         style=" margin-top: -2%; margin-bottom: -4%;">
+                                    </a>
+                                </div>
+                            </div>
+
+                        </form>
+
+                    </div>
+                </a>
+
+                <a href="img/doc/practical.pdf" target="_blank">
+                    <div class="col-6">
+
+                        <form style="position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;" action="#"
+                              class="filter__form hover-div">
+
+
+                            <div style="margin-top: -2%;" class="filter__form__item col-8">
+
+                                <div class="kt-widget14__header">
+                                    <h3 style="font-weight: 400;" class="kt-widget14__title">
+                                        Geometry - I
+                                    </h3>
+
+
+                                    <p style="text-align: left; font-size: 15px;">Geometry - I (Resource Book)-Sinhala
+                                        for
+                                        Advanced level.</p>
+
+                                    <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
+                                         class="latest__blog__text">
+                                        <a style="font-size: large;" href="img/doc/practical.pdf" download>Download
+                                            PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="filter__form__item filter__form__item--search">
+                                <div class="filter__form__input">
+                                    <a href="img/doc/practical.pdf" target="_blank"><img height="120px" class=""
+                                                                                         src="img/downloads/pdf2.png"
+                                                                                         style=" margin-top: -2%; margin-bottom: -4%;"></a>
+                                </div>
+                            </div>
+
+                        </form>
+
+                    </div>
+                </a>
+
+            </div>
+            <br><br>
 
         </div>
-        <br><br>
 
-        <div class="row">
-            <a href="img/doc/practical.pdf" target="_blank">
-                <div class="col-6">
-
-                    <form style="position:relative;
-    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
-       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
-            box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;" action="#"
-                          class="filter__form hover-div">
-
-
-                        <div style="margin-top: -2%;" class="filter__form__item col-8">
-
-                            <div class="kt-widget14__header">
-                                <h3 style="font-weight: 400;" class="kt-widget14__title">
-                                    Electrical, Electronic Reference
-                                </h3>
-
-
-                                <p style="text-align: left; font-size: 15px;">Electrical, Electronic & IT Reference book
-                                    for
-                                    technology
-                                    stream students.</p>
-
-                                <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
-                                     class="latest__blog__text">
-                                    <a style="font-size: large;" href="img/doc/practical.pdf" download>Download PDF</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="filter__form__item filter__form__item--search">
-                            <div class="filter__form__input">
-                                <a href="img/doc/practical.pdf" target="_blank"><img height="120px" class=""
-                                                                                     src="img/downloads/pdf2.png"
-                                                                                     style=" margin-top: -2%; margin-bottom: -4%;">
-                                </a>
-                            </div>
-                        </div>
-
-                    </form>
-
-                </div>
-            </a>
-
-            <a href="img/doc/practical.pdf" target="_blank">
-                <div class="col-6">
-
-                    <form style="position:relative;
-    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
-       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
-            box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;" action="#"
-                          class="filter__form hover-div">
-
-
-                        <div style="margin-top: -2%;" class="filter__form__item col-8">
-
-                            <div class="kt-widget14__header">
-                                <h3 style="font-weight: 400;" class="kt-widget14__title">
-                                    Geometry - I
-                                </h3>
-
-
-                                <p style="text-align: left; font-size: 15px;">Geometry - I (Resource Book)-Sinhala for
-                                    Advanced level.</p>
-
-                                <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
-                                     class="latest__blog__text">
-                                    <a style="font-size: large;" href="img/doc/practical.pdf" download>Download PDF</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="filter__form__item filter__form__item--search">
-                            <div class="filter__form__input">
-                                <a href="img/doc/practical.pdf" target="_blank"><img height="120px" class=""
-                                                                                     src="img/downloads/pdf2.png"
-                                                                                     style=" margin-top: -2%; margin-bottom: -4%;"></a>
-                            </div>
-                        </div>
-
-                    </form>
-
-                </div>
-            </a>
-
-        </div>
-        <br><br>
-
-        </div>
-
-        <p onclick="d_expand()" id="exp_a" class="arr_expand" style="text-align: center; margin-bottom: -1%; margin-top: 4%;">
+        <p onclick="d_expand()" id="exp_a" class="arr_expand"
+           style="text-align: center; margin-bottom: -1%; margin-top: 4%;">
             <img src="img/notices/arr.gif" width="6%;">
         </p>
 
