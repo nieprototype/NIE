@@ -1,4 +1,4 @@
-<?php include "includes/header.html"; ?>
+<?php include "includes/headern.html"; ?>
 
 <link rel="stylesheet" href="css/researches.css">
 <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
@@ -68,19 +68,23 @@ function off() {
                 </div>
                 <div class="download" id="overlayWindowDownload"></div>
             </div>
+            <div>
+                <div class="title" id="overlayWindowTitle">&nbsp;</div>
+            </div>
         </div>
 
     </div>
 
     <div class="modal fade" id="myModal">
         <div class="modal-dialog">
-            <div class="modal-content" style="width: 150%;margin-left: -25%;">
+            <div class="modal-content"
+                style="width: 150%;margin-left: -25%;border-radius: 25px;border: 1px solid black;">
 
                 <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">File Upload</h4>
+                <div class="modal-header" style="background-color: #19191A;">
+                    <h4 class="modal-title" style="color: white;">File Upload</h4>
                     <button type="button" class="close" data-dismiss="modal"
-                        style="background-color: silver;font-size:2.3em;opacity: 1;">&times;</button>
+                        style="background-color: 19191A;font-size:2.3em;opacity: 1;color: white;">&times;</button>
                 </div>
 
                 <!-- Modal body -->
@@ -149,7 +153,7 @@ function off() {
                 </div>
 
                 <!-- Modal footer -->
-                <div class="modal-footer">
+                <div class="modal-footer" style="background-color: #19191A;">
                     <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                     <button type="submit" id="uploadbtn" class="btn btn-primary">Upload</button>
                 </div>
@@ -159,4 +163,4 @@ function off() {
     </div>
     <script src="js/researches.js"></script>
 </div>
-<?php include "includes/footer.html"; ?>
+<?php include "includes/footern.html"; ?>
