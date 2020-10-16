@@ -3,10 +3,8 @@
 <p align="center">
 <br>
   <img width=14% src="https://raw.githubusercontent.com/nieprototype/NIE/master/img/nielogo.png"><br><br>
-  <b>UI-UX Upgrade on <a href="www.nie.lk" target="_blank">www.nie.lk website.</b><br><br>
-    
-    <b>Here's the Upgraded Website <a href="https://projectnie.000webhostapp.com/" target="_blank">https://projectnie.000webhostapp.com/ website.</b><br><br>
-    
+  <b>UI-UX Upgrade on www.nie.lk website.</b><br><br>
+  <b>Here's the Hosted Link of the Upgraded Website https://projectnie.000webhostapp.com/</b><br><br>
   <img width=100% src="https://cdn.dribbble.com/users/746306/screenshots/5139253/pull_to_refresh.gif">
  <br><br>
 <b>Screenshots</b><br></p>
