@@ -4,6 +4,27 @@
 <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
 <script src="js/jquery-3.3.1.min.js"></script>
 
+<script>
+function on(title, description, image, file) {
+    document.getElementById("overlay").style.display = "block";
+    document.getElementById("overlayWindowTitle").innerHTML = title;
+    document.getElementById("overlayWindowDescriptionText").innerHTML = description;
+    document.getElementById("overlayWindowDownload").innerHTML =
+        "<div class='downloadLink btn btn-primary' onclick=\"" + "window.open('" + file + "')" + "\">Download</div>";
+    document.getElementById("overlayWindowImage").src = image;
+
+}
+
+function off() {
+    document.getElementById("overlay").style.display = "none";
+}
+</script>
+<style>
+.close:hover {
+    background-color: red;
+}
+</style>
+
 <div class="container-fluid"
     style="background-image: url('../NIE/img/researches/geometric-2880x1800-shapes-dark-background-black-yellow-gradient-hd-4k-14372.png'); background-size: cover; padding: 20px;">
     <div style="background-color: rgba(0, 0, 0, 0.7);">
@@ -32,6 +53,25 @@
         </div>
     </div>
 
+    <div id="overlay" style="padding: 10% 35% 10% 35%;">
+
+        <div id="overlayWindow">
+            <div>
+                <div class="title" id="overlayWindowTitle">Title</div>
+                <div class="closebtn" onclick="off()">X</div>
+            </div>
+            <div class="body">
+                <div class="image"><img src="" id="overlayWindowImage" /></div>
+                <div class="description" id="overlayWindowDescription"
+                    style="margin: auto;overflow: hidden;width: 80%;">
+                    <p style="overflow-wrap: break-word;text-align: center;" id="overlayWindowDescriptionText"></p>
+                </div>
+                <div class="download" id="overlayWindowDownload"></div>
+            </div>
+        </div>
+
+    </div>
+
     <div class="modal fade" id="myModal">
         <div class="modal-dialog">
             <div class="modal-content" style="width: 150%;margin-left: -25%;">
@@ -40,7 +80,7 @@
                 <div class="modal-header">
                     <h4 class="modal-title">File Upload</h4>
                     <button type="button" class="close" data-dismiss="modal"
-                        style="background-color: silver;">&times;</button>
+                        style="background-color: silver;font-size:2.3em;opacity: 1;">&times;</button>
                 </div>
 
                 <!-- Modal body -->
@@ -52,8 +92,8 @@
                         </div>
                         <div class="form-group">
                             <label for="Description">Description</label>
-                            <input type="text" class="form-control" id="Description"
-                                placeholder="Enter File Description">
+                            <textarea class="form-control" id="Description"
+                                placeholder="Enter File Description"></textarea>
                         </div>
                         <label for="Description">Research Or Journal</label>
                         <br />
@@ -76,7 +116,7 @@
                                 aria-label="Text input with radio button">Journal</label>
                         </div>
                         <br />
-                        <label for="inputGroupFileAddon01">Select File</label>
+                        <label for="inputGroupFileAddon01">Select PDF File</label>
                         <br />
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -90,7 +130,7 @@
                             </div>
                         </div>
                         <br />
-                        <label for="inputGroupFileAddon01">Select A Thumbnail</label>
+                        <label for="inputGroupFileAddon01">Select Image</label>
                         <br />
                         <div class="input-group">
                             <div class="input-group-prepend">
