@@ -55,7 +55,7 @@
                                 </h5>
                                 <br>
                                 <div class="submit">
-                                    <button type="submit" class="dark">Register</button>
+                                    <button onclick="window.location.href = 'register-t.php'" type="button" class="dark">Register</button>
                                 </div>
                             </form>
 

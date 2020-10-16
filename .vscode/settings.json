@@ -1,0 +1,19 @@
+{
+    "sqltools.connections": [
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "207.180.217.101",
+            "port": 55019,
+            "driver": "MSSQL",
+            "name": "VI",
+            "database": "Ceyoka_Test_1",
+            "username": "sa",
+            "password": "Victory@123#*"
+        }
+    ]
+}
