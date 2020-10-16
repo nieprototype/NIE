@@ -141,6 +141,8 @@ h2 {
 #overlayWindow .body {
     padding: 20px;
     background-color: #19191A;
+    border-left: 5px gold solid;
+    border-right: 5px gold solid;
 }
 
 #overlayWindow #overlayWindowDescription {

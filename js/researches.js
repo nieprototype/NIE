@@ -99,7 +99,7 @@ $(document).ready(function() {
     var count = 0;
     for (var i = 0; i < RNJLocal.researches.length; i++) {
         if (count == 2) {
-            $("#researches").append('<div"></div>');
+            $("#researches").append('<div></div>');
             count = 0;
         }
         if (count == 1) {
