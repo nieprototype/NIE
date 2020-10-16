@@ -219,7 +219,7 @@
                             </h3>
 
                             <br>
-                            <p style="text-align: center; font-size: 15px;">Issue Identity Cards to principals,lecturers
+                            <p style="text-align: center; font-size: 15px;">Issue Identity Cards to principals, lecturers
                                 and teachers in NCE</p>
 
                             <hr class="new4">
