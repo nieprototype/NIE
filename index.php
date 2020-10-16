@@ -129,7 +129,6 @@
 </section>
 <!-- Home About Section End -->
 
-
 <!-- Gallery Section Begin -->
 <section class="gallery spad">
     <div class="gallery__text">
@@ -150,8 +149,6 @@
             </div>
         </div>
     </div>
-
-
     <div class="col-12">
         <div class="gallery__slider owl-carousel">
             <div class="gallery__item small__item set-bg" data-setbg="img/gallery/sp1.jpg">
