@@ -55,8 +55,8 @@
 
 
 <!-- Start Home Section -->
-<section id="home" class="hero-wrap js-fullheight" style="background-image: url(img/campaign-creators-gMsnXqILjp4-unsplash.jpg);" data-stellar-background-ratio="0.5">
-    <div class="overlay"></div>
+<section id="home" class="hero-wrap js-fullheight" style="background-image: url(img/minuites.png);" data-stellar-background-ratio="0.5">
+<div class="overlay"></div>
     <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
             <div class="col-lg-7 ftco-animate d-flex align-items-center">
@@ -230,7 +230,7 @@
                     </div>
                     <div class="item">
                         <div class="testimony-wrap p-4 pb-5">
-                            <div class="user-img mb-4" style="background-image: url(img/People/portrait-2068044_1920.jpg)">
+                            <div class="user-img mb-4" style="background-image: url(img/person_3.jpg)">
 
                             </div>
                             <div class="text">

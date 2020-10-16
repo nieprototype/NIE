@@ -27,7 +27,7 @@
 <section class="page-section bg-light" id="portfolio">
     <div class="container">
         <div class="text-center">
-            <h2 class="section-heading text-uppercase">new publications</h2>
+            <h1 class="section-heading text-uppercase">new publications</h1>
             <br>
         </div>
         <div class="row">
@@ -50,7 +50,7 @@
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
 
-                        <img class="img-fluid" src="img/books/horti1.png" alt="" />
+                        <img class="img-fluid" src="img/books/gardening-horticulture-hobby-tools-vegetables-crate-plants_1416-858.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Horticulture </div>
@@ -64,7 +64,7 @@
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
 
-                        <img class="img-fluid" src="img/books/horti2.jpg" alt="" />
+                        <img class="img-fluid" src="img/books/53530d4522fa6d5723d88b72b8cad4c8.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Horticulture </div>
@@ -92,7 +92,7 @@
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
 
-                        <img class="img-fluid" src="img/books/horti3.png" alt="" />
+                        <img class="img-fluid" src="img/books/ee8ce3b8db4c3d89b161eeae04b77bf3.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading"> Horticulture </div>
