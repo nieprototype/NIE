@@ -78,7 +78,8 @@
         <div class="row">
             <div class="col-6">
 
-                <form style="position:relative;
+
+                <form onclick="notice_exp()" style="position:relative;
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
             box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;" action="#"
@@ -103,7 +104,7 @@
 
                             <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                  class="latest__blog__text">
-                                <a style="font-size: large;" href="#">Read More</a>
+                                <a style="font-size: large;" onclick="notice_exp()">Read More</a>
                             </div>
                         </div>
                     </div>
