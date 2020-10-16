@@ -129,7 +129,6 @@
 </section>
 <!-- Home About Section End -->
 
-
 <!-- Gallery Section Begin -->
 <section class="gallery spad">
     <div class="gallery__text">
