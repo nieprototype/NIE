@@ -21,6 +21,7 @@ document
             document.getElementById("imageName").innerHTML = this.files[0].name;
         });
         reader.readAsDataURL(this.files[0]);
+
     });
 $(document).ready(function() {
     var ResearchAndJournals = {
@@ -81,7 +82,7 @@ $(document).ready(function() {
             },
         ],
     };
-    //localStorage.clear();
+    localStorage.clear();
     if (localStorage.getItem("ResearchAndJournals") == null) {
         localStorage.setItem(
             "ResearchAndJournals",
@@ -132,6 +133,7 @@ $(document).ready(function() {
                 "', '" +
                 RNJLocal.researches[i].filePath +
                 '\');">more</a><br/><a href="">Download</a></div></div></div>'
+
             );
         }
 
@@ -174,6 +176,7 @@ $(document).ready(function() {
                 "', '" +
                 RNJLocal.journals[i].filePath +
                 '\');">more</a><br/><a href="">Download</a></div></div></div>'
+
             );
         }
 
