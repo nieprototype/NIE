@@ -1,11 +1,12 @@
-<?php include "includes/header.html"; ?>
+<?php include "includes/headern.html"; ?>
 
 <link rel="stylesheet" href="css/movieGallery.css" />
 <script src="js/movieGallery.js"></script>
 <!-- Start of the Body -->
 <div class="containr" style="background-color: #1a1a1a;">
     <div class="row" style="border-left: 10px solid gold;border-right: 10px solid gold;">
-        <div class="col leftCol" style="margin-left: 15px; background-color: #212529;padding: 0;background-size: cover;padding-top: 15px;">
+        <div class="col leftCol"
+            style="margin-left: 15px; background-color: #212529;padding: 0;background-size: cover;padding-top: 15px;">
             <div>
                 <div>
                     <label>
@@ -79,7 +80,8 @@
                             <div class="col">
                                 <label>Topic</label>
                             </div>
-                            <div class="col"><input type="text" name="videotopic" id="videotopic" placeholder="Enter Video Topic here"></div>
+                            <div class="col"><input type="text" name="videotopic" id="videotopic"
+                                    placeholder="Enter Video Topic here"></div>
                         </div>
                         <div class="row">
                             <div class="col">
@@ -91,15 +93,20 @@
                                     <option value="1" class="catOption">NIE Documentary</option>
                                     <option value="2" class="catOption">Wesak Bethi Gee</option>
                                     <option value="3" class="catOption">Educational</option>
-                                </select></div>
+                                </select>
+                            </div>
                         </div>
                         <div class="row">
                             <div style="width: 50%;float: left;padding: 0px 0 10px 0;margin-left: 15px;">
-                                <input type="text" id="filename" name="filename" class="textInputs" placeholder="File Path" readonly />
+                                <input type="text" id="filename" name="filename" class="textInputs"
+                                    placeholder="File Path" readonly />
                             </div>
                             <div style="float: right;width: 45%;">
-                                <button class="btn btn-secondary button" style="float: right; margin-left: 2%;">Upload</button>
-                                <label class="browse-button btn btn-secondary button" style="float: right;">Browse <input name="file" type="file" id="file" multiple style="display: none;" onChange="uploadOnChange(this)" />
+                                <button class="btn btn-secondary button"
+                                    style="float: right; margin-left: 2%;">Upload</button>
+                                <label class="browse-button btn btn-secondary button" style="float: right;">Browse
+                                    <input name="file" type="file" id="file" multiple style="display: none;"
+                                        onChange="uploadOnChange(this)" />
                             </div>
                         </div>
                     </form>
@@ -116,4 +123,4 @@
 
 <!-- End of the Body -->
 
-<?php include "includes/footer.html"; ?>
+<?php include "includes/footern.html"; ?>

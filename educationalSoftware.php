@@ -1,18 +1,23 @@
-<?php include "includes/header.html"; ?>
+<?php include "includes/headern.html"; ?>
 
 <link rel="stylesheet" href="css/educationalSoftware.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/educationalSoftware.js"></script>
 
-<div class="container-fluid" style="background-image: url('../NIE/img/SoftwarePackages/library.jpg'); background-size: cover; padding: 20px;">
+<div class="container-fluid"
+    style="background-image: url('../NIE/img/SoftwarePackages/library.jpg'); background-size: cover; padding: 20px;">
     <div style="background-color: rgba(0, 0, 0, 0.8);">
         <div class="topic">
             <h1 style="color: white;">NIE Educational Software</h1>
         </div>
         <div class="intro">
             <p style="color: white;">
-                NIE has been developed educational software since 1988. The first educational software packages distributed in schools were Waves, Curve Plotter and Potentiometer. The Wave software was the first software which was developed in Sinhala medium. Later NIE
-                distributed following software packages for various advanced level subjects. These software packages were developed in three medium of English, Sinhala and Tamil. Later; educational software packages have been developed for subjects of
+                NIE has been developed educational software since 1988. The first educational software packages
+                distributed in schools were Waves, Curve Plotter and Potentiometer. The Wave software was the first
+                software which was developed in Sinhala medium. Later NIE
+                distributed following software packages for various advanced level subjects. These software packages
+                were developed in three medium of English, Sinhala and Tamil. Later; educational software packages have
+                been developed for subjects of
                 grade 6 to 11.
             </p>
         </div>
@@ -51,4 +56,4 @@
         </div>
     </div>
 
-    <?php include "includes/footer.html"; ?>
+    <?php include "includes/footern.html"; ?>
