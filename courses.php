@@ -57,8 +57,9 @@
             <br><br>
 
             <div class="row">
-                <div class="col-6">
 
+                <div class="col-6">
+                    <a href="course_details.php">
                     <form style="position:relative;
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
@@ -83,16 +84,17 @@
 
                                 <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                      class="latest__blog__text">
-                                    <a style="font-size: large;" href="#">Read More</a>
+                                    <a style="font-size: large;" href="course_details.php">Read More</a>
                                 </div>
                             </div>
                         </div>
 
                     </form>
-
+                    </a>
 
                     <br>
 
+                    <a href="course_details.php">
                     <form style="position:relative;
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
@@ -117,17 +119,18 @@
 
                                 <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                      class="latest__blog__text">
-                                    <a style="font-size: large;" href="#">Read More</a>
+                                    <a style="font-size: large;" href="course_details.php">Read More</a>
                                 </div>
                             </div>
                         </div>
 
                     </form>
+                    </a>
 
 
                     <br>
 
-
+                    <a href="course_details.php">
                     <form style="position:relative;
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
@@ -152,19 +155,19 @@
 
                                 <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                      class="latest__blog__text">
-                                    <a style="font-size: large;" href="#">Read More</a>
+                                    <a style="font-size: large;" href="course_details.php">Read More</a>
                                 </div>
                             </div>
                         </div>
 
                     </form>
-
+                    </a>
 
                 </div>
 
 
                 <div class="col-6">
-
+                    <a href="course_details.php">
                     <form style="position:relative;
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
@@ -189,17 +192,17 @@
 
                                 <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                      class="latest__blog__text">
-                                    <a style="font-size: large;" href="#">Read More</a>
+                                    <a style="font-size: large;" href="course_details.php">Read More</a>
                                 </div>
                             </div>
                         </div>
 
                     </form>
-
+                    </a>
 
                     <br>
 
-
+                    <a href="course_details.php">
                     <form style="position:relative;
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
@@ -224,17 +227,17 @@
 
                                 <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                      class="latest__blog__text">
-                                    <a style="font-size: large;" href="#">Read More</a>
+                                    <a style="font-size: large;" href="course_details.php">Read More</a>
                                 </div>
                             </div>
                         </div>
 
                     </form>
-
+                    </a>
 
                     <br>
 
-
+                    <a href="course_details.php">
                     <form style="position:relative;
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) ;
@@ -259,16 +262,15 @@
 
                                 <div style="background-color: #ffffff00; margin-left: -9%; margin-bottom: -10%; margin-top: -15%;"
                                      class="latest__blog__text">
-                                    <a style="font-size: large;" href="#">Read More</a>
+                                    <a style="font-size: large;" href="course_details.php">Read More</a>
                                 </div>
                             </div>
                         </div>
 
                     </form>
-
+                    </a>
 
                 </div>
-
 
             </div>
             <br><br>
@@ -284,12 +286,15 @@
                 <div class="row">
 
                     <div class="col-5">
+
                         <img width="100%" src="img/courses/ab.png">
+
                     </div>
 
                     <div style="text-align: right;" class="col-7">
 
                         <h2 style="color: #E9AD28;">For all Teachers and Teacher Educators.</h2>
+
                         <br>
 
                         <h4 style="color: #4D5656; font-weight: 500;">Following table displays all the courses that are offered by
@@ -298,19 +303,15 @@
                         <br>
 
 
-
                     </div>
 
-
-
                 </div>
+
             </div>
-                <br><br>
 
+                <br>
 
-
-
-
+            <br>
 
             <div class="row">
                 <div class="col-12">
