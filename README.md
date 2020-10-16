@@ -4,7 +4,7 @@
 <br>
   <img width=14% src="https://raw.githubusercontent.com/nieprototype/NIE/master/img/nielogo.png"><br><br>
   <b>UI-UX Upgrade on www.nie.lk website.</b><br><br>
-  <b>Here's the Hosted Link of the Upgraded Website<br>https://projectnie.000webhostapp.com/</b><br><br>
+  <b>Here's the Hosted Link of the Upgraded Website.<br>https://projectnie.000webhostapp.com/</b><br><br>
   <img width=100% src="https://cdn.dribbble.com/users/746306/screenshots/5139253/pull_to_refresh.gif">
  <br><br>
 <b>Screenshots</b><br></p>
