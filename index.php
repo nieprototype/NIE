@@ -116,7 +116,6 @@
                         - &nbsp; Design and develop curricula for general and teacher education.<br>
                         - &nbsp; Provide professional development of educational community.<br>
                         - &nbsp; Spearhead change through research and innovation.</p>
-
                     <img src="img/home-about/sign.png" alt="">
                 </div>
             </div>
